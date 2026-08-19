@@ -1,0 +1,100 @@
+Program Version: 52.2 (52.2.0.0019)
+Mac OS Version: 26.6.1
+Architecture: arm64
+Model: Mac17,8
+Processor count: 18
+Time: 2026-08-13 16:51:06 -04:00 (2026-08-13T20:51:06Z)
+Installed memory: 24,576 MB
+Install path: /Applications/Logos.app/Contents/Frameworks/FaithlifeDesktop.framework/Versions/52.2.0.0019/Frameworks/ApplicationBundle.framework/Versions/A/Resources/lib/Logos.dll
+Free install space: 785,516 MB
+Temp path: /var/folders/1f/wxxg_vjx4cqbgn1bv5fy1x840000gn/T/
+Free temp space: 785,516 MB
+Swap usage: total = 0.00M used = 0.00M free = 0.00M
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:06 -04:00 (2026-08-13T20:51:06Z)
+SQLite Error 283: recovered 15 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/LocalUserPreferences/PreferencesManager.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:06 -04:00 (2026-08-13T20:51:06Z)
+SQLite Error 283: recovered 226 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/UserPreferences2/PreferencesManager.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:06 -04:00 (2026-08-13T20:51:06Z)
+SQLite Error 283: recovered 33 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/Errors/Application/ErrorReportManager.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:06 -04:00 (2026-08-13T20:51:06Z)
+SQLite Error 283: recovered 4 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/DeviceResourceManager/MobileResourcesSyncManager.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:06 -04:00 (2026-08-13T20:51:06Z)
+SQLite Error 283: recovered 2 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/ResourceManager.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:06 -04:00 (2026-08-13T20:51:06Z)
+SQLite Error 283: recovered 314 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ReadingProgressManager/readingprogressmanager.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:06 -04:00 (2026-08-13T20:51:06Z)
+SQLite Error 283: recovered 317 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryCatalog/catalog.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:06 -04:00 (2026-08-13T20:51:06Z)
+SQLite Error 283: recovered 238 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/UserEventManager/UserEventManager.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:07 -04:00 (2026-08-13T20:51:07Z)
+SQLite Error 283: recovered 10 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/DocumentInfo.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:07 -04:00 (2026-08-13T20:51:07Z)
+SQLite Error 283: recovered 1 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ReverseInterlinearManager/reverseinterlinearmanager.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:07 -04:00 (2026-08-13T20:51:07Z)
+SQLite Error 283: recovered 20 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/KeyLinkManager/keylinkmanager.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:07 -04:00 (2026-08-13T20:51:07Z)
+SQLite Error 283: recovered 347 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/NotesToolManager/notestool.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:07 -04:00 (2026-08-13T20:51:07Z)
+SQLite Error 283: recovered 6 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/LayoutManager/layouts.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:07 -04:00 (2026-08-13T20:51:07Z)
+SQLite Error 283: recovered 948 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/HistoryManager/history.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:07 -04:00 (2026-08-13T20:51:07Z)
+SQLite Error 283: recovered 59 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/ReadingPlan/ReadingPlan.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:07 -04:00 (2026-08-13T20:51:07Z)
+SQLite Error 283: recovered 521 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/AmplitudeReporter/AmplitudeEvents.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:07 -04:00 (2026-08-13T20:51:07Z)
+SQLite Error 283: recovered 2 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceFileDownloadInfo/ResourceFileDownloadInfo.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:07 -04:00 (2026-08-13T20:51:07Z)
+SQLite Error 283: recovered 2 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/CloudResourceManager/CloudResources.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:07 -04:00 (2026-08-13T20:51:07Z)
+SQLite Error 283: recovered 2 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/UpdateManager/Updates.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:07 -04:00 (2026-08-13T20:51:07Z)
+SQLite Error 283: recovered 9 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/Updates/Metadata.db-wal
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:51:11 -04:00 (2026-08-13T20:51:11Z)
+SQLite Error 284: automatic index on Records(IsDataset)
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-13 16:52:54 -04:00 (2026-08-13T20:52:54Z)
+SQLite Error 284: automatic index on Records(IsDataset)

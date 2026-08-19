@@ -1,0 +1,10 @@
+[31191:2335153:0813/073512.723746:ERROR:net/cert/internal/trust_store_mac.cc:817] Error parsing certificate:
+ERROR: Failed parsing extensions
+
+[31191:2334769:0813/073512.732048:WARNING:chrome/browser/signin/account_consistency_mode_manager.cc:72] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[31191:2335144:0813/083454.084066:ERROR:net/cert/internal/trust_store_mac.cc:817] Error parsing certificate:
+ERROR: Failed parsing extensions
+
+[31191:2335144:0813/090423.744850:ERROR:net/cert/internal/trust_store_mac.cc:817] Error parsing certificate:
+ERROR: Failed parsing extensions
+

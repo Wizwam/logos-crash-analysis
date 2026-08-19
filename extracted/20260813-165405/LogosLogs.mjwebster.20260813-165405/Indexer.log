@@ -1,0 +1,182 @@
+2026-08-12 21:45:56.7208  INFO 1 IndexerProgram | Starting application with module name Logos, branded name Logos  (52.2, version 52.2.0.0019 arm64 on macOS 26.6.1 arm64, .NET 10.0.9). Pid: 30102
+2026-08-12 21:45:56.7272  INFO 1 LogosApplication | Using Write-Ahead Logging for SQLite databases.
+2026-08-12 21:45:56.7472  INFO 1 UserManager | Opening UserManager in /Users/mjwebster/Library/Application Support/Logos4/Users.
+2026-08-12 21:45:56.7562  INFO 1 LocalFileDatabase | Connection opened (6ms): /Users/mjwebster/Library/Application Support/Logos4/Users/UserManager.db
+2026-08-12 21:45:56.7842  INFO 1 IndexerProgram | Logos user ID: 80031
+2026-08-12 21:45:56.7843  INFO 1 IndexerProgram | Using language en-CA
+2026-08-12 21:45:56.8163  INFO 1 IndexerProgram | Processing existing commands.
+2026-08-12 21:45:56.8165  INFO 1 IndexerProgram | Creating digital library services.
+2026-08-12 21:45:56.8197  INFO 1 DigitalLibraryServices | Initializing DigitalLibraryServices. (Shared Folder = /Users/mjwebster/Library/Application Support/Logos4/Shared, Data Folder = /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o, Documents Folder = /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o)
+2026-08-12 21:45:56.8243  INFO 5 IndexerProgram | (Timed) Updating Auto Complete from Resource Manager.
+2026-08-12 21:45:56.8247  INFO 5 DigitalLibraryServices | (Timed) Creating auto complete manager.
+2026-08-12 21:45:56.8250  INFO 5 DigitalLibraryServices | (Timed) Creating resource lists.
+2026-08-12 21:45:56.8251  INFO 5 DigitalLibraryServices | (Timed) Creating resource manager.
+2026-08-12 21:45:56.8252  INFO 5 DigitalLibraryServices | (Timed) Creating data type options.
+2026-08-12 21:45:56.8254  INFO 5 DigitalLibraryServices | (0ms) Creating data type options.
+2026-08-12 21:45:56.8268  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/WebCache/CacheData.db
+2026-08-12 21:45:56.8281  INFO 5 DigitalLibraryServices | (Timed) Creating license manager.
+2026-08-12 21:45:56.8282  INFO 5 LicenseManager | Opening LicenseManager in /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LicenseManager; products folder is /Users/mjwebster/Library/Application Support/Logos4/Shared/Products
+2026-08-12 21:45:56.8331  INFO 5 DigitalLibraryServices | (5ms) Creating license manager.
+2026-08-12 21:45:56.8342  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/ResourceManager.db
+2026-08-12 21:45:56.8422  INFO 5 DataTypeManager | (Timed) Initializing data type manager.
+2026-08-12 21:45:56.8548  INFO 5 DataTypeManager | (13ms) Initializing data type manager.
+2026-08-12 21:45:56.8571  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/ResourceManager/ResourceSyncManager.db
+2026-08-12 21:45:56.8573  INFO 5 DigitalLibraryServices | (32ms) Creating resource manager.
+2026-08-12 21:45:56.8574  INFO 5 DigitalLibraryServices | (Timed) Creating library catalog.
+2026-08-12 21:45:56.8574  INFO 5 DigitalLibraryServices | Resource audit logging has been disabled.
+2026-08-12 21:45:56.8575  INFO 5 DigitalLibraryServices | (Timed) Creating device resource manager.
+2026-08-12 21:45:56.8575  INFO 5 DigitalLibraryServices | (Timed) Creating local user preferences.
+2026-08-12 21:45:56.8577  INFO 5 PreferencesManager | Opening PreferencesManager in /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/LocalUserPreferences.
+2026-08-12 21:45:56.8580  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/LocalUserPreferences/PreferencesManager.db
+2026-08-12 21:45:56.8584  INFO 5 DigitalLibraryServices | (1ms) Creating local user preferences.
+2026-08-12 21:45:56.8591  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/DeviceResourceManager/MobileResourcesSyncManager.db
+2026-08-12 21:45:56.8667  INFO 5 DigitalLibraryServices | (9ms) Creating device resource manager.
+2026-08-12 21:45:56.8668  INFO 5 DigitalLibraryServices | (Timed) Creating ReadingProgressManager
+2026-08-12 21:45:56.8673  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ReadingProgressManager/readingprogressmanager.db
+2026-08-12 21:45:56.8674  INFO 5 DigitalLibraryServices | (1ms) Creating ReadingProgressManager
+2026-08-12 21:45:56.8687  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/LibraryCatalog/LibraryCatalogSync.db
+2026-08-12 21:45:56.8691  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryCatalog/catalog.db
+2026-08-12 21:45:56.8762  INFO 5 DigitalLibraryServices | (19ms) Creating library catalog.
+2026-08-12 21:45:56.8764  INFO 5 DigitalLibraryServices | (Timed) Creating keylink manager.
+2026-08-12 21:45:56.8765  INFO 5 DigitalLibraryServices | (Timed) Creating resource collection manager.
+2026-08-12 21:45:56.8770  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/ResourceCollectionManager/ResourceCollectionManager.db
+2026-08-12 21:45:56.8773  INFO 5 DigitalLibraryServices | (1ms) Creating resource collection manager.
+2026-08-12 21:45:56.8774  INFO 5 DigitalLibraryServices | (Timed) Creating global milestone index.
+2026-08-12 21:45:56.8780  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/GlobalMilestoneIndex/milestones.db
+2026-08-12 21:45:56.8816  INFO 5 DigitalLibraryServices | (4ms) Creating global milestone index.
+2026-08-12 21:45:56.8823  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/KeyLinkManager/keylinkmanager.db
+2026-08-12 21:45:56.8827  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/KeyLinkManager/KeyLinkSyncManager.db
+2026-08-12 21:45:56.8828  INFO 5 DigitalLibraryServices | (6ms) Creating keylink manager.
+2026-08-12 21:45:56.8828  INFO 5 DigitalLibraryServices | (Timed) Creating reverse interlinear manager.
+2026-08-12 21:45:56.8831  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ReverseInterlinearManager/reverseinterlinearmanager.db
+2026-08-12 21:45:56.8832  INFO 5 DigitalLibraryServices | (0ms) Creating reverse interlinear manager.
+2026-08-12 21:45:56.8833  INFO 5 DigitalLibraryServices | (58ms) Creating resource lists.
+2026-08-12 21:45:56.8833  INFO 5 DigitalLibraryServices | (Timed) Creating data type lists.
+2026-08-12 21:45:56.8834  INFO 5 DigitalLibraryServices | (0ms) Creating data type lists.
+2026-08-12 21:45:56.8835  INFO 5 DigitalLibraryServices | (Timed) Creating transliteration manager.
+2026-08-12 21:45:56.8835  INFO 5 DigitalLibraryServices | (Timed) Creating new user preferences.
+2026-08-12 21:45:56.8838  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/UserPreferences2/PreferencesManager.db
+2026-08-12 21:45:56.8840  INFO 5 DigitalLibraryServices | (1ms) Creating new user preferences.
+2026-08-12 21:45:56.8841  INFO 5 DigitalLibraryServices | (1ms) Creating transliteration manager.
+2026-08-12 21:45:56.8841  INFO 5 DigitalLibraryServices | (Timed) Creating library index.
+2026-08-12 21:45:56.8848  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex/LibraryIndex.db
+2026-08-12 21:45:56.8851  INFO 5 DigitalLibraryServices | (1ms) Creating library index.
+2026-08-12 21:45:56.8851  INFO 5 DigitalLibraryServices | (Timed) Creating personal book index.
+2026-08-12 21:45:56.8853  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/PersonalBookIndex/LibraryIndex.db
+2026-08-12 21:45:56.8854  INFO 5 DigitalLibraryServices | (0ms) Creating personal book index.
+2026-08-12 21:45:56.8862  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/AutoComplete/AutoComplete.db
+2026-08-12 21:45:56.8866  INFO 5 DigitalLibraryServices | (62ms) Creating auto complete manager.
+2026-08-12 21:45:56.9230  INFO 5 AutoCompleteService | (Timed) Rebuilding autocomplete database.
+2026-08-12 21:45:56.9231  INFO 5 AutoCompleteService | Recreating auto complete database.
+2026-08-12 21:45:57.2949  INFO 5 SQLite Profile | 371ms in AutoComplete.db for: drop table if exists Terms;
+2026-08-12 21:45:58.6590  INFO 5 SQLite Profile | 1363ms in AutoComplete.db for: drop table if exists Labels;
+2026-08-12 21:45:59.3208  INFO 5 SQLite Profile | 661ms in AutoComplete.db for: drop table if exists LabelWords;
+2026-08-12 21:45:59.3363  INFO 5 AutoCompleteService | Adding Biblical people.
+2026-08-12 21:46:01.8298  INFO 5 AutoCompleteService | Adding Biblical places.
+2026-08-12 21:46:02.0249  INFO 5 AutoCompleteService | Adding Biblical things.
+2026-08-12 21:46:02.3767  INFO 5 AutoCompleteService | Adding Biblical events.
+2026-08-12 21:46:02.8424  INFO 5 AutoCompleteService | Adding preaching themes.
+2026-08-12 21:46:02.8942  INFO 5 AutoCompleteService | Adding Biblical topics.
+2026-08-12 21:46:13.3215  INFO 5 AutoCompleteService | Adding word senses.
+2026-08-12 21:46:14.5786  INFO 5 AutoCompleteService | Adding cultural concepts.
+2026-08-12 21:46:14.6191  INFO 5 AutoCompleteService | Adding biographies.
+2026-08-12 21:46:27.2127  WARN 5 SQLite Profile | 12.59s in Biographies.lbsbio;Biographies.db for: select BiographyId, Reference, Gender from Biographies;
+2026-08-12 21:46:27.2136  INFO 5 AutoCompleteService | Adding universal timeline events.
+2026-08-12 21:46:30.3494  INFO 5 AutoCompleteService | Adding thematic outlines.
+2026-08-12 21:46:30.5106  INFO 5 AutoCompleteService | Adding UAV equivalences.
+2026-08-12 21:46:32.2606  INFO 5 AutoCompleteService | Creating indexes.
+2026-08-12 21:46:32.5396  INFO 5 SQLite Profile | 279ms in AutoComplete.db for: create index Descriptions_TermId on Descriptions (TermId);
+2026-08-12 21:46:33.6736  INFO 5 SQLite Profile | 1033ms in AutoComplete.db for: create index Labels_TermId on Labels (TermId);
+2026-08-12 21:46:37.4541  INFO 5 SQLite Profile | 3781ms in AutoComplete.db for: create index LabelWords_LanguageId_FoldedText_LabelId on LabelWords (LanguageId, FoldedText, LabelId);
+2026-08-12 21:46:37.4763  INFO 5 AutoCompleteService | (40.55s) Rebuilding autocomplete database.
+2026-08-12 21:46:38.2252  INFO 5 IndexerProgram | (41.40s) Updating Auto Complete from Resource Manager.
+2026-08-12 21:46:38.2253  INFO 5 IndexerProgram | (Timed) Updating Global Milestone Index from Resource Manager.
+2026-08-12 21:46:38.2267  INFO 5 GlobalMilestoneIndex | Creating connection to global milestone index.
+2026-08-12 21:46:38.2331  INFO 5 GlobalMilestoneIndex | Done indexing! (7ms)
+2026-08-12 21:46:38.2332  INFO 5 IndexerProgram | (8ms) Updating Global Milestone Index from Resource Manager.
+2026-08-12 21:46:38.2332  INFO 5 IndexerProgram | (Timed) Updating Library Index from Resource Manager.
+2026-08-12 21:46:38.2420  INFO 5 LibraryIndex | Checking 7 resources that may have changed since they were last indexed.
+2026-08-12 21:46:38.2460  INFO 5 LibraryIndex | 1 resources need to be indexed, and will be merged into an index of 8,329 resources.
+2026-08-12 21:46:38.2928  INFO 5 IndexerProgram | (60ms) Updating Library Index from Resource Manager.
+2026-08-12 21:46:38.2929  INFO 5 IndexerProgram | (Timed) Updating Personal Book Index from Resource Manager.
+2026-08-12 21:46:38.2976  INFO 5 PersonalBookIndex | Checking 24 resources that may have changed since they were last indexed.
+2026-08-12 21:46:38.2979  WARN 5 PersonalBookIndex | Resource 'PBB:560bd2f649bc486fb1a45a2e71ae489c' could not be opened.
+2026-08-12 21:46:38.2979  WARN 5 PersonalBookIndex | Resource 'PBB:633862725fd640d2ba3f3ec701d9c220' could not be opened.
+2026-08-12 21:46:38.2979  WARN 5 PersonalBookIndex | Resource 'PBB:2cf561eebb124393b64381394ef0f0c2' could not be opened.
+2026-08-12 21:46:38.2979  WARN 5 PersonalBookIndex | Resource 'PBB:f8fb474260cc467e9d4d8ee877a9dcbd' could not be opened.
+2026-08-12 21:46:38.2980  WARN 5 PersonalBookIndex | Resource 'PBB:cc16379f0f074f49a85f03399bcf6fca' could not be opened.
+2026-08-12 21:46:38.2980  WARN 5 PersonalBookIndex | Resource 'PBB:a41f2db551134bdf80640381ba53a895' could not be opened.
+2026-08-12 21:46:38.2980  WARN 5 PersonalBookIndex | Resource 'PBB:e9fdbe00da984f38aa625ee5bee00799' could not be opened.
+2026-08-12 21:46:38.2980  WARN 5 PersonalBookIndex | Resource 'PBB:af8332ac11e541519192dd46c03db956' could not be opened.
+2026-08-12 21:46:38.2980  WARN 5 PersonalBookIndex | Resource 'PBB:29253e366dfb45c4b0a17927e63e2910' could not be opened.
+2026-08-12 21:46:38.2980  WARN 5 PersonalBookIndex | Resource 'PBB:7e37d23cb5aa4f779a7b9fc5842b21ea' could not be opened.
+2026-08-12 21:46:38.2980  WARN 5 PersonalBookIndex | Resource 'PBB:c4cd0935456b4bada2eac09c49554703' could not be opened.
+2026-08-12 21:46:38.2981  WARN 5 PersonalBookIndex | Resource 'PBB:60347b187ba8420a90ff8ec65d78e089' could not be opened.
+2026-08-12 21:46:38.2981  WARN 5 PersonalBookIndex | Resource 'PBB:b722a603992c4d7ca3c52444e0242cbe' could not be opened.
+2026-08-12 21:46:38.2981  WARN 5 PersonalBookIndex | Resource 'PBB:934f4e69848346098868799f0246cd7f' could not be opened.
+2026-08-12 21:46:38.2981  WARN 5 PersonalBookIndex | Resource 'PBB:04ba92e15be94baf8e95c03ea52bfed8' could not be opened.
+2026-08-12 21:46:38.2981  WARN 5 PersonalBookIndex | Resource 'PBB:0a210c3614014624a8db3d5e9da262c0' could not be opened.
+2026-08-12 21:46:38.2981  WARN 5 PersonalBookIndex | Resource 'PBB:a1d673a67e3a472481a647621c3e7377' could not be opened.
+2026-08-12 21:46:38.2984  INFO 5 PersonalBookIndex | 17 resources need to be indexed, and will be merged into an index of 474 resources.
+2026-08-12 21:46:38.3004  INFO 5 IndexerProgram | (8ms) Updating Personal Book Index from Resource Manager.
+2026-08-12 21:46:38.3016  INFO 5 IndexerProgram | (Timed) Indexing.
+2026-08-12 21:46:38.3022  INFO 5 IndexerProgram | Waiting for library indexing to finish.
+2026-08-12 21:46:38.3032  INFO 11 LibraryIndex | 1 unindexed resources out of 8330 indexable resources; supplemental index count is 0.
+2026-08-12 21:46:38.3042  INFO 11 SearchUtility | Will create 5 additional indexing threads.
+2026-08-12 21:46:38.3078  INFO 11 LibraryIndex | Creating a new library index 'supplemental-build' (type 1) in /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex
+2026-08-12 21:46:38.3083  INFO 11 Indexer | (Timed) Replacing lexicon 'supplemental-build' with 'index'
+2026-08-12 21:46:38.5230  INFO 11 Indexer | (215ms) Replacing lexicon 'supplemental-build' with 'index'
+2026-08-12 21:46:38.6884  INFO 11 Indexer | (Timed) Merging document metadata 'index' into 'supplemental-build'.
+2026-08-12 21:46:38.7413  INFO 11 Indexer | (53ms) Merging document metadata 'index' into 'supplemental-build'.
+2026-08-12 21:46:38.7422  INFO 14 LibraryIndex | Starting additional library indexing thread.
+2026-08-12 21:46:38.7422  INFO 16 LibraryIndex | Starting additional library indexing thread.
+2026-08-12 21:46:38.7422  INFO 17 LibraryIndex | Starting additional library indexing thread.
+2026-08-12 21:46:38.7423  INFO 18 LibraryIndex | Starting additional library indexing thread.
+2026-08-12 21:46:38.7423  INFO 19 LibraryIndex | Starting additional library indexing thread.
+2026-08-12 21:46:38.7426  INFO 14 LibraryIndex | (Timed) Indexing DB:BIBLICAL-PLACES-MAPS
+2026-08-12 21:46:38.7426  INFO 18 LibraryIndex | No more resources to index; stopping thread.
+2026-08-12 21:46:38.7426  INFO 19 LibraryIndex | No more resources to index; stopping thread.
+2026-08-12 21:46:38.7426  INFO 16 LibraryIndex | No more resources to index; stopping thread.
+2026-08-12 21:46:38.7427  INFO 17 LibraryIndex | No more resources to index; stopping thread.
+2026-08-12 21:46:38.7427  INFO 11 LibraryIndex | Waiting for background threads to finish.
+2026-08-12 21:46:39.0828  INFO 14 MacIndexerProgress | 1 of 1 resources indexed; current phase progress is 68.9%
+2026-08-12 21:46:39.0831  INFO 14 LibraryIndex | (341ms) Indexing DB:BIBLICAL-PLACES-MAPS
+2026-08-12 21:46:39.0832  INFO 14 LibraryIndex | No more resources to index; stopping thread.
+2026-08-12 21:46:39.0832  INFO 11 LibraryIndex | Finished indexing resources (in 778ms); writing postings.
+2026-08-12 21:46:39.1057  INFO 12 MultipleFilesPostingFileWriter | Closing index streams
+2026-08-12 21:46:39.2132  INFO 11 LibraryIndex | (Timed) Attempting to replace index '/Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex/supplemental' with new index '/Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex/supplemental-build'.
+2026-08-12 21:46:39.2135  INFO 11 FileSystemIndexInfo | Replacing /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex/supplemental with /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex/supplemental-build
+2026-08-12 21:46:39.7254  INFO 11 LibraryIndex | (512ms) Attempting to replace index '/Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex/supplemental' with new index '/Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex/supplemental-build'.
+2026-08-12 21:46:39.7266  INFO 11 LibraryIndex | Library indexing completed in 1422ms.
+2026-08-12 21:46:39.7267  INFO 11 LibraryIndex | Merging supplemental index into main index.
+2026-08-12 21:46:39.7273  INFO 11 LibraryIndex | Merging indexes 'index' and 'supplemental' into index in /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex
+2026-08-12 21:46:39.7311  INFO 11 Indexer | (Timed) Replacing lexicon 'index-build' with 'supplemental'
+2026-08-12 21:46:39.9458  INFO 11 Indexer | (215ms) Replacing lexicon 'index-build' with 'supplemental'
+2026-08-12 21:46:39.9474  INFO 11 Indexer | Merging document manager...
+2026-08-12 21:46:42.0494  INFO 11 Indexer | Merged document manager in 00:00:02.1019854
+2026-08-12 21:46:42.9257  INFO 11 Indexer | (Timed) Merging postings...
+2026-08-12 21:47:23.5730  WARN 11 SQLite Profile | 40.54s in supplemental.lxn for: select ab.BucketId, FileOffset, FileSize, DefaultSectionCount, TermData from AllBuckets ab left join TextTermBuckets ttb on ab.BucketId = ttb.BucketId order by ab.BucketId
+2026-08-12 21:47:23.5742  WARN 11 SQLite Profile | 40.54s in index.lxn for: select ab.BucketId, FileOffset, FileSize, DefaultSectionCount, TermData from AllBuckets ab left join TextTermBuckets ttb on ab.BucketId = ttb.BucketId order by ab.BucketId
+2026-08-12 21:47:23.6330  INFO 11 Indexer | (40.71s) Merging postings...
+2026-08-12 21:47:23.6330  INFO 11 Indexer | Merged postings.
+2026-08-12 21:47:23.7384  INFO 11 MultipleFilesPostingFileWriter | Closing index streams
+2026-08-12 21:47:23.7384  INFO 11 Indexer | Merged indexes 'index' and 'supplemental' into 'index-build' in 00:00:44.0068673
+2026-08-12 21:47:23.7590  INFO 11 LibraryIndex | (Timed) Building term/document info index
+2026-08-12 21:47:24.8302  INFO 11 SQLite Profile | 564ms in index-build.lxn for: select BucketId, FileOffset from AllBuckets order by BucketId
+2026-08-12 21:47:45.1245  INFO 11 LibraryIndex | (21.37s) Building term/document info index
+2026-08-12 21:47:45.1246  INFO 11 LibraryIndex | (Timed) Attempting to replace index '/Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex/index' with new index '/Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex/index-build'.
+2026-08-12 21:47:45.1252  INFO 11 FileSystemIndexInfo | Replacing /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex/index with /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex/index-build
+2026-08-12 21:47:45.2378  INFO 11 LibraryIndex | (113ms) Attempting to replace index '/Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex/index' with new index '/Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex/index-build'.
+2026-08-12 21:47:45.2379  INFO 11 LibraryIndex | Library index merge completed in 00:01:05.5095129.
+2026-08-12 21:47:45.2399  INFO 11 LibraryIndex | Main index is updated; deleting supplemental index.
+2026-08-12 21:47:45.2435  INFO 16 PersonalBookIndex | 0 unindexed resources out of 491 indexable resources; supplemental index count is 0.
+2026-08-12 21:47:45.2435  INFO 16 PersonalBookIndex | All indexable resources are indexed in a single main index; marking index up-to-date.
+2026-08-12 21:47:45.2439  INFO 5 IndexerProgram | (1m 6.9s) Indexing.
+2026-08-12 21:47:45.2442  INFO 5 MacIndexerProgress | Stopping IndexerProgress timer.
+2026-08-12 21:47:45.2542 ERROR 5 ApplicationUtility | SQLite Error 283: recovered 10 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/Errors/Indexer/ErrorReportManager.db-wal
+2026-08-12 21:47:45.2563  INFO 5 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/Errors/Indexer/ErrorReportManager.db
+2026-08-12 21:47:45.6150  INFO 5 IndexerProgram | All background tasks have completed; exiting application.
+2026-08-12 21:47:45.6204  INFO 1 IndexerProgram | Canceling work.
+2026-08-12 21:47:45.6204  INFO 1 MacIndexerProgress | Stopping IndexerProgress timer.
+2026-08-12 21:47:45.6204  INFO 1 IndexerProgram | Shutting down services.
+2026-08-12 21:47:45.6350  INFO 1 WebCache | Beginning WebCacheDownloader.Dispose()

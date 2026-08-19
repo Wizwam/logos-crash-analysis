@@ -1,0 +1,22 @@
+Program Version: 51.1 (51.1.0.0003)
+Mac OS Version: 26.5.1
+Architecture: arm64
+Model: MacBookPro18,1
+Processor count: 10
+Time: 2026-06-25 07:33:16 -04:00 (2026-06-25T11:33:16Z)
+Installed memory: 16,384 MB
+Install path: /Applications/Logos.app/Contents/Frameworks/FaithlifeDesktop.framework/Versions/51.1.0.0003/Frameworks/ApplicationBundle.framework/Versions/A/Resources/lib/Logos.dll
+Free install space: 93,462 MB
+Data path: /Users/martinwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o
+Free disk space: 93,462 MB
+Temp path: /var/folders/6b/64wswl3117jcx4fzgm301fb80000gn/T/
+Free temp space: 93,462 MB
+Swap usage: total = 2048.00M used = 1111.00M free = 936.00M
+
+Error ID: 2787
+Error detail: AggregateException: One or more errors occurred. (Value cannot be null. (Parameter 'ptr'))
+
+System.AggregateException: One or more errors occurred. (Value cannot be null. (Parameter 'ptr'))
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'ptr')
+   at LDLS4.Html.WebBrowserInstanceCache.<>c__DisplayClass4_0.<<PreloadInstancesIfNeeded>b__2>d.MoveNext() in /Volumes/Code/ghe_actions-2.301.1/ghec-LogosBible-3/_work/LogosDesktop/LogosDesktop/src/LDLS4/Html/WebBrowserInstanceCache.cs:line 72
+   --- End of inner exception stack trace ---

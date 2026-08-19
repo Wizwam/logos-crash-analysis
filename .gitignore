@@ -1,0 +1,14 @@
+# Local editor / agent metadata
+.cursor/
+.DS_Store
+
+# Gmail "download all attachments" wrappers (duplicates of the named LogosLogs zips)
+crash.zip
+crashesfreezing.zip
+
+# Extracted JIT/symbol maps are huge, duplicated across dumps, and not needed
+# to read Logos.log / macOS crash reports. Originals remain inside the zips.
+extracted/**/*.map
+
+# Per-book builder logs copied into every dump (2019–2026). Originals remain in the zips.
+extracted/**/PBB Logs/

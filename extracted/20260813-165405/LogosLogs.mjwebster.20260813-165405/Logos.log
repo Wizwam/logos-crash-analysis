@@ -1,0 +1,824 @@
+2026-08-13 16:51:05.6989  INFO 1 LogosApplication | Using Write-Ahead Logging for SQLite databases.
+2026-08-13 16:51:05.7017  INFO 1 OurApp | Starting application (52.2, version 52.2.0.0019) on Mac OS X 26.6.1 (Arm64 running on Apple Silicon) at 1.643 seconds. Pid: 47259
+2026-08-13 16:51:05.7026  INFO 1 OurApp | (Timed) Registering embedded application fonts
+2026-08-13 16:51:05.8634  INFO 1 OurApp | (161ms) Registering embedded application fonts
+2026-08-13 16:51:05.9073  INFO 1 OurApp | Auto-detected UI language: en-US
+2026-08-13 16:51:05.9083  INFO 1 OurApp | Culture.Current.LanguageName: en-CA
+2026-08-13 16:51:05.9108  INFO 1 OurApp | (Timed) Enabling Jitmap
+2026-08-13 16:51:05.9332  INFO 1 OurApp | (22ms) Enabling Jitmap
+2026-08-13 16:51:05.9364  INFO 1 UserManager | Opening UserManager in /Users/mjwebster/Library/Application Support/Logos4/Users.
+2026-08-13 16:51:05.9483  INFO 1 LocalFileDatabase | Connection opened (8ms): /Users/mjwebster/Library/Application Support/Logos4/Users/UserManager.db
+2026-08-13 16:51:05.9519  INFO 1 DependencyHelper | (Timed) Creating User Metadata manager.
+2026-08-13 16:51:05.9522  INFO 1 DependencyHelper | (0ms) Creating User Metadata manager.
+2026-08-13 16:51:05.9522  INFO 1 OurApp | Creating AppModel.
+2026-08-13 16:51:05.9941  INFO 1 ApplicationThemeUtility | (Timed) Loading embedded theme resources
+2026-08-13 16:51:06.1091 ERROR 1 ResourceDictionary | DynamicResource [SidebarBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1092 ERROR 1 ResourceDictionary | DynamicResource [LeftSidebarBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1092 ERROR 1 ResourceDictionary | DynamicResource [RightSidebarBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1092 ERROR 1 ResourceDictionary | DynamicResource [TextBoxBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1092 ERROR 1 ResourceDictionary | DynamicResource [TextBoxFocusedBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1092 ERROR 1 ResourceDictionary | DynamicResource [TextBoxErrorBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1092 ERROR 1 ResourceDictionary | DynamicResource [SecondaryTextBoxBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1093 ERROR 1 ResourceDictionary | DynamicResource [TabButtonActiveBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1093 ERROR 1 ResourceDictionary | DynamicResource [ContentTabActiveBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1093 ERROR 1 ResourceDictionary | DynamicResource [GoBoxBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1093 ERROR 1 ResourceDictionary | DynamicResource [PanelToolbarBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1093 ERROR 1 ResourceDictionary | DynamicResource [ButtonInlineTabActiveBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1093 ERROR 1 ResourceDictionary | DynamicResource [ToastInfoBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1093 ERROR 1 ResourceDictionary | DynamicResource [ToastInfoLeftBarBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1094 ERROR 1 ResourceDictionary | DynamicResource [ToastWarningBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1094 ERROR 1 ResourceDictionary | DynamicResource [ToastWarningLeftBarBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1094 ERROR 1 ResourceDictionary | DynamicResource [ToastErrorBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1094 ERROR 1 ResourceDictionary | DynamicResource [ToastErrorLeftBarBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1094 ERROR 1 ResourceDictionary | DynamicResource [ToastSuccessBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1094 ERROR 1 ResourceDictionary | DynamicResource [ToastSuccessLeftBarBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1095 ERROR 1 ResourceDictionary | DynamicResource [CardMessageBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1095 ERROR 1 ResourceDictionary | DynamicResource [CardMessageLeftBarBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1095 ERROR 1 ResourceDictionary | DynamicResource [CardInfoBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1095 ERROR 1 ResourceDictionary | DynamicResource [CardInfoLeftBarBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1095 ERROR 1 ResourceDictionary | DynamicResource [CardWarningBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1095 ERROR 1 ResourceDictionary | DynamicResource [CardWarningLeftBarBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1095 ERROR 1 ResourceDictionary | DynamicResource [CardErrorBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1096 ERROR 1 ResourceDictionary | DynamicResource [CardErrorLeftBarBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1096 ERROR 1 ResourceDictionary | DynamicResource [SearchPanelActiveResultBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1096 ERROR 1 ResourceDictionary | DynamicResource [SearchPanelSelectedResultBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1096 ERROR 1 ResourceDictionary | DynamicResource [SermonWriterWhiteSwatchBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1096 ERROR 1 ResourceDictionary | DynamicResource [GenericTabActiveBorderStyleCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1096 ERROR 1 ResourceDictionary | DynamicResource [CardStockBorderRadiusCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1096 ERROR 1 ResourceDictionary | DynamicResource [GenericRoundedFocusOutlineBorderRadiusCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1096 ERROR 1 ResourceDictionary | DynamicResource [LinkFocusOutlineBorderRadiusCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1096 ERROR 1 ResourceDictionary | DynamicResource [DropdownBorderRadiusCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1096 ERROR 1 ResourceDictionary | DynamicResource [PopupBorderRadiusCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1097 ERROR 1 ResourceDictionary | DynamicResource [PanelTabBorderRadiusCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1097 ERROR 1 ResourceDictionary | DynamicResource [ButtonBorderRadiusCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1097 ERROR 1 ResourceDictionary | DynamicResource [ButtonInlineBorderRadiusCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1097 ERROR 1 ResourceDictionary | DynamicResource [ButtonRoundedBorderRadiusCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1097 ERROR 1 ResourceDictionary | DynamicResource [ToastBorderRadiusCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1097 ERROR 1 ResourceDictionary | DynamicResource [GenericMenuBorderRadiusCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1097 ERROR 1 ResourceDictionary | DynamicResource [GenericTabBorderRadiusCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1097 ERROR 1 ResourceDictionary | DynamicResource [DragPreviewLabelBorderRadiusCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1097 ERROR 1 ResourceDictionary | DynamicResource [DragPreviewItemBorderRadiusCornerRadius] is not in the ResourceDictionary
+2026-08-13 16:51:06.1184 ERROR 1 ResourceDictionary | StaticResource [ListBoxItemStyleBase] is not in the ResourceDictionary
+2026-08-13 16:51:06.1185 ERROR 1 ResourceDictionary | StaticResource [TextBoxBaseStyle] is not in the ResourceDictionary
+2026-08-13 16:51:06.1185 ERROR 1 ResourceDictionary | StaticResource [PanelToolBarStyledToggleButtonStyle] is not in the ResourceDictionary
+2026-08-13 16:51:06.1185 ERROR 1 ResourceDictionary | StaticResource [PanelToolBarStyledToggleButtonStyle] is not in the ResourceDictionary
+2026-08-13 16:51:06.1185 ERROR 1 ResourceDictionary | StaticResource [PopupExpanderStyleBase] is not in the ResourceDictionary
+2026-08-13 16:51:06.1186 ERROR 1 ResourceDictionary | StaticResource [PanelToolBarButtonStyle] is not in the ResourceDictionary
+2026-08-13 16:51:06.1187  INFO 1 ApplicationThemeUtility | (125ms) Loading embedded theme resources
+2026-08-13 16:51:06.1618  INFO 1 LDLS4.AppModel | Running AppModel.
+2026-08-13 16:51:06.178 Logos[47259:2877698] String comparison for font name failed; expected Gentium but was Gentium-Regular
+2026-08-13 16:51:06.178 Logos[47259:2877698] String comparison for font name failed; expected Gentium but was Gentium-Regular
+2026-08-13 16:51:06.2179  INFO 9 DigitalLibraryServices | Initializing DigitalLibraryServices. (Shared Folder = /Users/mjwebster/Library/Application Support/Logos4/Shared, Data Folder = /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o, Documents Folder = /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o)
+2026-08-13 16:51:06.2207  INFO 9 StartupUtility | (Timed) Startup step: GetOnlineConfiguration
+2026-08-13 16:51:06.2209  INFO 9 DigitalLibraryServices | (Timed) Creating local user preferences.
+2026-08-13 16:51:06.2214  INFO 9 PreferencesManager | Opening PreferencesManager in /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/LocalUserPreferences.
+2026-08-13 16:51:06.2231 ERROR 9 ApplicationUtility | SQLite Error 283: recovered 15 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/LocalUserPreferences/PreferencesManager.db-wal
+2026-08-13 16:51:06.2268  INFO 9 LocalFileDatabase | Connection opened (4ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/LocalUserPreferences/PreferencesManager.db
+2026-08-13 16:51:06.2272  INFO 9 DigitalLibraryServices | (6ms) Creating local user preferences.
+2026-08-13 16:51:06.2300  INFO 9 StartupUtility | (9ms) Startup step: GetOnlineConfiguration
+2026-08-13 16:51:06.2302  INFO 9 StartupManager | Has valid credentials = True
+2026-08-13 16:51:06.2302  INFO 9 StartupManager | Should work online = True
+2026-08-13 16:51:06.2313  INFO 9 StartupUtility | (Timed) Startup step: TrySetProxy
+2026-08-13 16:51:06.2355  INFO 9 ProxyUtility | System web proxy: None
+2026-08-13 16:51:06.2355  INFO 9 ProxyUtility | Logos 4 web proxy: None
+2026-08-13 16:51:06.2355  INFO 9 StartupUtility | (4ms) Startup step: TrySetProxy
+2026-08-13 16:51:06.2361  INFO 9 StartupUtility | (Timed) Startup step: GetIsApplicationVersionValid
+2026-08-13 16:51:06.2370  INFO 9 StartupUtility | (1ms) Startup step: GetIsApplicationVersionValid
+2026-08-13 16:51:06.2373  INFO 9 StartupUtility | (Timed) Startup step: LoadLanguageTitles
+2026-08-13 16:51:06.2374  INFO 1 StartupViewModel | Primary status set to 'Default'.
+2026-08-13 16:51:06.2435  INFO 9 StartupUtility | (Timed) Startup step: InitializeDataTypes
+2026-08-13 16:51:06.2435  INFO 9 StartupManager | (Timed) Loading common data types in the background.
+2026-08-13 16:51:06.2439  INFO 9 StartupUtility | (Timed) Startup step: InitializeCitationEngine
+2026-08-13 16:51:06.2445  INFO 9 StartupUtility | (Timed) Startup step: GetPreferredApplicationFamily
+2026-08-13 16:51:06.2446  INFO 9 DigitalLibraryServices | (Timed) Creating new user preferences.
+2026-08-13 16:51:06.2449  INFO 4 DataTypeManager | (Timed) Initializing data type manager.
+2026-08-13 16:51:06.2467 ERROR 9 ApplicationUtility | SQLite Error 283: recovered 226 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/UserPreferences2/PreferencesManager.db-wal
+2026-08-13 16:51:06.2469  INFO 9 LocalFileDatabase | Connection opened (1ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/UserPreferences2/PreferencesManager.db
+2026-08-13 16:51:06.2482  INFO 9 DigitalLibraryServices | (4ms) Creating new user preferences.
+2026-08-13 16:51:06.2547  INFO 9 StartupUtility | (10ms) Startup step: GetPreferredApplicationFamily
+2026-08-13 16:51:06.2562  INFO 9 DigitalLibraryServices | (Timed) Creating user dictionary manager.
+2026-08-13 16:51:06.2574  INFO 9 LocalFileDatabase | Connection opened (1ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/UserDictionaryManager/UserDictionaries.db
+2026-08-13 16:51:06.2578  INFO 9 DigitalLibraryServices | (2ms) Creating user dictionary manager.
+2026-08-13 16:51:06.2585  INFO 9 StartupUtility | (Timed) Startup step: LoadDictionaries
+2026-08-13 16:51:06.2594  INFO 9 StartupUtility | (Timed) Startup step: CreateWebRequestFactory
+2026-08-13 16:51:06.2597  INFO 13 StartupManager | (Timed) Loading spell-check dictionaries.
+2026-08-13 16:51:06.2598  INFO 9 StartupUtility | (0ms) Startup step: CreateWebRequestFactory
+2026-08-13 16:51:06.2599  INFO 9 StartupUtility | (Timed) Startup step: CreateUnauthenticatedWebRequestFactory
+2026-08-13 16:51:06.2599  INFO 9 StartupUtility | (0ms) Startup step: CreateUnauthenticatedWebRequestFactory
+2026-08-13 16:51:06.2600  INFO 9 DigitalLibraryServices | (Timed) Creating license manager.
+2026-08-13 16:51:06.2603  INFO 9 LicenseManager | Opening LicenseManager in /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LicenseManager; products folder is /Users/mjwebster/Library/Application Support/Logos4/Shared/Products
+2026-08-13 16:51:06.2702  INFO 12 ScriptEnginePoolFactory | (Timed) Initializing new citation engine.
+2026-08-13 16:51:06.2872  INFO 12 ScriptEnginePoolFactory | (17ms) Initializing new citation engine.
+2026-08-13 16:51:06.2880  INFO 12 ScriptEnginePoolFactory | (Timed) Initializing new citation engine.
+2026-08-13 16:51:06.2888  INFO 9 DigitalLibraryServices | (29ms) Creating license manager.
+2026-08-13 16:51:06.2903  INFO 9 StartupUtility | (Timed) Startup step: SetUser
+2026-08-13 16:51:06.2941  INFO 4 DataTypeManager | (49ms) Initializing data type manager.
+2026-08-13 16:51:06.2959 ERROR 1 ApplicationUtility | SQLite Error 283: recovered 33 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/Errors/Application/ErrorReportManager.db-wal
+2026-08-13 16:51:06.2964  INFO 12 ScriptEnginePoolFactory | (8ms) Initializing new citation engine.
+2026-08-13 16:51:06.2965  INFO 12 StartupUtility | (53ms) Startup step: InitializeCitationEngine
+2026-08-13 16:51:06.2984  INFO 1 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/Errors/Application/ErrorReportManager.db
+2026-08-13 16:51:06.3002  INFO 1 LDLS4.AppModel | Logos user ID: 80031
+2026-08-13 16:51:06.3004  INFO 1 DigitalLibraryServices | (Timed) Creating library catalog.
+2026-08-13 16:51:06.3014  INFO 1 DigitalLibraryServices | (Timed) Creating device resource manager.
+2026-08-13 16:51:06.3028 ERROR 1 ApplicationUtility | SQLite Error 283: recovered 4 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/DeviceResourceManager/MobileResourcesSyncManager.db-wal
+2026-08-13 16:51:06.3030  INFO 1 LocalFileDatabase | Connection opened (1ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/DeviceResourceManager/MobileResourcesSyncManager.db
+2026-08-13 16:51:06.3145  INFO 1 DigitalLibraryServices | (13ms) Creating device resource manager.
+2026-08-13 16:51:06.3146  INFO 1 DigitalLibraryServices | (Timed) Creating ReadingProgressManager
+2026-08-13 16:51:06.3147  INFO 1 DigitalLibraryServices | (Timed) Creating resource manager.
+2026-08-13 16:51:06.3148  INFO 1 DigitalLibraryServices | (Timed) Creating data type options.
+2026-08-13 16:51:06.3148  INFO 1 DigitalLibraryServices | (0ms) Creating data type options.
+2026-08-13 16:51:06.3167  INFO 1 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/WebCache/CacheData.db
+2026-08-13 16:51:06.3191 ERROR 1 ApplicationUtility | SQLite Error 283: recovered 2 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/ResourceManager.db-wal
+2026-08-13 16:51:06.3193  INFO 1 LocalFileDatabase | Connection opened (1ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/ResourceManager.db
+2026-08-13 16:51:06.3387  INFO 1 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/ResourceManager/ResourceSyncManager.db
+2026-08-13 16:51:06.3388  INFO 1 DigitalLibraryServices | (24ms) Creating resource manager.
+2026-08-13 16:51:06.3408 ERROR 1 ApplicationUtility | SQLite Error 283: recovered 314 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ReadingProgressManager/readingprogressmanager.db-wal
+2026-08-13 16:51:06.3410  INFO 1 LocalFileDatabase | Connection opened (1ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ReadingProgressManager/readingprogressmanager.db
+2026-08-13 16:51:06.3411  INFO 1 DigitalLibraryServices | (26ms) Creating ReadingProgressManager
+2026-08-13 16:51:06.3431  INFO 1 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/LibraryCatalog/LibraryCatalogSync.db
+2026-08-13 16:51:06.3476 ERROR 1 ApplicationUtility | SQLite Error 283: recovered 317 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryCatalog/catalog.db-wal
+2026-08-13 16:51:06.3482  INFO 1 LocalFileDatabase | Connection opened (4ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryCatalog/catalog.db
+2026-08-13 16:51:06.3577  INFO 1 DigitalLibraryServices | (57ms) Creating library catalog.
+2026-08-13 16:51:06.3714 ERROR 1 ApplicationUtility | SQLite Error 283: recovered 238 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/UserEventManager/UserEventManager.db-wal
+2026-08-13 16:51:06.3716  INFO 1 LocalFileDatabase | Connection opened (2ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/UserEventManager/UserEventManager.db
+2026-08-13 16:51:06.3779  INFO 15 StartupUtility | (88ms) Startup step: SetUser
+2026-08-13 16:51:06.3818  INFO 15 StartupUtility | (Timed) Startup step: RegisterDeviceAndApplication
+2026-08-13 16:51:06.3828  INFO 9 AppMessageProvider | (Timed) Getting app message feed.
+2026-08-13 16:51:06.4031  INFO 15 StartupUtility | (Timed) Startup step: AcquireFreeLicenses
+2026-08-13 16:51:06.4032  INFO 15 StartupManager | (Timed) Acquiring free licenses
+2026-08-13 16:51:06.4045  INFO 4 StartupManager | (161ms) Loading common data types in the background.
+2026-08-13 16:51:06.4046  INFO 4 StartupUtility | (161ms) Startup step: InitializeDataTypes
+2026-08-13 16:51:06.4364  INFO 12 LibraryCatalog | Added 9051 resources to library catalog cache. (77ms)
+2026-08-13 16:51:06.5071  INFO 1 StartupManager | (247ms) Loading spell-check dictionaries.
+2026-08-13 16:51:06.5071  INFO 1 StartupUtility | (249ms) Startup step: LoadDictionaries
+2026-08-13 16:51:06.5077  INFO 13 StartupUtility | (Timed) Startup step: CreateWebBrowserCustomDictionary
+2026-08-13 16:51:06.5090  INFO 13 StartupUtility | (1ms) Startup step: CreateWebBrowserCustomDictionary
+2026-08-13 16:51:06.6984  INFO 6 StartupUtility | (461ms) Startup step: LoadLanguageTitles
+2026-08-13 16:51:07.1575  INFO 12 AppMessageProvider | (775ms) Getting app message feed.
+2026-08-13 16:51:07.1666  INFO 12 AppBannerManager | (Timed) Waiting for first preferences sync to complete
+2026-08-13 16:51:07.2085  INFO 12 StartupUtility | (827ms) Startup step: RegisterDeviceAndApplication
+2026-08-13 16:51:07.2240  INFO 12 StartupManager | AcquireFreeLicenses step completed. Licenses unlocked: False
+2026-08-13 16:51:07.2241  INFO 12 StartupManager | (821ms) Acquiring free licenses
+2026-08-13 16:51:07.2241  INFO 12 StartupUtility | (821ms) Startup step: AcquireFreeLicenses
+2026-08-13 16:51:07.2245  INFO 12 StartupManager | Updating licenses in parallel.
+2026-08-13 16:51:07.2250  INFO 12 StartupUtility | (Timed) Startup step: StartServices
+2026-08-13 16:51:07.2251  INFO 12 StartupUtility | (Timed) Startup step: CreateFactories
+2026-08-13 16:51:07.2252  INFO 12 StartupUtility | (0ms) Startup step: CreateFactories
+2026-08-13 16:51:07.2254  INFO 12 StartupUtility | (Timed) Startup step: SetFactories
+2026-08-13 16:51:07.2262  INFO 22 StartupUtility | (1ms) Startup step: SetFactories
+2026-08-13 16:51:07.2266  INFO 22 StartupUtility | (Timed) Startup step: StartPostSetFactoryServicesWork
+2026-08-13 16:51:07.2280  INFO 12 DigitalLibraryServices | (Timed) Creating visual markup manager.
+2026-08-13 16:51:07.2337  INFO 12 LocalFileDatabase | Connection opened (5ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/VisualMarkup/visualmarkup.db
+2026-08-13 16:51:07.2478  INFO 12 DigitalLibraryServices | (20ms) Creating visual markup manager.
+2026-08-13 16:51:07.2479  INFO 12 DigitalLibraryServices | (Timed) Creating document manager.
+2026-08-13 16:51:07.2553 ERROR 12 ApplicationUtility | SQLite Error 283: recovered 10 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/DocumentInfo.db-wal
+2026-08-13 16:51:07.2554  INFO 12 LocalFileDatabase | Connection opened (1ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/DocumentInfo.db
+2026-08-13 16:51:07.2745  INFO 12 DigitalLibraryServices | (27ms) Creating document manager.
+2026-08-13 16:51:07.2754  INFO 12 DigitalLibraryServices | (Timed) Creating notes tool manager.
+2026-08-13 16:51:07.2755  INFO 12 DigitalLibraryServices | (Timed) Creating reverse interlinear manager.
+2026-08-13 16:51:07.2768 ERROR 12 ApplicationUtility | SQLite Error 283: recovered 1 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ReverseInterlinearManager/reverseinterlinearmanager.db-wal
+2026-08-13 16:51:07.2770  INFO 12 LocalFileDatabase | Connection opened (1ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ReverseInterlinearManager/reverseinterlinearmanager.db
+2026-08-13 16:51:07.2770  INFO 12 DigitalLibraryServices | (2ms) Creating reverse interlinear manager.
+2026-08-13 16:51:07.2771  INFO 12 DigitalLibraryServices | (Timed) Creating data type lists.
+2026-08-13 16:51:07.2771  INFO 12 DigitalLibraryServices | (Timed) Creating resource lists.
+2026-08-13 16:51:07.2772  INFO 12 DigitalLibraryServices | (Timed) Creating keylink manager.
+2026-08-13 16:51:07.2773  INFO 12 DigitalLibraryServices | (Timed) Creating resource collection manager.
+2026-08-13 16:51:07.2781  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/ResourceCollectionManager/ResourceCollectionManager.db
+2026-08-13 16:51:07.2784  INFO 12 DigitalLibraryServices | (1ms) Creating resource collection manager.
+2026-08-13 16:51:07.2785  INFO 12 DigitalLibraryServices | (Timed) Creating global milestone index.
+2026-08-13 16:51:07.2795  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/GlobalMilestoneIndex/milestones.db
+2026-08-13 16:51:07.2840  INFO 12 DigitalLibraryServices | (5ms) Creating global milestone index.
+2026-08-13 16:51:07.2854 ERROR 12 ApplicationUtility | SQLite Error 283: recovered 20 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/KeyLinkManager/keylinkmanager.db-wal
+2026-08-13 16:51:07.2856  INFO 12 LocalFileDatabase | Connection opened (1ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/KeyLinkManager/keylinkmanager.db
+2026-08-13 16:51:07.2865  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/KeyLinkManager/KeyLinkSyncManager.db
+2026-08-13 16:51:07.2866  INFO 12 DigitalLibraryServices | (9ms) Creating keylink manager.
+2026-08-13 16:51:07.2867  INFO 12 DigitalLibraryServices | (10ms) Creating resource lists.
+2026-08-13 16:51:07.2868  INFO 12 DigitalLibraryServices | (10ms) Creating data type lists.
+2026-08-13 16:51:07.2916 ERROR 12 ApplicationUtility | SQLite Error 283: recovered 347 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/NotesToolManager/notestool.db-wal
+2026-08-13 16:51:07.2919  INFO 12 LocalFileDatabase | Connection opened (2ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/NotesToolManager/notestool.db
+2026-08-13 16:51:07.2940  INFO 12 DigitalLibraryServices | (19ms) Creating notes tool manager.
+2026-08-13 16:51:07.2950  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/VisualFilter/VisualFilter.db
+2026-08-13 16:51:07.3101  INFO 12 DigitalLibraryServices | (Timed) Creating bookmarks manager.
+2026-08-13 16:51:07.3103  INFO 12 DigitalLibraryServices | (0ms) Creating bookmarks manager.
+2026-08-13 16:51:07.3338  INFO 1 DigitalLibraryServices | (Timed) Creating layouts manager.
+2026-08-13 16:51:07.3349 ERROR 1 ApplicationUtility | SQLite Error 283: recovered 6 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/LayoutManager/layouts.db-wal
+2026-08-13 16:51:07.3351  INFO 1 LocalFileDatabase | Connection opened (1ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/LayoutManager/layouts.db
+2026-08-13 16:51:07.3352  INFO 1 DigitalLibraryServices | (1ms) Creating layouts manager.
+2026-08-13 16:51:07.3396  INFO 1 DependencyHelper | (Timed) Creating WebBrowserFactory.
+2026-08-13 16:51:07.3426  INFO 1 WebBrowser.WebBrowserFactory | Current LanguageName [en-CA] and Language [en] not supported by CEF, defaulting to en-US
+2026-08-13 16:51:07.3428  INFO 1 WebBrowser.WebBrowserFactory | Initializing CEF with Locale:[]
+[47259:2878069:0813/165107.500653:ERROR:net/cert/internal/trust_store_mac.cc:817] Error parsing certificate:
+ERROR: Failed parsing extensions
+
+2026-08-13 16:51:07.6061  INFO 1 DependencyHelper | (266ms) Creating WebBrowserFactory.
+2026-08-13 16:51:07.6781  INFO 1 LDLS4.AppModel | (Timed) Creating guide manager.
+2026-08-13 16:51:07.6801  INFO 1 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Guides/guides.db
+2026-08-13 16:51:07.6810  INFO 1 LDLS4.AppModel | (3ms) Creating guide manager.
+2026-08-13 16:51:07.6824  INFO 12 DigitalLibraryServices | (Timed) Creating new sync manager.
+2026-08-13 16:51:07.6861  INFO 12 SyncManager | Adding sync client: MobileResourceSyncItem
+2026-08-13 16:51:07.6865  INFO 12 DigitalLibraryServices | (Timed) Creating copy Bible verses style manager.
+2026-08-13 16:51:07.6882  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/CopyBibleVerses/CopyBibleVerses.db
+2026-08-13 16:51:07.6892  INFO 12 DigitalLibraryServices | (3ms) Creating copy Bible verses style manager.
+2026-08-13 16:51:07.6907  INFO 12 SyncManager | Adding sync client: StyleSyncItem
+2026-08-13 16:51:07.6910  INFO 12 DigitalLibraryServices | (Timed) Creating personal book manager.
+2026-08-13 16:51:07.6944  INFO 12 LocalFileDatabase | Connection opened (2ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/PersonalBooks/PersonalBookManager.db
+2026-08-13 16:51:07.6951  INFO 12 DigitalLibraryServices | (4ms) Creating personal book manager.
+2026-08-13 16:51:07.6958  INFO 12 SyncManager | Adding sync client: BookSyncItem
+2026-08-13 16:51:07.6972  INFO 12 SyncManager | Adding sync client: PreferencesSyncItem
+2026-08-13 16:51:07.6974  INFO 12 DigitalLibraryServices | (Timed) Creating favorites manager.
+2026-08-13 16:51:07.6996  INFO 12 LocalFileDatabase | Connection opened (1ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/FavoritesManager/favorites.db
+2026-08-13 16:51:07.7000  INFO 12 DigitalLibraryServices | (3ms) Creating favorites manager.
+2026-08-13 16:51:07.7013  INFO 12 SyncManager | Adding sync client: FavoritesSyncItem
+2026-08-13 16:51:07.7025  INFO 12 SyncManager | Adding sync client: HighlightingStyleSyncItem
+2026-08-13 16:51:07.7035  INFO 12 SyncManager | Adding sync client: LayoutsSyncItem
+2026-08-13 16:51:07.7050  INFO 12 SyncManager | Adding sync client: CustomResourceMetadataSyncItem
+2026-08-13 16:51:07.7059  INFO 12 SyncManager | Adding sync client: HiddenResourceSyncItem
+2026-08-13 16:51:07.7068  INFO 12 SyncManager | Adding sync client: ResourcePrioritySyncItem
+2026-08-13 16:51:07.7076  INFO 12 SyncManager | Adding sync client: ResourceCollectionSyncItem
+2026-08-13 16:51:07.7078  INFO 12 DigitalLibraryServices | (Timed) Creating shortcuts manager.
+2026-08-13 16:51:07.7089  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/ShortcutsManager/shortcuts.db
+2026-08-13 16:51:07.7091  INFO 12 DigitalLibraryServices | (1ms) Creating shortcuts manager.
+2026-08-13 16:51:07.7098  INFO 12 SyncManager | Adding sync client: ShortcutsSyncItem
+2026-08-13 16:51:07.7099  INFO 12 DigitalLibraryServices | (Timed) Creating user input database.
+2026-08-13 16:51:07.7101  INFO 12 DigitalLibraryServices | (Timed) Creating user input and reading list migrator
+2026-08-13 16:51:07.7103  INFO 12 DigitalLibraryServices | (0ms) Creating user input and reading list migrator
+2026-08-13 16:51:07.7117  INFO 12 LocalFileDatabase | Connection opened (1ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/UserInputs/UserInputs2.db
+2026-08-13 16:51:07.7126  INFO 12 DigitalLibraryServices | (3ms) Creating user input database.
+2026-08-13 16:51:07.7135  INFO 12 SyncManager | Adding sync client: UserInputSyncItem
+2026-08-13 16:51:07.7137  INFO 12 DigitalLibraryServices | (Timed) Creating user input database.
+2026-08-13 16:51:07.7147  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/ReadingLists/ReadingLists.db
+2026-08-13 16:51:07.7151  INFO 12 DigitalLibraryServices | (1ms) Creating user input database.
+2026-08-13 16:51:07.7158  INFO 12 SyncManager | Adding sync client: ReadingListStatusSyncItem
+2026-08-13 16:51:07.7160  INFO 12 DigitalLibraryServices | (Timed) Creating self tests document manager.
+2026-08-13 16:51:07.7174  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/SelfTests/SelfTests.db
+2026-08-13 16:51:07.7177  INFO 12 DigitalLibraryServices | (2ms) Creating self tests document manager.
+2026-08-13 16:51:07.7183  INFO 12 SyncManager | Adding sync client: SelfTestSyncItem
+2026-08-13 16:51:07.7187  INFO 12 SyncManager | Adding sync client: ReadingProgressSyncItem
+2026-08-13 16:51:07.7188  INFO 12 DigitalLibraryServices | (Timed) Creating history manager.
+2026-08-13 16:51:07.7191  INFO 12 HistoryManager | Loading HistoryManager.
+2026-08-13 16:51:07.7241 ERROR 12 ApplicationUtility | SQLite Error 283: recovered 948 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/HistoryManager/history.db-wal
+2026-08-13 16:51:07.7245  INFO 12 LocalFileDatabase | Connection opened (5ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/HistoryManager/history.db
+2026-08-13 16:51:07.7286  INFO 12 DigitalLibraryServices | (10ms) Creating history manager.
+2026-08-13 16:51:07.7295  INFO 12 SyncManager | Adding sync client: HistorySyncItem
+2026-08-13 16:51:07.7321  INFO 12 SyncManager | Adding sync client: NotesApi
+2026-08-13 16:51:07.7326  INFO 12 DigitalLibraryServices | (Timed) Creating guided learning manager.
+2026-08-13 16:51:07.7350  INFO 12 LocalFileDatabase | Connection opened (1ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/GuidedLearning/GuidedLearning.db
+2026-08-13 16:51:07.7356  INFO 12 DigitalLibraryServices | (3ms) Creating guided learning manager.
+2026-08-13 16:51:07.7376  INFO 12 SyncManager | Adding sync client: GuidedLearning
+2026-08-13 16:51:07.7386  INFO 12 SyncManager | Adding sync client: CustomDictionaries
+2026-08-13 16:51:07.7399  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/Bibliography/Bibliography.db
+2026-08-13 16:51:07.7416  INFO 12 SyncManager | Adding sync client: BibliographySyncItem
+2026-08-13 16:51:07.7429  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/Canvas/Canvas.db
+2026-08-13 16:51:07.7439  INFO 12 SyncManager | Adding sync client: CanvasSyncItem
+2026-08-13 16:51:07.7452  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/MorphGrid/MorphGrid.db
+2026-08-13 16:51:07.7467  INFO 12 SyncManager | Adding sync client: MorphGridSyncItem
+2026-08-13 16:51:07.7490  INFO 12 LocalFileDatabase | Connection opened (1ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/PassageList/PassageList.db
+2026-08-13 16:51:07.7510  INFO 12 SyncManager | Adding sync client: PassageListSyncItem
+2026-08-13 16:51:07.7516  INFO 12 SyncManager | Adding sync client: PassageListStatusSyncItem
+2026-08-13 16:51:07.7528  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/SentenceDiagram/SentenceDiagram.db
+2026-08-13 16:51:07.7541  INFO 12 SyncManager | Adding sync client: SentenceDiagramsSyncItem
+2026-08-13 16:51:07.7550  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/SyntaxSearch/SyntaxSearch.db
+2026-08-13 16:51:07.7558  INFO 12 SyncManager | Adding sync client: SyntaxSearchSyncItem
+2026-08-13 16:51:07.7566  INFO 12 SyncManager | Adding sync client: VisualFilterSyncItem
+2026-08-13 16:51:07.7575  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/WordFind/WordFind.db
+2026-08-13 16:51:07.7583  INFO 12 SyncManager | Adding sync client: WordFindSyncItem
+2026-08-13 16:51:07.7593  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/WordList/wordlist.db
+2026-08-13 16:51:07.7613  INFO 12 SyncManager | Adding sync client: WordListSyncItem
+2026-08-13 16:51:07.7628  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/BibleStudy/BibleStudy.db
+2026-08-13 16:51:07.7643  INFO 12 SyncManager | Adding sync client: BibleStudySyncItem
+2026-08-13 16:51:07.7657  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/Clippings/Clippings.db
+2026-08-13 16:51:07.7671  INFO 12 SyncManager | Adding sync client: ClippingsSyncItem
+2026-08-13 16:51:07.7694 ERROR 12 ApplicationUtility | SQLite Error 283: recovered 59 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/ReadingPlan/ReadingPlan.db-wal
+2026-08-13 16:51:07.7699  INFO 12 LocalFileDatabase | Connection opened (2ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/ReadingPlan/ReadingPlan.db
+2026-08-13 16:51:07.7754  INFO 12 SyncManager | Adding sync client: ReadingPlanSyncItem
+2026-08-13 16:51:07.7761  INFO 12 SyncManager | Adding sync client: ReadingPlanStatusSyncItem
+2026-08-13 16:51:07.7871  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/Sermon/Sermon.db
+2026-08-13 16:51:07.7998  INFO 12 SyncManager | Adding sync client: SermonWriter
+2026-08-13 16:51:07.8033  INFO 12 LocalFileDatabase | Connection opened (2ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/PrayerList/PrayerList.db
+2026-08-13 16:51:07.8064  INFO 12 SyncManager | Adding sync client: PrayerListSyncItem
+2026-08-13 16:51:07.8073  INFO 12 SyncManager | Adding sync client: PrayerStatusSyncItem
+2026-08-13 16:51:07.8075  INFO 12 DigitalLibraryServices | (125ms) Creating new sync manager.
+2026-08-13 16:51:07.8088  INFO 12 SyncManager | Adding sync client: GuideTemplateSyncItem
+2026-08-13 16:51:07.8095  INFO 12 SyncManager | Adding sync client: GuideDocumentSyncItem
+2026-08-13 16:51:07.8102  INFO 12 SyncManager | Starting sync manager thread.
+2026-08-13 16:51:07.8120  INFO 35 SyncManager | Sync manager thread started.
+2026-08-13 16:51:07.8212  INFO 12 StartupUtility | (595ms) Startup step: StartPostSetFactoryServicesWork
+2026-08-13 16:51:07.8290  INFO 12 StartupUtility | (Timed) Startup step: CreateServiceClients
+2026-08-13 16:51:07.8393  INFO 12 StartupUtility | (10ms) Startup step: CreateServiceClients
+2026-08-13 16:51:07.8396  INFO 12 StartupUtility | (Timed) Startup step: SetServiceClients
+2026-08-13 16:51:07.8499  INFO 12 StartupUtility | (10ms) Startup step: SetServiceClients
+2026-08-13 16:51:07.8504  INFO 12 StartupUtility | (Timed) Startup step: StartPostSetServiceClientsWork
+2026-08-13 16:51:07.8650 ERROR 1 ApplicationUtility | SQLite Error 283: recovered 521 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/AmplitudeReporter/AmplitudeEvents.db-wal
+2026-08-13 16:51:07.8652  INFO 1 LocalFileDatabase | Connection opened (2ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/AmplitudeReporter/AmplitudeEvents.db
+2026-08-13 16:51:07.8667  INFO 1 LibraryCatalog | (Timed) Fixing obsolete resources if needed.
+2026-08-13 16:51:07.8668  INFO 1 LibraryCatalog | (0ms) Fixing obsolete resources if needed.
+2026-08-13 16:51:07.8670  INFO 1 LibraryCatalog | (Timed) Updating sort keys if needed.
+2026-08-13 16:51:07.8670  INFO 1 LibraryCatalog | (0ms) Updating sort keys if needed.
+2026-08-13 16:51:07.8683  INFO 1 LDLS4.AppModel | (Timed) Creating resource file download info database.
+2026-08-13 16:51:07.8693 ERROR 1 ApplicationUtility | SQLite Error 283: recovered 2 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceFileDownloadInfo/ResourceFileDownloadInfo.db-wal
+2026-08-13 16:51:07.8695  INFO 1 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceFileDownloadInfo/ResourceFileDownloadInfo.db
+2026-08-13 16:51:07.8720  INFO 1 LDLS4.AppModel | (4ms) Creating resource file download info database.
+2026-08-13 16:51:07.8721  INFO 1 LDLS4.AppModel | (Timed) Creating cloud resource manager.
+2026-08-13 16:51:07.8735 ERROR 1 ApplicationUtility | SQLite Error 283: recovered 2 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/CloudResourceManager/CloudResources.db-wal
+2026-08-13 16:51:07.8737  INFO 1 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/CloudResourceManager/CloudResources.db
+2026-08-13 16:51:07.8739  INFO 1 CloudResourceManager | Cloud resources are enabled.
+2026-08-13 16:51:07.8740  INFO 1 LDLS4.AppModel | (2ms) Creating cloud resource manager.
+2026-08-13 16:51:07.8743  INFO 1 LDLS4.AppModel | (Timed) Initializing local preferences
+2026-08-13 16:51:07.8753  INFO 1 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceViewRecordsManager/resourceviewrecords.db
+2026-08-13 16:51:07.8764  INFO 1 LDLS4.AppModel | Global zoom initialized to 120.
+2026-08-13 16:51:07.8775  INFO 1 LDLS4.AppModel | (3ms) Initializing local preferences
+2026-08-13 16:51:07.8794  INFO 1 UpdatePipelineManager | (Timed) Starting up UpdatePipelineManager
+2026-08-13 16:51:07.8795  INFO 1 UpdatePipelineManager | (Timed) Creating update manager.
+2026-08-13 16:51:07.8797  INFO 1 UpdateManager | Initializing update manager.
+2026-08-13 16:51:07.8806 ERROR 1 ApplicationUtility | SQLite Error 283: recovered 2 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/UpdateManager/Updates.db-wal
+2026-08-13 16:51:07.8808  INFO 1 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/UpdateManager/Updates.db
+2026-08-13 16:51:07.8810  INFO 1 UpdatePipelineManager | (1ms) Creating update manager.
+2026-08-13 16:51:07.8814  INFO 1 LibraryCatalog | (Timed) Fixing cover images if needed.
+2026-08-13 16:51:07.8814  INFO 1 LibraryCatalog | (0ms) Fixing cover images if needed.
+2026-08-13 16:51:07.8825 ERROR 1 ApplicationUtility | SQLite Error 283: recovered 9 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/Updates/Metadata.db-wal
+2026-08-13 16:51:07.8826  INFO 1 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/Updates/Metadata.db
+2026-08-13 16:51:07.8836  INFO 1 UpdatePipelineManager | Initializing update pipeline stages.
+2026-08-13 16:51:07.8840  INFO 1 DigitalLibraryServices | (Timed) Creating download manager.
+2026-08-13 16:51:07.8841  INFO 1 DownloadManager | Opening Download Manager in /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/DownloadManager.
+2026-08-13 16:51:07.8848  INFO 1 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/DownloadManager/DownloadManager.db
+2026-08-13 16:51:07.8854  INFO 1 DigitalLibraryServices | (1ms) Creating download manager.
+2026-08-13 16:51:08.5886  INFO 1 UpdatePipelineManager | (709ms) Starting up UpdatePipelineManager
+2026-08-13 16:51:08.5891  INFO 15 CloudResourceManager | (Timed) Initializing CloudResourceManager.
+2026-08-13 16:51:08.6148  INFO 15 CloudResourceManager | Identified 10297 resouces that should be downloaded. (25ms)
+2026-08-13 16:51:08.6480  INFO 15 CloudResourceManager | Identified 9052 local resources (9052 can be deleted). (32ms)
+2026-08-13 16:51:08.6495  INFO 15 CloudResourceManager | Identified 9775 server resources. (1ms)
+2026-08-13 16:51:08.6500  INFO 15 LibraryCatalog | (Timed) Validating cloud resources.
+2026-08-13 16:51:08.6595  INFO 15 LibraryCatalog | (9ms) Validating cloud resources.
+2026-08-13 16:51:08.6600  INFO 15 CloudResourceManager | (Timed) Initializing cache of transitions to process.
+2026-08-13 16:51:08.6616  INFO 15 CloudResourceManager | (2ms) Initializing cache of transitions to process.
+2026-08-13 16:51:08.6791  INFO 15 CloudResourceManager | (90ms) Initializing CloudResourceManager.
+2026-08-13 16:51:08.6860  INFO 1 ResourceViewTracker | Starting background thread.
+2026-08-13 16:51:08.6863  INFO 39 ResourceViewTracker | Background thread started.
+2026-08-13 16:51:08.6881  INFO 15 StartupUtility | (838ms) Startup step: StartPostSetServiceClientsWork
+2026-08-13 16:51:08.6881  INFO 15 StartupUtility | (1463ms) Startup step: StartServices
+2026-08-13 16:51:08.6898  INFO 15 StartupUtility | (Timed) Startup step: SyncPreferences
+2026-08-13 16:51:08.6905  INFO 15 StartupManager | Not waiting to finish first sync.
+2026-08-13 16:51:08.6908  INFO 15 StartupUtility | (Timed) Startup step: InitializeSyncedPreferences
+2026-08-13 16:51:08.6911  INFO 35 SyncManager | Requesting sync on sync clients: PreferencesSyncItem
+2026-08-13 16:51:08.6919  INFO 15 StartupUtility | (Timed) Startup step: InitializeQueryParserSettingsProvider
+2026-08-13 16:51:08.6922  INFO 1 LDLS4.AppModel | (Timed) Initializing synced preferences
+2026-08-13 16:51:08.6932  INFO 1 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/UserPreferences2/PreferencesManager.db
+2026-08-13 16:51:08.6933  INFO 15 CloudResourceManager | Making 0 resources local (isUserRequest=False).
+2026-08-13 16:51:08.6938  INFO 15 CloudResourceManager | InitializeTransitionRequestWithinLock. 0 resources (isUserRequest=False)
+2026-08-13 16:51:08.6945  INFO 15 StartupUtility | (Timed) Startup step: ProcessBlockingUpdateJobs
+2026-08-13 16:51:08.6958  INFO 35 SyncManager | Finished requesting sync on sync clients: PreferencesSyncItem
+2026-08-13 16:51:08.6960  INFO 9 StartupUtility | (6ms) Startup step: SyncPreferences
+2026-08-13 16:51:08.6960  INFO 15 UpdateManager | Update installer (version 52.2.0.19) has already been applied - marking it as Finished.
+2026-08-13 16:51:08.6969  INFO 15 StartupUtility | (Timed) Startup step: ProcessBlockingDownloadJobs
+2026-08-13 16:51:08.6977  INFO 15 StartupUtility | (1ms) Startup step: ProcessBlockingDownloadJobs
+2026-08-13 16:51:08.6977  INFO 15 StartupUtility | (3ms) Startup step: ProcessBlockingUpdateJobs
+2026-08-13 16:51:08.6980  INFO 15 StartupUtility | (Timed) Startup step: OptimizeDatabases
+2026-08-13 16:51:08.6986  INFO 15 StartupUtility | (Timed) Startup step: LogDiscoveryFailures
+2026-08-13 16:51:08.6987  INFO 15 StartupUtility | (0ms) Startup step: LogDiscoveryFailures
+2026-08-13 16:51:08.7003  INFO 15 AtlasSearchIndex | Created searcher
+2026-08-13 16:51:08.7010  INFO 15 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/AtlasManager/AtlasCache.db
+2026-08-13 16:51:08.7013  INFO 15 StartupUtility | (Timed) Startup step: InitializeAtlas
+2026-08-13 16:51:08.7014  INFO 15 StartupUtility | (0ms) Startup step: InitializeAtlas
+2026-08-13 16:51:09.0741  INFO 1 LDLS4.AppModel | (382ms) Initializing synced preferences
+2026-08-13 16:51:09.0743  INFO 4 StartupUtility | (384ms) Startup step: InitializeSyncedPreferences
+2026-08-13 16:51:09.0787  INFO 4 StartupUtility | (387ms) Startup step: InitializeQueryParserSettingsProvider
+2026-08-13 16:51:09.0789  INFO 4 StartupUtility | (Timed) Startup step: InitializeQueryUtility
+2026-08-13 16:51:09.0883  INFO 4 StartupUtility | (9ms) Startup step: InitializeQueryUtility
+2026-08-13 16:51:09.0943  INFO 9 SQLite Profile | 395ms in layouts.db for: select SyncId, Title, CreatedDate, Thumbnail, Xml from Layouts where IsDeleted < 1 or IsDeleted > 1;
+2026-08-13 16:51:09.0967  INFO 9 LayoutManager | Deleted 4 old backup copies of named layouts.
+2026-08-13 16:51:09.0974  INFO 9 StartupUtility | (399ms) Startup step: OptimizeDatabases
+2026-08-13 16:51:09.0980  INFO 9 StartupUtility | (Timed) Startup step: ForceDatabaseInitialization
+2026-08-13 16:51:09.0981  INFO 9 DigitalLibraryServices | (Timed) Creating library index.
+2026-08-13 16:51:09.0994  INFO 9 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryIndex/LibraryIndex.db
+2026-08-13 16:51:09.0996  INFO 9 DigitalLibraryServices | (2ms) Creating library index.
+2026-08-13 16:51:09.0997  INFO 9 StartupUtility | (2ms) Startup step: ForceDatabaseInitialization
+2026-08-13 16:51:09.0997  INFO 9 StartupManager | (Timed) Blocking startup on preferences sync with 0.5 second timeout.
+2026-08-13 16:51:09.0997  INFO 9 StartupManager | (0ms) Blocking startup on preferences sync with 0.5 second timeout.
+2026-08-13 16:51:09.0997  INFO 9 AppBannerManager | (1933ms) Waiting for first preferences sync to complete
+2026-08-13 16:51:09.1024  INFO 9 StartupUtility | (Timed) Startup step: InitializeAppBannerRequirements
+2026-08-13 16:51:09.1040  INFO 9 StartupUtility | (2ms) Startup step: InitializeAppBannerRequirements
+2026-08-13 16:51:09.1041  INFO 9 StartupViewModel | Adding status 'Completed'.
+2026-08-13 16:51:09.1046  INFO 1 StartupViewModel | Primary status set to 'Completed'.
+2026-08-13 16:51:09.1046  INFO 9 StartupUtility | (Timed) Startup step: CreateMainWindow
+2026-08-13 16:51:09.1167  INFO 9 LDLS4.AppModel | Getting web resource section definitions.
+2026-08-13 16:51:09.6412  INFO 4 LDLS4.AppModel | Creating web resource sections.
+2026-08-13 16:51:09.6528  INFO 1 StartupUtility | (Timed) Startup step: CreateWindow
+2026-08-13 16:51:09.6530  INFO 1 DigitalLibraryServices | (Timed) Creating personal book index.
+2026-08-13 16:51:09.6540  INFO 1 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/PersonalBookIndex/LibraryIndex.db
+2026-08-13 16:51:09.6541  INFO 1 DigitalLibraryServices | (1ms) Creating personal book index.
+2026-08-13 16:51:09.6572  INFO 1 SectionsUtility | (Timed) Registering sections.
+2026-08-13 16:51:09.6768  INFO 1 SectionsUtility | (20ms) Registering sections.
+2026-08-13 16:51:09.6769  INFO 1 SectionsUtility | (Timed) Registering web sections.
+2026-08-13 16:51:09.6774  INFO 1 SectionsUtility | (0ms) Registering web sections.
+2026-08-13 16:51:09.6774  INFO 1 LDLS4.AppModel | (Timed) Loading guide templates.
+2026-08-13 16:51:09.6869  INFO 1 LDLS4.AppModel | (9ms) Loading guide templates.
+2026-08-13 16:51:09.6876  INFO 1 ResourceCollectionManager | Updating collection cache after 00:00:01: cache enabled
+2026-08-13 16:51:09.6880  INFO 1 LDLS4.AppModel | (Timed) Registering panels.
+2026-08-13 16:51:09.7252  INFO 1 LDLS4.AppModel | (37ms) Registering panels.
+2026-08-13 16:51:09.7252  INFO 1 LDLS4.AppModel | (Timed) Registering named preferences.
+2026-08-13 16:51:09.7338  INFO 1 LDLS4.AppModel | (9ms) Registering named preferences.
+2026-08-13 16:51:09.7338  INFO 1 LDLS4.AppModel | (Timed) Registering visual filters.
+2026-08-13 16:51:09.7428  INFO 1 DigitalLibraryServices | (Timed) Creating rich text content extractor.
+2026-08-13 16:51:09.7429  INFO 1 DigitalLibraryServices | (Timed) Creating transliteration manager.
+2026-08-13 16:51:09.7429  INFO 1 DigitalLibraryServices | (0ms) Creating transliteration manager.
+2026-08-13 16:51:09.7430  INFO 1 DigitalLibraryServices | (0ms) Creating rich text content extractor.
+2026-08-13 16:51:09.7652  INFO 9 NotesToolManager | Creating connection to notes database.
+2026-08-13 16:51:09.7652  INFO 12 NotesToolManager | Creating connection to notes database.
+2026-08-13 16:51:09.7674  INFO 1 LDLS4.AppModel | (34ms) Registering visual filters.
+2026-08-13 16:51:09.7713  INFO 1 ResourceCollectionManager | Updating collection cache after 00:00:01: system resource collections
+2026-08-13 16:51:09.7727  INFO 1 LDLS4.AppModel | Initializing MainWindowModel.
+2026-08-13 16:51:09.774 Logos[47259:2877698] Loaded window placement from preferences: Height=300|Left=0|State=Maximized|Top=998|Width=400|WorkHeight=0|WorkLeft=0|WorkTop=0|WorkWidth=0
+2026-08-13 16:51:09.7771  INFO 1 MainWindow | Display resolution of screen 1 is 1728x1117.
+2026-08-13 16:51:09.7771  INFO 1 MainWindow | Display units per inch of screen 1 is 127.50 with a backing scale factor of 2.00.
+2026-08-13 16:51:09.7816  INFO 9 ClientNotesApi | Found 44 notebooks. (19ms) {"sort":"title","notebookFields":["id","title"],"limit":2147483647}
+2026-08-13 16:51:09.7816  INFO 12 ClientNotesApi | Found 44 notebooks. (19ms) {"sort":"title","notebookFields":["id","title"],"limit":2147483647}
+2026-08-13 16:51:09.891 Logos[47259:2877698] Setting window placement: {0, 998, 400, 300} | frame: {{0, -214}, {400, 300}} | state: 1 | frame: {{0, 54}, {1728, 1030}}
+Available screens:
+  - {{0, 54}, {1728, 1030}}
+2026-08-13 16:51:09.9039  INFO 1 LDLS4.AppModel | Initializing PanelLinkingManager.
+2026-08-13 16:51:09.9045  INFO 1 StartupUtility | (252ms) Startup step: CreateWindow
+2026-08-13 16:51:09.9059  INFO 1 StartupUtility | Finished startup at 5848ms.
+2026-08-13 16:51:09.9075  INFO 1 OurApp | Showing main window at 5.849 seconds.
+2026-08-13 16:51:09.9113  INFO 1 UpdatePipelineManager | Updating download schedule.
+2026-08-13 16:51:09.9129  INFO 9 LDLS4.AppModel | There are 567 hidden resources.
+2026-08-13 16:51:09.9142  INFO 1 LDLS4.AppModel | (Timed) Creating workflows manager.
+2026-08-13 16:51:09.9171  INFO 1 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Workflows/Workflows.db
+2026-08-13 16:51:09.9178  INFO 12 ClientNotesApi | Updated 0 resource versions. (4ms)
+2026-08-13 16:51:09.9178  INFO 12 ClientNotesApi | Updated current resources. (4ms)
+2026-08-13 16:51:09.9179  INFO 12 NotesToolManager | Updated 0 current resources.
+2026-08-13 16:51:09.9184  INFO 1 SyncManager | Adding sync client: WorkflowsApi
+2026-08-13 16:51:09.9184  INFO 1 LDLS4.AppModel | (4ms) Creating workflows manager.
+2026-08-13 16:51:09.9223  INFO 32 StartupUtility | (818ms) Startup step: CreateMainWindow
+2026-08-13 16:51:09.9233  INFO 32 StartupUtility | (Timed) Startup step: UpdateLicenses
+2026-08-13 16:51:09.9235  INFO 12 ClientNotesApi | Detected anchors needing update. (5ms)
+2026-08-13 16:51:09.9236  INFO 12 NotesToolManager | Detected 12 anchors needing update.
+2026-08-13 16:51:09.9238  INFO 32 StartupUtility | (Timed) Startup step: DownloadLicenses
+2026-08-13 16:51:09.9258  INFO 32 WebServiceClient | Checking for new license compared to W/"beef5625-9c9b-4d68-a76f-c20e88fc2540"
+2026-08-13 16:51:09.9286  INFO 32 StartupUtility | (Timed) Startup step: SetKeyLinkRanksForApplicationFamily
+2026-08-13 16:51:09.9287  INFO 32 StartupManager | Setting default KeyLink ranks for Logos.
+2026-08-13 16:51:09.9289  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/KeyLinkManager/keylinkmanager.db
+2026-08-13 16:51:09.9290  INFO 32 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/KeyLinkManager/keylinkmanager.db
+2026-08-13 16:51:09.9298  INFO 22 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/KeyLinkManager/keylinkmanager.db
+2026-08-13 16:51:09.9299  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/KeyLinkManager/keylinkmanager.db
+2026-08-13 16:51:09.9307  INFO 32 StartupUtility | (2ms) Startup step: SetKeyLinkRanksForApplicationFamily
+2026-08-13 16:51:09.9310  INFO 32 StartupUtility | (Timed) Startup step: LoadUserSpecificData
+2026-08-13 16:51:09.9314  INFO 15 StartupManager | Loading navigable data types in the background.
+2026-08-13 16:51:09.9314  INFO 15 StartupManager | (Timed) KeyLinkManager.GetKnownDataTypes
+2026-08-13 16:51:09.9507  INFO 22 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryCatalog/catalog.db
+2026-08-13 16:51:10.0220  WARN 12 Sinai.Title | Couldn't find position_upgrade_manifest.dat as Baggage in /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/Resources/2033bcaf3f78424b902e0e5a53e55b94.lbspbb.
+2026-08-13 16:51:10.0230 ERROR 12 SqliteNotesClientRepository | Unable to convert text range Faithlife.NotesApi.Core.TextRangeRequest: {"code":"NotFound","message":"Failed to open text range: {\"resourceId\":\"PBB:2033bcaf3f78424b902e0e5a53e55b94\",\"resourceVersion\":\"2019-05-06T22:15:24Z\",\"indexedOffset\":0,\"indexedLength\":0,\"indexedVersion\":\"1970-01-01T00:00:00Z\",\"inputId\":\"QUESTION_1\"}"}
+2026-08-13 16:51:10.0239 ERROR 12 SqliteNotesClientRepository | Unable to convert text range Faithlife.NotesApi.Core.TextRangeRequest: {"code":"NotFound","message":"Failed to open text range: {\"resourceId\":\"PBB:2033bcaf3f78424b902e0e5a53e55b94\",\"resourceVersion\":\"2019-05-06T22:15:24Z\",\"indexedOffset\":0,\"indexedLength\":0,\"indexedVersion\":\"1970-01-01T00:00:00Z\",\"inputId\":\"QUESTION_5\"}"}
+2026-08-13 16:51:10.0239 ERROR 12 SqliteNotesClientRepository | Unable to convert text range Faithlife.NotesApi.Core.TextRangeRequest: {"code":"NotFound","message":"Failed to open text range: {\"resourceId\":\"PBB:2033bcaf3f78424b902e0e5a53e55b94\",\"resourceVersion\":\"2019-05-06T22:15:24Z\",\"indexedOffset\":0,\"indexedLength\":0,\"indexedVersion\":\"1970-01-01T00:00:00Z\",\"inputId\":\"QUESTION_6\"}"}
+2026-08-13 16:51:10.0239 ERROR 12 SqliteNotesClientRepository | Unable to convert text range Faithlife.NotesApi.Core.TextRangeRequest: {"code":"NotFound","message":"Failed to open text range: {\"resourceId\":\"PBB:2033bcaf3f78424b902e0e5a53e55b94\",\"resourceVersion\":\"2019-05-06T22:15:24Z\",\"indexedOffset\":0,\"indexedLength\":0,\"indexedVersion\":\"1970-01-01T00:00:00Z\",\"inputId\":\"QUESTION_9\"}"}
+2026-08-13 16:51:10.0239 ERROR 12 SqliteNotesClientRepository | Unable to convert text range Faithlife.NotesApi.Core.TextRangeRequest: {"code":"NotFound","message":"Failed to open text range: {\"resourceId\":\"PBB:2033bcaf3f78424b902e0e5a53e55b94\",\"resourceVersion\":\"2019-05-06T22:15:24Z\",\"indexedOffset\":0,\"indexedLength\":0,\"indexedVersion\":\"1970-01-01T00:00:00Z\",\"inputId\":\"QUESTION_10\"}"}
+2026-08-13 16:51:10.0239 ERROR 12 SqliteNotesClientRepository | Unable to convert text range Faithlife.NotesApi.Core.TextRangeRequest: {"code":"NotFound","message":"Failed to open text range: {\"resourceId\":\"PBB:2033bcaf3f78424b902e0e5a53e55b94\",\"resourceVersion\":\"2019-05-06T22:15:24Z\",\"indexedOffset\":0,\"indexedLength\":0,\"indexedVersion\":\"1970-01-01T00:00:00Z\",\"inputId\":\"QUESTION_12\"}"}
+2026-08-13 16:51:10.0239 ERROR 12 SqliteNotesClientRepository | Unable to convert text range Faithlife.NotesApi.Core.TextRangeRequest: {"code":"NotFound","message":"Failed to open text range: {\"resourceId\":\"PBB:2033bcaf3f78424b902e0e5a53e55b94\",\"resourceVersion\":\"2019-05-06T22:15:24Z\",\"indexedOffset\":0,\"indexedLength\":0,\"indexedVersion\":\"1970-01-01T00:00:00Z\",\"inputId\":\"QUESTION_11\"}"}
+2026-08-13 16:51:10.0239 ERROR 12 SqliteNotesClientRepository | Unable to convert text range Faithlife.NotesApi.Core.TextRangeRequest: {"code":"NotFound","message":"Failed to open text range: {\"resourceId\":\"PBB:2033bcaf3f78424b902e0e5a53e55b94\",\"resourceVersion\":\"2019-05-06T22:15:24Z\",\"indexedOffset\":0,\"indexedLength\":0,\"indexedVersion\":\"1970-01-01T00:00:00Z\",\"inputId\":\"QUESTION_13\"}"}
+2026-08-13 16:51:10.0239 ERROR 12 SqliteNotesClientRepository | Unable to convert text range Faithlife.NotesApi.Core.TextRangeRequest: {"code":"NotFound","message":"Failed to open text range: {\"resourceId\":\"PBB:2033bcaf3f78424b902e0e5a53e55b94\",\"resourceVersion\":\"2019-05-06T22:15:24Z\",\"indexedOffset\":0,\"indexedLength\":0,\"indexedVersion\":\"1970-01-01T00:00:00Z\",\"inputId\":\"QUESTION_15\"}"}
+2026-08-13 16:51:10.0240 ERROR 12 SqliteNotesClientRepository | Unable to convert text range Faithlife.NotesApi.Core.TextRangeRequest: {"code":"NotFound","message":"Failed to open text range: {\"resourceId\":\"PBB:2033bcaf3f78424b902e0e5a53e55b94\",\"resourceVersion\":\"2019-05-06T22:15:24Z\",\"indexedOffset\":0,\"indexedLength\":0,\"indexedVersion\":\"1970-01-01T00:00:00Z\",\"inputId\":\"QUESTION_17\"}"}
+2026-08-13 16:51:10.0240 ERROR 12 SqliteNotesClientRepository | Unable to convert text range Faithlife.NotesApi.Core.TextRangeRequest: {"code":"NotFound","message":"Failed to open text range: {\"resourceId\":\"PBB:2033bcaf3f78424b902e0e5a53e55b94\",\"resourceVersion\":\"2019-05-06T22:15:24Z\",\"indexedOffset\":0,\"indexedLength\":0,\"indexedVersion\":\"1970-01-01T00:00:00Z\",\"inputId\":\"QUESTION_21\"}"}
+2026-08-13 16:51:10.0240 ERROR 12 SqliteNotesClientRepository | Unable to convert text range Faithlife.NotesApi.Core.TextRangeRequest: {"code":"NotFound","message":"Failed to open text range: {\"resourceId\":\"PBB:2033bcaf3f78424b902e0e5a53e55b94\",\"resourceVersion\":\"2019-05-06T22:15:24Z\",\"indexedOffset\":0,\"indexedLength\":0,\"indexedVersion\":\"1970-01-01T00:00:00Z\",\"inputId\":\"QUESTION_7\"}"}
+2026-08-13 16:51:10.0380  INFO 12 ClientNotesApi | Updated anchors. (113ms)
+2026-08-13 16:51:10.0383  INFO 12 ClientNotesApi | Updated anchors. (0ms)
+2026-08-13 16:51:10.0383  INFO 12 NotesToolManager | Updated 12 anchors.
+2026-08-13 16:51:10.0388  INFO 15 StartupManager | (107ms) KeyLinkManager.GetKnownDataTypes
+2026-08-13 16:51:10.0388  INFO 15 StartupManager | (Timed) DataTypeLists.ParseBibleReference
+2026-08-13 16:51:10.1394  INFO 15 StartupManager | (101ms) DataTypeLists.ParseBibleReference
+2026-08-13 16:51:10.1394  INFO 15 StartupManager | (Timed) Loading preferred Bible in the background.
+2026-08-13 16:51:10.1937  INFO 15 StartupManager | (54ms) Loading preferred Bible in the background.
+2026-08-13 16:51:10.1937  INFO 15 StartupUtility | (263ms) Startup step: LoadUserSpecificData
+2026-08-13 16:51:10.1945  INFO 15 StartupUtility | (Timed) Startup step: ProcessNonBlockingUpdateJobs
+2026-08-13 16:51:10.1993  INFO 15 UpdatePipelineManager | Attempting to start update project.
+2026-08-13 16:51:10.2000  INFO 15 UpdatePipelineManager | Starting update project.
+2026-08-13 16:51:10.2001  INFO 15 UpdatePipelineManager | Working online=True, Auto-download=True, Start hour=0, Stop hour=0, Download canceled=False, Project source=System
+2026-08-13 16:51:10.2003  INFO 15 UpdateProject | (Timed) Starting update project "Non-blocking updates for Startup"
+2026-08-13 16:51:10.2006  INFO 15 UpdatePipelineManager | Assigning update jobs.
+2026-08-13 16:51:10.2015  INFO 15 UpdateStageBase | Adding job to DiscoveryUpdateStage queue: 'Discovery'.
+2026-08-13 16:51:10.2016  INFO 15 UpdateStageBase | Starting work thread for DiscoveryUpdateStage queue.
+2026-08-13 16:51:10.2021  INFO 15 UpdateStageBase | Adding job to InstallResourceUpdateStage queue: 'DiscoverOrphanedDownloads'.
+2026-08-13 16:51:10.2021  INFO 15 UpdateStageBase | Starting work thread for InstallResourceUpdateStage queue.
+2026-08-13 16:51:10.2025  INFO 15 StartupUtility | (8ms) Startup step: ProcessNonBlockingUpdateJobs
+2026-08-13 16:51:10.2028  INFO 15 StartupUtility | (Timed) Startup step: SetupIndexerStateChangedSubsribers
+2026-08-13 16:51:10.2035  INFO 4 UpdatePipelineManager | Job finished in InstallResourceUpdateStage queue: 'DiscoverOrphanedDownloads' (Finished).
+2026-08-13 16:51:10.2037  INFO 13 DiscoveryUpdateStage | Starting discovery for 1 update jobs.
+2026-08-13 16:51:10.2039  INFO 4 UpdateStageBase | Stopping work thread for InstallResourceUpdateStage queue.
+2026-08-13 16:51:10.2041  INFO 13 ResourceManager | Discovery requested: external request
+2026-08-13 16:51:10.2307  INFO 15 StartupUtility | (28ms) Startup step: SetupIndexerStateChangedSubsribers
+2026-08-13 16:51:10.2312  INFO 15 StartupUtility | (Timed) Startup step: StartIndexerIfNecessary
+2026-08-13 16:51:10.2316  INFO 15 DigitalLibraryServices | (Timed) Creating auto complete manager.
+2026-08-13 16:51:10.2332  INFO 15 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/AutoComplete/AutoComplete.db
+2026-08-13 16:51:10.2338  INFO 12 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Users/UserManager.db
+2026-08-13 16:51:10.2339  INFO 15 DigitalLibraryServices | (2ms) Creating auto complete manager.
+2026-08-13 16:51:10.2347  INFO 15 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/ResourceManager.db
+2026-08-13 16:51:10.2359  INFO 15 GlobalMilestoneIndex | Creating connection to global milestone index.
+2026-08-13 16:51:10.2386  INFO 15 StartupUtility | (7ms) Startup step: StartIndexerIfNecessary
+2026-08-13 16:51:10.2389  INFO 15 StartupUtility | (Timed) Startup step: StartAtlasSync
+2026-08-13 16:51:10.2427  INFO 15 StartupUtility | (4ms) Startup step: StartAtlasSync
+2026-08-13 16:51:10.2430  INFO 15 StartupUtility | (Timed) Startup step: LocalSyncDataMigration
+2026-08-13 16:51:10.3261 ERROR 1 ResourceCollectionManager | Could not open collection with specified name: CollectionId=35cbfee0-4f6e-4c6b-9430-f6c3b09e5a29|Title=Cdn%20Books
+2026-08-13 16:51:10.4110  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/BibleKnowledgebase/Discovered.db
+2026-08-13 16:51:10.4156  INFO 6 WebServiceClient | License check revealed no new license version.
+2026-08-13 16:51:10.4160  INFO 6 StartupUtility | (Timed) Startup step: SetLicensesFromWebService
+2026-08-13 16:51:10.4161  INFO 6 StartupUtility | (0ms) Startup step: SetLicensesFromWebService
+2026-08-13 16:51:10.4161  INFO 6 StartupUtility | (492ms) Startup step: DownloadLicenses
+2026-08-13 16:51:10.4162  INFO 6 StartupUtility | (493ms) Startup step: UpdateLicenses
+2026-08-13 16:51:10.4166  INFO 6 StartupUtility | (Timed) Startup step: DoFirstSync
+2026-08-13 16:51:10.4183  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/LogosControlledVocabulary/Discovered.db
+2026-08-13 16:51:10.4285  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/LemmaLists/Discovered.db
+2026-08-13 16:51:10.4319  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/LiteraryTyping/Discovered.db
+2026-08-13 16:51:10.4340  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/Excerpts/Discovered.db
+2026-08-13 16:51:10.4357  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/ReverseInterlinear/Discovered.db
+2026-08-13 16:51:10.4414  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/GrammaticalRelationships/Discovered.db
+2026-08-13 16:51:10.4432  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/PericopeSets/Discovered.db
+2026-08-13 16:51:10.4448  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/SyntaxDatabase/Discovered.db
+2026-08-13 16:51:10.4463  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/Audio/Discovered.db
+2026-08-13 16:51:10.4477  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/Pronunciations/Discovered.db
+2026-08-13 16:51:10.4494  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/Timelines/Discovered.db
+2026-08-13 16:51:10.4517  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/ClauseVisualizer/Discovered.db
+2026-08-13 16:51:10.4540  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/PeopleDiagrams/Discovered.db
+2026-08-13 16:51:10.4555  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/Maps/Discovered.db
+2026-08-13 16:51:10.4571  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/PreachingThemes/Discovered.db
+2026-08-13 16:51:10.4587  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/Events/Discovered.db
+2026-08-13 16:51:10.4600  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/Clauses/Discovered.db
+2026-08-13 16:51:10.4615  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/UniversalTimeline/Discovered.db
+2026-08-13 16:51:10.4631  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/Referents/Discovered.db
+2026-08-13 16:51:10.4645  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/ReportedSpeech/Discovered.db
+2026-08-13 16:51:10.4672  INFO 42 LocalFileDatabase | Connection opened (1ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/WordSenses/Discovered.db
+2026-08-13 16:51:10.4685  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/ThematicOutlines/Discovered.db
+2026-08-13 16:51:10.4698  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/PhraseConcordance/Discovered.db
+2026-08-13 16:51:10.4715  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/InterlinearDatabase/Discovered.db
+2026-08-13 16:51:10.4729  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/AncientLiterature/Discovered.db
+2026-08-13 16:51:10.4741  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/UnifiedAnnotationVocabulary/Discovered.db
+2026-08-13 16:51:10.4754  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/Html/Discovered.db
+2026-08-13 16:51:10.5540 ERROR 15 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_c4ce7b7cc86f417c94d8a78639b8891e/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.5550  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/logos/Discovered.db
+2026-08-13 16:51:10.6219  INFO 4 NotificationsViewModel | (Timed) Refreshing recent updates notifications.
+2026-08-13 16:51:10.6280  INFO 15 StartupUtility | (385ms) Startup step: LocalSyncDataMigration
+2026-08-13 16:51:10.6285  INFO 12 StartupUtility | (Timed) Startup step: UpdateAiCreditLimit
+2026-08-13 16:51:10.6297  INFO 12 StartupUtility | (1ms) Startup step: UpdateAiCreditLimit
+2026-08-13 16:51:10.6344  INFO 35 SyncManager | Requesting sync on all sync clients
+2026-08-13 16:51:10.6369  INFO 1 CloudResourceManager | Processing 0 new resources as local.
+2026-08-13 16:51:10.6473  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/SupplementalData/Discovered.db
+2026-08-13 16:51:10.6498  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/NamedTexts/Discovered.db
+2026-08-13 16:51:10.6511  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/Biographies/Discovered.db
+2026-08-13 16:51:10.6525  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/LexhamCulturalOntology/Discovered.db
+2026-08-13 16:51:10.6537  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/FactbookMedia/Discovered.db
+2026-08-13 16:51:10.6578  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/Lemmas/Discovered.db
+2026-08-13 16:51:10.6593  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/CrossReferences/Discovered.db
+2026-08-13 16:51:10.6608  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/LexhamSTOntology/Discovered.db
+2026-08-13 16:51:10.6621  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/ImportantWords/Discovered.db
+2026-08-13 16:51:10.6635  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/BibleCrossReferences/Discovered.db
+2026-08-13 16:51:10.6647  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/CounselingThemes/Discovered.db
+2026-08-13 16:51:10.6660  INFO 42 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/ChurchHistory/Discovered.db
+2026-08-13 16:51:10.6674  INFO 42 ResourceManager | Discovery completed! (started: 2026-08-13T20:51:10.2344990Z)
+2026-08-13 16:51:10.6680  INFO 42 CloudResourceManager | Discovery completed; processing 0 resource changes.
+2026-08-13 16:51:10.6681  INFO 13 DiscoveryUpdateStage | Discovery completed.
+2026-08-13 16:51:10.6684  INFO 13 DiscoveryUpdateStage | (Timed) Updating Library Catalog from Resource Manager.
+2026-08-13 16:51:10.6702  INFO 13 UpdatePipelineManager | Job finished in DiscoveryUpdateStage queue: 'Discovery' (Finished).
+2026-08-13 16:51:10.6703  INFO 13 UpdateProject | (470ms) Starting update project "Non-blocking updates for Startup"
+2026-08-13 16:51:10.6704  INFO 13 UpdatePipelineManager | Update project finished.
+2026-08-13 16:51:10.6706  INFO 13 UpdatePipelineManager | All update projects have finished.
+2026-08-13 16:51:10.6707  INFO 13 DiscoveryUpdateStage | (2ms) Updating Library Catalog from Resource Manager.
+2026-08-13 16:51:10.6707  INFO 13 DiscoveryUpdateStage | (Timed) Updating KeyLink Manager from Library Catalog.
+2026-08-13 16:51:10.6716  INFO 15 NotificationsViewModel | (Timed) Refreshing recent updates notifications.
+2026-08-13 16:51:10.6814  INFO 13 LocalFileDatabase | Connection opened (0ms): /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryCatalog/catalog.db
+2026-08-13 16:51:10.6816  INFO 13 DiscoveryUpdateStage | (11ms) Updating KeyLink Manager from Library Catalog.
+2026-08-13 16:51:10.6816  INFO 13 DiscoveryUpdateStage | (Timed) Updating Reverse Interlinear Manager from Library Catalog.
+2026-08-13 16:51:10.6824  INFO 13 DiscoveryUpdateStage | (1ms) Updating Reverse Interlinear Manager from Library Catalog.
+2026-08-13 16:51:10.6966  INFO 15 NotificationsViewModel | 484 resources were recently updated
+2026-08-13 16:51:10.7009  INFO 4 NotificationsViewModel | 484 resources were recently updated
+2026-08-13 16:51:10.7010  INFO 4 NotificationsViewModel | (79ms) Refreshing recent updates notifications.
+2026-08-13 16:51:10.7228  INFO 44 NotificationsViewModel | 44 datasets were recently updated
+2026-08-13 16:51:10.7361  INFO 4 NotificationsViewModel | (Timed) Checking for release notes...
+2026-08-13 16:51:10.7722  INFO 60 ResourceCollectionManager | (Timed) Updating collection cache.
+2026-08-13 16:51:10.7722 ERROR 6 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_7ed1dde71596497da3ca52497872a676/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.7833 ERROR 9 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_c898802559e1480bb36017d3441fc865/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.7966  INFO 60 ResourceCollectionManager | Updating collection cache for 784 collections.
+2026-08-13 16:51:10.8250  INFO 4 SearchFieldManager | (Timed) Loading search field aliases
+2026-08-13 16:51:10.8265  INFO 4 SearchFieldManager | (1ms) Loading search field aliases
+2026-08-13 16:51:10.8431  INFO 1 NotificationsViewModel | (107ms) Checking for release notes...
+2026-08-13 16:51:10.8435  INFO 1 NotificationsViewModel | Logos was recently updated to 52.2
+2026-08-13 16:51:10.8468  INFO 4 LibraryCatalog | Got all 9010 record IDs. (1ms)
+2026-08-13 16:51:10.8513  INFO 60 NotificationsViewModel | (180ms) Refreshing recent updates notifications.
+2026-08-13 16:51:10.8536 ERROR 24 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_c7f6451059fb40228c628064b68819a7/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8579  INFO 35 SyncClient | Found 1 items to submit for LayoutsSyncItem
+2026-08-13 16:51:10.8619 ERROR 23 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_c55dd8b34eff4bf9a6a948b82e84e16e/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8644 ERROR 22 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_entity-pronunciations/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8644 ERROR 32 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_e0b0ba5f40b8424787d4cf74ffd2202b/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8708 ERROR 45 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_8074341c757c438ea85301b678166167/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8767 ERROR 48 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_ncvot/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8768 ERROR 41 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_1ba2009ae46e488fb17d334776121eb0/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8778 ERROR 46 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_sd-bible-study-builder/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8787 ERROR 47 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_308a3185e8ce4853845134746222ef9a/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8845 ERROR 49 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_sd-bible-questions-dc/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8845 ERROR 51 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_sd-bible-promises-dc/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8865 ERROR 53 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_reported-speech/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8865 ERROR 50 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_ncvnt/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8900 ERROR 15 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_esvnt/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8901 ERROR 52 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_sd-bible-commands-dc/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8911 ERROR 55 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_sd-bible-commands/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8955 ERROR 56 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_esvot/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.8976 ERROR 57 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_nkjvot/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9336 ERROR 45 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_cc54cd90d8e64730aada1dbd40391482/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9380 ERROR 48 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_b6c0a0a7664e485eb5ea85cf56863e1c/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9436 ERROR 54 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_nkjvnt/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9462 ERROR 24 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_719865da3a064874b5273d519c8955ca/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9473 ERROR 15 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_3365b60ee8504e31b1115b9d73fcfea7/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9495 ERROR 6 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_0707bca7399b4fbe83180533703a95af/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9550 ERROR 22 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_bd791d45befc420c855fa615b715e4a8/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9625 ERROR 32 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_318a6df594aa49c2b94f1cdfd18b949f/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9625 ERROR 23 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_cf3dd3b2ace546c3aaf1a5b635549c93/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9626 ERROR 46 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_esvcedc/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9626 ERROR 41 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_2c39ad8ac7d740068cf482ee22b94763/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9668 ERROR 47 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_esvceot/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9679 ERROR 51 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_esvcent/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9679 ERROR 52 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_769dcb712542405392b036021ecea8e4/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9731 ERROR 12 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_7845c9ccfaec40b782787afdc7075fdf/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9826 ERROR 55 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_81c5a310c52e4b71b0337ea7bf1b76bb/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9966 ERROR 53 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_esvcedcvar/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:10.9974 ERROR 44 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/pbb_e53553e29adf4b78a227dcfcb1ff81bd/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0161 ERROR 4 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_nebapocvar/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0225 ERROR 45 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_nebapoc/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0320 ERROR 48 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_sd-theophanies/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0343 ERROR 6 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_lxxsesbheb/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0366 ERROR 57 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_nebnt/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0441 ERROR 24 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_lxxsesbaltheb/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0441 ERROR 51 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_lexham-st-ontology/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0463 ERROR 54 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_nebhebot/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0506 ERROR 41 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_nrsvuedcapoc/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0539 ERROR 23 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_nrsvuent/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0539 ERROR 56 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_nrsvuehebot/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0566 ERROR 50 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_lcv/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0567 ERROR 47 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_church-history-ontology/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0585 ERROR 32 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/rvi_nrsvuedcapocvar/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0682 ERROR 49 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_biblical-events/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0744 ERROR 52 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_preachingthemes/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0866 ERROR 48 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_biblical-things/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0872 ERROR 60 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_named-texts/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0922 ERROR 15 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_sd-supernatural-beings/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.0954 ERROR 44 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_counseling-themes/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.1078 ERROR 4 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_biographies/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.1176 ERROR 45 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_uav/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.1206 ERROR 12 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_biblical-places/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.1254 ERROR 51 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_sd-tich/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.1285 ERROR 22 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_universal-timeline/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.1334 ERROR 6 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_biblical-referents/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.1562 ERROR 24 ResourceCoverDownloadManager | Error downloading image from 'https://covers.logoscdn.com/db_biblical-people/cover.jpg'; cover image will not be updated.
+2026-08-13 16:51:11.3799  INFO 35 SyncClient | (Timed) Submitting 1 of 1 items.
+2026-08-13 16:51:11.5246  INFO 35 SyncClient | (145ms) Submitting 1 of 1 items.
+2026-08-13 16:51:11.5279  INFO 35 SyncClient | Integrated 1 successes, 0 conflicts, and 0 errors.
+2026-08-13 16:51:11.5373  INFO 35 SyncClient | Downloading items for LayoutsSyncItem
+2026-08-13 16:51:11.6452  INFO 35 SyncClient | New last known milestones: {"itemMilestone":"1016164170"}
+2026-08-13 16:51:11.6760  INFO 35 SyncClient | Found 91 items to submit for HistorySyncItem
+2026-08-13 16:51:11.8045 ERROR 22 ApplicationUtility | SQLite Error 284: automatic index on Records(IsDataset)
+2026-08-13 16:51:12.1532  INFO 35 SyncClient | (Timed) Submitting 91 of 91 items.
+2026-08-13 16:51:13.2374  INFO 35 SyncClient | (1084ms) Submitting 91 of 91 items.
+2026-08-13 16:51:13.2459  INFO 35 SyncClient | Integrated 91 successes, 0 conflicts, and 0 errors.
+2026-08-13 16:51:13.2462  INFO 35 SyncClient | Downloading items for HistorySyncItem
+2026-08-13 16:51:13.3485  INFO 35 SyncClient | New last known milestones: {"itemMilestone":"181931"}
+2026-08-13 16:51:13.3936  INFO 35 SyncManager | Finished requesting sync on all sync clients.
+2026-08-13 16:51:13.6726  INFO 51 StartupUtility | (3256ms) Startup step: DoFirstSync
+2026-08-13 16:51:14.1303  INFO 35 SyncManager | Requesting sync on all sync clients
+2026-08-13 16:51:14.2445  INFO 35 SyncClient | Downloading items for LayoutsSyncItem
+2026-08-13 16:51:14.3531  INFO 35 SyncClient | Unchanged last known milestones: {"itemMilestone":"1016164170"}
+2026-08-13 16:51:14.3551  INFO 35 SyncClient | Downloading items for HistorySyncItem
+2026-08-13 16:51:14.4503  INFO 35 SyncClient | Unchanged last known milestones: {"itemMilestone":"181931"}
+2026-08-13 16:51:14.4527  INFO 35 SyncManager | Finished requesting sync on all sync clients.
+2026-08-13 16:51:14.9133  INFO 1 UpdatePipelineManager | Check for updates. Created Update job with ID: 1
+2026-08-13 16:51:14.9140  INFO 52 UpdatePipelineManager | (Timed) Checking for updates. Callers: CreateMainWindow, Job Ids: 1.
+2026-08-13 16:51:14.9141  INFO 52 UpdatePipelineManager | Starting update manager.
+2026-08-13 16:51:14.9143  INFO 52 UpdateManager | Immediate check for updates requested.
+2026-08-13 16:51:14.9143  INFO 52 UpdateManager | Starting Update Manager processing in 00:00:00.
+2026-08-13 16:51:14.9155  INFO 51 UpdateManagerCallback | Checking for updates from 'https://clientservices.logos.com/update/v1/feed/logos10-mac/stable.xml'.
+2026-08-13 16:51:15.1044  INFO 51 UpdateManagerCallback | Checking feed for application updates newer than version 52.2.0.19.
+2026-08-13 16:51:15.1082  INFO 52 UpdateManager | Getting the next 50 resource manager revisions following #13698.
+2026-08-13 16:51:15.1083  INFO 52 UpdateManager | All resource manager revisions processed.
+2026-08-13 16:51:15.1087  INFO 52 UpdateManager | Requesting resource files (next = 'ec24d8ca50d34164afd862a572fe2f32,1169').
+2026-08-13 16:51:15.1109  INFO 52 UpdateManager | 0 resource file info objects retrieved from service.
+2026-08-13 16:51:15.1109  INFO 52 UpdateManager | Last page of resource file info retrieved; checking unknown resource status.
+2026-08-13 16:51:15.1199  INFO 51 UpdatePipelineManager | (206ms) Checking for updates. Callers: CreateMainWindow, Job Ids: 1.
+2026-08-13 16:51:15.1200  INFO 51 UpdatePipelineManager | Raising update check completed for Job Ids: 1
+2026-08-13 16:51:15.1219  INFO 1 LDLS4.AppModel | No updates are available.
+2026-08-13 16:51:16.4507  INFO 51 ResourceCollectionManager | (5678ms) Updating collection cache.
+2026-08-13 16:51:25.6847  INFO 13 UpdateStageBase | Stopping work thread for DiscoveryUpdateStage queue.
+2026-08-13 16:51:29.0819  INFO 13 ResourceMetadataDownloadManager | Starting metadata update.
+2026-08-13 16:51:29.0825  INFO 13 ResourceMetadataDownloadManager | (Timed) Initializing metadata service client.
+2026-08-13 16:51:29.0892  INFO 13 ResourceMetadataDownloadManager | (7ms) Initializing metadata service client.
+2026-08-13 16:51:29.0982  INFO 13 ResourceMetadataDownloadManager | Requesting all metadata for owned resources.
+2026-08-13 16:51:29.3447  INFO 13 ResourceMetadataDownloadManager | 1 metadata info objects retrieved from service for owned resources.
+2026-08-13 16:51:29.8197  INFO 13 ResourceMetadataDownloadManager | Requesting all metadata newer than '2026-03-11T20:07:11Z' for unowned print library resources.
+2026-08-13 16:51:30.0470  INFO 13 ResourceMetadataDownloadManager | 0 metadata info objects retrieved from service for unowned print library resources.
+2026-08-13 16:51:30.0508  INFO 13 LibraryCatalog | Got all 2 resource IDs. (3ms)
+2026-08-13 16:51:30.0532  INFO 13 ResourceMetadataDownloadManager | Database updated with 1 metadata info records for owned resources.
+2026-08-13 16:51:30.0775  INFO 13 ResourceMetadataDownloadManager | Downloading metadata for 38 resources.
+2026-08-13 16:51:30.2338  WARN 13 MetadataServiceUtility | Invalid Titles (Count=1), Languages (Count=1), or MilestoneIndexes (Count=1); rejecting metadata record for RVI:PASSIONNT.
+2026-08-13 16:51:30.2624  INFO 13 LibraryCatalog | Updated 1 items in library catalog cache. (2ms)
+2026-08-13 16:51:30.2626  INFO 13 LibraryCatalog | Library catalog indexing required: system change
+2026-08-13 16:51:30.2629  INFO 13 LibraryCatalogIndex | Starting indexing in 00:01:00: system change
+2026-08-13 16:51:30.2914  INFO 13 ResourceMetadataDownloadManager | Submitted 1 records to LibraryCatalog.
+2026-08-13 16:51:30.2926  INFO 13 ResourceMetadataDownloadManager | Requesting all community metadata with milestone greater than '7841013'.
+2026-08-13 16:51:30.7504  INFO 52 ResourceMetadataDownloadManager | 105 community metadata records retrieved from service.
+2026-08-13 16:51:30.7518  INFO 52 LibraryCatalog | (Timed) Updating community metadata for 100 resources.
+2026-08-13 16:51:30.7634  INFO 52 LibraryCatalog | Updated 7 items in library catalog cache. (6ms)
+2026-08-13 16:51:30.7634  INFO 52 LibraryCatalog | (12ms) Updating community metadata for 100 resources.
+2026-08-13 16:51:30.7634  INFO 52 LibraryCatalog | (Timed) Updating community metadata for 5 resources.
+2026-08-13 16:51:30.7644  INFO 52 LibraryCatalog | Updated 9 items in library catalog cache. (0ms)
+2026-08-13 16:51:30.7644  INFO 52 LibraryCatalog | (1ms) Updating community metadata for 5 resources.
+2026-08-13 16:51:30.7645  INFO 52 LibraryCatalog | Library catalog indexing required: updated community ratings/tags
+2026-08-13 16:51:30.7645  INFO 52 LibraryCatalogIndex | Starting indexing in 00:01:00: system change
+2026-08-13 16:51:30.7835  INFO 52 ResourceMetadataDownloadManager | Requesting all community metadata with milestone greater than '7841124'.
+2026-08-13 16:51:30.8765  INFO 52 ResourceMetadataDownloadManager | 0 community metadata records retrieved from service.
+2026-08-13 16:51:30.8765  INFO 52 ResourceMetadataDownloadManager | Finished metadata update.
+2026-08-13 16:52:15.1305  INFO 13 WebServiceClient | Checking for new license compared to W/"beef5625-9c9b-4d68-a76f-c20e88fc2540"
+2026-08-13 16:52:15.6492  INFO 63 WebServiceClient | License check revealed no new license version.
+2026-08-13 16:52:30.7733  INFO 78 LibraryCatalogIndex | (Timed) Rebuilding library catalog index.
+2026-08-13 16:52:32.7234  INFO 77 MultipleFilesPostingFileWriter | Closing index streams
+2026-08-13 16:52:33.0868  INFO 78 LibraryCatalogIndex | (Timed) Attempting to replace index '/Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryCatalog/catalog' with new index '/Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryCatalog/catalog-build'.
+2026-08-13 16:52:33.0871  INFO 78 FileSystemIndexInfo | Replacing /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryCatalog/catalog with /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryCatalog/catalog-build
+2026-08-13 16:52:33.6051  INFO 78 LibraryCatalogIndex | (518ms) Attempting to replace index '/Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryCatalog/catalog' with new index '/Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryCatalog/catalog-build'.
+2026-08-13 16:52:33.6577  INFO 78 ResourceCollectionManager | Updating collection cache after 00:00:20: library catalog indexed
+2026-08-13 16:52:33.6577  INFO 78 LibraryCatalogIndex | (2884ms) Rebuilding library catalog index.
+2026-08-13 16:52:53.6593  INFO 75 ResourceCollectionManager | (Timed) Updating collection cache.
+2026-08-13 16:52:53.6829  INFO 75 ResourceCollectionManager | Updating collection cache for 784 collections.
+2026-08-13 16:52:53.7088  INFO 75 LibraryCatalog | Got all 9010 record IDs. (1ms)
+2026-08-13 16:52:54.3905 ERROR 75 ApplicationUtility | SQLite Error 284: automatic index on Records(IsDataset)
+2026-08-13 16:52:58.8053  INFO 77 ResourceCollectionManager | (5146ms) Updating collection cache.
+2026-08-13 16:53:14.5488  INFO 1 MainWindow | OnClosing, calling Exit soon.
+2026-08-13 16:53:14.5524  INFO 1 ResourceViewTracker | Stopping background thread.
+2026-08-13 16:53:14.5526  INFO 1 OurApp | AppModel is exiting.
+2026-08-13 16:53:14.5531  INFO 39 ResourceViewTracker | Background thread terminated.
+2026-08-13 16:53:14.5807  INFO 1 LDLS4.AppModel | Closing 0 floating window models.
+2026-08-13 16:53:14.5807  INFO 1 LDLS4.AppModel | Closing main window model.
+2026-08-13 16:53:14.5864  INFO 1 OurApp | MainWindow changed to null, so shutting down soon.
+2026-08-13 16:53:14.589 Logos[47259:2877698] Saved window placement to preferences: Height=300|Left=0|State=Minimized|Top=998|Width=400|WorkHeight=0|WorkLeft=0|WorkTop=0|WorkWidth=0
+2026-08-13 16:53:14.5895  INFO 1 MainWindow | OnClosing, detaching from model.
+2026-08-13 16:53:14.5897  INFO 1 LDLS4.AppModel | Sync upload before shutdown.
+2026-08-13 16:53:14.5898  INFO 35 SyncManager | Requesting sync on all sync clients
+2026-08-13 16:53:14.7483  INFO 35 SyncClient | Found 1 items to submit for LayoutsSyncItem
+2026-08-13 16:53:14.7484  INFO 35 SyncClient | (Timed) Submitting 1 of 1 items.
+2026-08-13 16:53:15.1635  INFO 35 SyncClient | (415ms) Submitting 1 of 1 items.
+2026-08-13 16:53:15.1646  INFO 35 SyncClient | Integrated 1 successes, 0 conflicts, and 0 errors.
+2026-08-13 16:53:15.1845  INFO 35 SyncClient | Downloading items for LayoutsSyncItem
+2026-08-13 16:53:15.2932  INFO 35 SyncClient | New last known milestones: {"itemMilestone":"1016164171"}
+2026-08-13 16:53:15.2982  INFO 35 SyncManager | Finished requesting sync on all sync clients.
+2026-08-13 16:53:15.2985  INFO 1 OurApp | Shutting down application.
+2026-08-13 16:53:15.3003  INFO 1 LDLS4.AppModel | (Timed) Disposing AppModel.
+2026-08-13 16:53:15.3080  INFO 1 LDLS4.AppModel | Uninitializing Amplitude.
+2026-08-13 16:53:15.3081  INFO 1 LDLS4.AppModel | Removing services event handlers.
+2026-08-13 16:53:15.3086  INFO 1 LDLS4.AppModel | Canceling all work.
+2026-08-13 16:53:15.3086  INFO 1 LDLS4.AppModel | (Timed) Disposing async work group.
+2026-08-13 16:53:15.3086  INFO 1 LDLS4.AppModel | (0ms) Disposing async work group.
+2026-08-13 16:53:15.3086  INFO 1 LDLS4.AppModel | Disposing favorites runtime backing.
+2026-08-13 16:53:15.3086  INFO 1 LDLS4.AppModel | Disposing PanelSource.
+2026-08-13 16:53:15.3089  INFO 1 LDLS4.AppModel | Disposing FeatureManager.
+2026-08-13 16:53:15.3095  INFO 1 LDLS4.AppModel | Disposing NotificationsViewModel.
+2026-08-13 16:53:15.3101  INFO 1 LDLS4.AppModel | (Timed) Disposing ResourceCoverDownloadManager.
+2026-08-13 16:53:15.3111  INFO 1 LDLS4.AppModel | (1ms) Disposing ResourceCoverDownloadManager.
+2026-08-13 16:53:15.3111  INFO 1 LDLS4.AppModel | Disposing cloud resource manager
+2026-08-13 16:53:15.3127  INFO 1 LDLS4.AppModel | Disposing UpdatePipelineManager.
+2026-08-13 16:53:15.3136  INFO 1 UpdatePipelineManager | Shutting down update pipeline stages.
+2026-08-13 16:53:15.3140  INFO 1 UpdatePipelineManager | (Timed) Disposing UpdateManager
+2026-08-13 16:53:15.3148  INFO 1 UpdatePipelineManager | (1ms) Disposing UpdateManager
+2026-08-13 16:53:15.3148  INFO 1 UpdatePipelineManager | (Timed) Disposing ResourceMetadataDownloadManager.
+2026-08-13 16:53:15.3165  INFO 1 UpdatePipelineManager | (2ms) Disposing ResourceMetadataDownloadManager.
+2026-08-13 16:53:15.3165  INFO 1 LDLS4.AppModel | Disposing DocumentUserVisualFilterManagers.
+2026-08-13 16:53:15.3172  INFO 1 LDLS4.AppModel | Disposing UserActionContextService.
+2026-08-13 16:53:15.5591  INFO 1 LDLS4.AppModel | Disposing CSL script engine pool.
+2026-08-13 16:53:15.5666  INFO 1 LDLS4.AppModel | Disposing guide library.
+2026-08-13 16:53:15.5678  INFO 1 LDLS4.AppModel | Disposing AmplitudeReporter.
+2026-08-13 16:53:16.1084  INFO 1 LDLS4.AppModel | Disposing document metadata manager
+2026-08-13 16:53:16.1085  INFO 1 LDLS4.AppModel | Disposing global hot keys manager.
+2026-08-13 16:53:16.1087  INFO 1 LDLS4.AppModel | Disposing community client.
+2026-08-13 16:53:16.1092  INFO 1 LDLS4.AppModel | Disposing document management client.
+2026-08-13 16:53:16.1093  INFO 1 LDLS4.AppModel | Disposing web service client.
+2026-08-13 16:53:16.1094  INFO 1 LDLS4.AppModel | Disposing ConcordanceManager
+2026-08-13 16:53:16.1096  INFO 1 LDLS4.AppModel | Disposing lemma frequency manager.
+2026-08-13 16:53:16.1096  INFO 1 LDLS4.AppModel | Disposing resource file download info manager.
+2026-08-13 16:53:16.1150  INFO 1 LDLS4.AppModel | Disposing startup view model.
+2026-08-13 16:53:16.1151  INFO 1 LDLS4.AppModel | Disposing WorkflowManager.
+2026-08-13 16:53:16.1163  INFO 1 LDLS4.AppModel | Disposing DigitalLibraryServices.
+2026-08-13 16:53:16.1171  INFO 1 DocumentManager | (Timed) Canceling document indexing.
+2026-08-13 16:53:16.1172  INFO 1 DocumentManager | (0ms) Canceling document indexing.
+2026-08-13 16:53:16.1176  INFO 1 SyncManager | Dispose: Cancelling sync manager thread.
+2026-08-13 16:53:16.1176  INFO 1 SyncManager | Dispose: Waiting for sync manager thread to terminate.
+2026-08-13 16:53:16.1177  INFO 35 SyncManager | Sync manager thread terminated.
+2026-08-13 16:53:16.1187  INFO 1 ResourceViewTracker | Dispose: Cancelling background thread.
+2026-08-13 16:53:16.1188  INFO 1 ResourceViewTracker | Dispose: Waiting for background thread to terminate.
+2026-08-13 16:53:16.1840  INFO 1 WebCache | Beginning WebCacheDownloader.Dispose()
+2026-08-13 16:53:16.1947  INFO 1 LDLS4.AppModel | Disposing GuideManager.
+2026-08-13 16:53:16.1949  INFO 1 LDLS4.AppModel | Disposing NotesToolResourceMarkupCreator.
+2026-08-13 16:53:16.1949  INFO 1 LDLS4.AppModel | Disposing DuplicateDocumentManager.
+2026-08-13 16:53:16.1950  INFO 1 LDLS4.AppModel | Disposing panel linking manager.
+2026-08-13 16:53:16.1953  INFO 1 LDLS4.AppModel | Disposing print setup.
+2026-08-13 16:53:16.1953  INFO 1 LDLS4.AppModel | Disposing web browser instance cache.
+2026-08-13 16:53:16.2019  INFO 1 LDLS4.AppModel | Disposing remote react node instance cache.
+2026-08-13 16:53:16.2023  INFO 1 LDLS4.AppModel | Disposing corrupt index error reporter
+2026-08-13 16:53:16.2023  INFO 1 LDLS4.AppModel | Disposing Logos Media error reporter
+2026-08-13 16:53:16.2023  INFO 1 LDLS4.AppModel | Disposing sync client error reporter
+2026-08-13 16:53:16.2023  INFO 1 LDLS4.AppModel | Disposing performance reporter
+2026-08-13 16:53:16.2023  INFO 1 LDLS4.AppModel | Disposing indexer event client
+2026-08-13 16:53:16.2038  INFO 1 LDLS4.AppModel | (903ms) Disposing AppModel.
+2026-08-13 16:53:16.2695  INFO 1 OurApp | Disabling native logging and terminating Logos resource driver.
+2026-08-13 16:53:16.2710  INFO 1 OurApp | (Timed) Disposing background dispatcher thread pool.
+2026-08-13 16:53:16.2712  INFO 1 OurApp | (0ms) Disposing background dispatcher thread pool.
+2026-08-13 16:53:16.2714  INFO 1 OurApp | Exiting.

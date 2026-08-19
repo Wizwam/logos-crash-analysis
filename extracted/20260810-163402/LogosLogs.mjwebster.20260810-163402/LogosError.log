@@ -1,0 +1,60 @@
+Program Version: 52.2 (52.2.0.0019)
+Mac OS Version: 26.6.1
+Architecture: arm64
+Model: Mac17,8
+Processor count: 18
+Time: 2026-08-10 08:26:16 -04:00 (2026-08-10T12:26:16Z)
+Installed memory: 24,576 MB
+Install path: /Applications/Logos.app/Contents/Frameworks/FaithlifeDesktop.framework/Versions/52.2.0.0019/Frameworks/ApplicationBundle.framework/Versions/A/Resources/lib/Logos.dll
+Free install space: 788,277 MB
+Data path: /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o
+Free disk space: 788,277 MB
+Temp path: /var/folders/1f/wxxg_vjx4cqbgn1bv5fy1x840000gn/T/
+Free temp space: 788,277 MB
+Swap usage: total = 0.00M used = 0.00M free = 0.00M
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-10 08:26:16 -04:00 (2026-08-10T12:26:16Z)
+Error downloading user events.
+Libronix.Utility.Net.WebServiceException: Error building request. Request: GET https://usereventsapi.logos.com/v1/events
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation timed out.
+ ---> System.Net.Sockets.SocketException (60): Operation timed out
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.NetworkStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|39_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Libronix.Utility.Net.TimeoutHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+   at Logos.UserEvents.Manager.UserEventManager.DoUpdate()
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-10 10:22:39 -04:00 (2026-08-10T14:22:39Z)
+SQLite Error 284: automatic index on Records(IsDataset)
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-10 16:28:18 -04:00 (2026-08-10T20:28:18Z)
+SQLite Error 284: automatic index on Records(IsDataset)

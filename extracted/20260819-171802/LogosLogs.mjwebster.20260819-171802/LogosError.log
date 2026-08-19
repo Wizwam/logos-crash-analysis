@@ -1,0 +1,209 @@
+Program Version: 52.2 (52.2.0.0019)
+Mac OS Version: 26.6.2
+Architecture: arm64
+Model: Mac17,8
+Processor count: 18
+Time: 2026-08-19 08:15:27 -04:00 (2026-08-19T12:15:27Z)
+Installed memory: 24,576 MB
+Install path: /Applications/Logos.app/Contents/Frameworks/FaithlifeDesktop.framework/Versions/52.2.0.0019/Frameworks/ApplicationBundle.framework/Versions/A/Resources/lib/Logos.dll
+Free install space: 787,975 MB
+Data path: /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o
+Free disk space: 787,975 MB
+Temp path: /var/folders/1f/wxxg_vjx4cqbgn1bv5fy1x840000gn/T/
+Free temp space: 787,975 MB
+Swap usage: total = 0.00M used = 0.00M free = 0.00M
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-19 08:15:27 -04:00 (2026-08-19T12:15:27Z)
+Error handling response (POST https://readingprogressapi.logos.com/v1/progress/sync/up).
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation timed out.
+ ---> System.Net.Sockets.SocketException (60): Operation timed out
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.NetworkStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|39_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.Metrics.MetricsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponse(IWorkState workState)
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-19 08:37:28 -04:00 (2026-08-19T12:37:28Z)
+Error building request (GET https://usereventsapi.logos.com/v1/events).
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation timed out.
+ ---> System.Net.Sockets.SocketException (60): Operation timed out
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.NetworkStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|39_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Libronix.Utility.Net.TimeoutHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-19 08:37:28 -04:00 (2026-08-19T12:37:28Z)
+Error downloading user events.
+Libronix.Utility.Net.WebServiceException: Error building request. Request: GET https://usereventsapi.logos.com/v1/events
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation timed out.
+ ---> System.Net.Sockets.SocketException (60): Operation timed out
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.NetworkStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|39_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Libronix.Utility.Net.TimeoutHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+   at Logos.UserEvents.Manager.UserEventManager.DoUpdate()
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-19 08:37:31 -04:00 (2026-08-19T12:37:31Z)
+Couldn't download licenses file.
+Libronix.Utility.Net.WebServiceException: Error building request. Request: GET https://licensesapi.logos.com/v5/licensesfile
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation timed out.
+ ---> System.Net.Sockets.SocketException (60): Operation timed out
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.NetworkStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|39_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Libronix.Utility.Net.TimeoutHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(IWorkState workState)
+   at LDLS4.WebServiceClient.GetLicensesAsync(LicensesApiClient licensesApiClient, LicenseManager licenseManager, Boolean forceDownload, CancellationToken cancellationToken) in /Volumes/Code/ghe_actions-2.301.1/ghec-LogosBible-4/_work/LogosDesktop/LogosDesktop/src/LDLS4/WebServiceClient.cs:line 199
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-19 11:35:19 -04:00 (2026-08-19T15:35:19Z)
+SQLite Error 284: automatic index on Records(IsDataset)
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-19 17:14:17 -04:00 (2026-08-19T21:14:17Z)
+SQLite Error 284: automatic index on Records(IsDataset)
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-19 17:15:13 -04:00 (2026-08-19T21:15:13Z)
+Exception thrown in web browser interop request handler 'logos.hybrid-ui.runProxiedFunction': Function <n> not found
+
+Program Version: 52.2 (52.2.0.0019)
+Time: 2026-08-19 17:17:52 -04:00 (2026-08-19T21:17:52Z)
+Error detail:
+NativeSignalException: Got a SIGSEGV while executing native code.
+Stack trace:
+0 our_sigsegv_signal_handler [0x102f441d8 - MonoHost]
+1 _ZL22invoke_previous_actionP9sigactioniP9__siginfoPvb [0x103cae2b4 - libcoreclr.dylib]
+2 _sigtramp [0x18edc9744 - libsystem_platform.dylib]
+3 _objc_msgSend_uncached [0x18e955b84 - libobjc.A.dylib]
+4 _objc_msgSend_uncached [0x18e955b84 - libobjc.A.dylib]
+5 __CFCopyFormattingDescription [0x18ee2d0b4 - CoreFoundation]
+6 __CFSTRING_IS_CALLING_OUT_TO_AN_OBJECT_FORMAT_ARGUMENT_WITH_LOCALE__ [0x18ef66c80 - CoreFoundation]
+7 __CFStringAppendFormatCore [0x18ee2bcd0 - CoreFoundation]
+8 CFStringAppendFormatAndArguments [0x18ee97f9c - CoreFoundation]
+9 CFStringAppendFormat [0x18ee97ee4 - CoreFoundation]
+10 addSessionReference [0x1902e6750 - SystemConfiguration]
+11 __CFSetApplyFunction_block_invoke [0x18ee43aec - CoreFoundation]
+12 CFBasicHashApply [0x18ee4391c - CoreFoundation]
+13 CFSetApplyFunction [0x18ee4385c - CoreFoundation]
+14 __add_state_handler_block_invoke [0x1902e79c0 - SystemConfiguration]
+15 ___os_state_request_for_self_impl_block_invoke [0x18eaed60c - libsystem_trace.dylib]
+16 _dispatch_client_callout [0x18ec1d4b0 - libdispatch.dylib]
+17 _dispatch_lane_barrier_sync_invoke_and_complete [0x18ec13360 - libdispatch.dylib]
+18 ___os_state_request_for_self_block_invoke [0x18eaed1d0 - libsystem_trace.dylib]
+19 _dispatch_call_block_and_release [0x18ec03a28 - libdispatch.dylib]
+20 _dispatch_client_callout [0x18ec1d4b0 - libdispatch.dylib]
+21 _dispatch_lane_serial_drain [0x18ec0c030 - libdispatch.dylib]
+22 _dispatch_lane_invoke [0x18ec0cb64 - libdispatch.dylib]
+23 _dispatch_root_queue_drain_deferred_wlh [0x18ec16e34 - libdispatch.dylib]
+24 _dispatch_workloop_worker_thread [0x18ec16734 - libdispatch.dylib]
+25 _pthread_wqthread [0x18edbbec0 - libsystem_pthread.dylib]
+26 start_wqthread [0x18edbac10 - libsystem_pthread.dylib]
+

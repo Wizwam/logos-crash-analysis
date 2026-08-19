@@ -1,0 +1,448 @@
+Program Version: 52.1 (52.1.0.0002)
+Mac OS Version: 26.5.2
+Architecture: arm64
+Model: Mac17,8
+Processor count: 18
+Time: 2026-07-30 10:36:05 -04:00 (2026-07-30T14:36:05Z)
+Installed memory: 24,576 MB
+Install path: /Applications/Logos.app/Contents/Frameworks/FaithlifeDesktop.framework/Versions/52.1.0.0002/Frameworks/ApplicationBundle.framework/Versions/A/Resources/lib/Logos.dll
+Free install space: 923,380 MB
+Data path: /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o
+Free disk space: 923,380 MB
+Temp path: /var/folders/1f/wxxg_vjx4cqbgn1bv5fy1x840000gn/T/
+Free temp space: 923,380 MB
+Swap usage: total = 0.00M used = 0.00M free = 0.00M
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:36:05 -04:00 (2026-07-30T14:36:05Z)
+Exception thrown in web browser interop request handler 'logos.hybrid-ui.runProxiedFunction': Function 0 not found
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:47 -04:00 (2026-07-30T14:38:47Z)
+Error detail:
+NativeSignalException: Got a SIGSEGV while executing native code.
+Stack trace:
+0 our_sigsegv_signal_handler [0x102d341d8 - MonoHost]
+1 _ZL22invoke_previous_actionP9sigactioniP9__siginfoPvb [0x10399e2b4 - libcoreclr.dylib]
+2 _sigtramp [0x18a833744 - libsystem_platform.dylib]
+3 rust_png$cxxbridge1$ResultOfWriter$operator$sizeof [0x11e68f130 - Chromium Embedded Framework]
+4 rust_png$cxxbridge1$ResultOfWriter$operator$sizeof [0x11e68ef54 - Chromium Embedded Framework]
+5 ___forwarding___ [0x18a8c5a48 - CoreFoundation]
+6 _CF_forwarding_prep_0 [0x18a8c58b0 - CoreFoundation]
+7 -[VisualMarkupCustomStyleController focusRenameTextField] [0x1094fabc0 - ApplicationBundle]
+8 __NSThreadPerformPerform [0x18c14eadc - Foundation]
+9 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ [0x18a8e6f30 - CoreFoundation]
+10 __CFRunLoopDoSource0 [0x18a8e6ec4 - CoreFoundation]
+11 __CFRunLoopDoSources0 [0x18a8e6c94 - CoreFoundation]
+12 __CFRunLoopRun [0x18a8e5854 - CoreFoundation]
+13 _CFRunLoopRunSpecificWithOptions [0x18a9b81c4 - CoreFoundation]
+14 RunCurrentEventLoopInMode [0x1976cb560 - HIToolbox]
+15 ReceiveNextEventCommon [0x1976ce8bc - HIToolbox]
+16 _BlockUntilNextEventMatchingListInMode [0x19785814c - HIToolbox]
+17 _DPSBlockUntilNextEventMatchingListInMode [0x18f3c035c - AppKit]
+18 _DPSNextEvent [0x18ed14084 - AppKit]
+19 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] [0x18f8a98b0 - AppKit]
+20 -[NSApplication(NSEventRouting) nextEventMatchingMask:untilDate:inMode:dequeue:] [0x18f8a95bc - AppKit]
+21 -[NSApplication run] [0x18ed0713c - AppKit]
+22 NSApplicationMain [0x18ecdf7b0 - AppKit]
+23 (null)
+24 Bootstrap.ProgramMain(String[] arguments)
+25 CallDescrWorkerInternal [0x10398458c - libcoreclr.dylib]
+26 _ZN18MethodDescCallSite16CallTargetWorkerEPKyPyi [0x10381c894 - libcoreclr.dylib]
+27 _Z7RunMainP10MethodDescsPiPP8PtrArray [0x1037230cc - libcoreclr.dylib]
+28 _ZN8Assembly17ExecuteMainMethodEPP8PtrArrayi [0x103723410 - libcoreclr.dylib]
+29 _ZN8CorHost215ExecuteAssemblyEjPKDsiPS1_Pj [0x103746bb0 - libcoreclr.dylib]
+30 coreclr_execute_assembly [0x10360353c - libcoreclr.dylib]
+31 _Z19run_app_for_contextRK20hostpolicy_context_tiPPKc [0x10a7c3f58 - libhostpolicy.dylib]
+32 _Z7run_appiPPKc [0x10a7c41c8 - libhostpolicy.dylib]
+33 _ZN10fx_muxer_t7run_appEP14host_context_t [0x1086d69b0 - libhostfxr.dylib]
+34 +[MonoHost initializeManagedRuntimeWithAssembly:arguments:] [0x102d344c0 - MonoHost]
+35 DesktopApplicationMain [0x102cc69c4 - Logos]
+36 main [0x102cc6e20 - Logos]
+37 start [0x18a46be00 - dyld]
+
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:56 -04:00 (2026-07-30T14:38:56Z)
+SQLite Error 283: recovered 25 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/LocalUserPreferences/PreferencesManager.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:56 -04:00 (2026-07-30T14:38:56Z)
+SQLite Error 283: recovered 561 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/UserPreferences2/PreferencesManager.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:56 -04:00 (2026-07-30T14:38:56Z)
+SQLite Error 283: recovered 54 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/Errors/Application/ErrorReportManager.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:56 -04:00 (2026-07-30T14:38:56Z)
+SQLite Error 283: recovered 2 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/DeviceResourceManager/MobileResourcesSyncManager.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:56 -04:00 (2026-07-30T14:38:56Z)
+SQLite Error 283: recovered 2 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceManager/ResourceManager.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:56 -04:00 (2026-07-30T14:38:56Z)
+SQLite Error 283: recovered 725 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ReadingProgressManager/readingprogressmanager.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:56 -04:00 (2026-07-30T14:38:56Z)
+SQLite Error 283: recovered 100 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/LibraryCatalog/catalog.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:56 -04:00 (2026-07-30T14:38:56Z)
+SQLite Error 283: recovered 210 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/UserEventManager/UserEventManager.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:57 -04:00 (2026-07-30T14:38:57Z)
+SQLite Error 283: recovered 161 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/VisualMarkup/visualmarkup.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:57 -04:00 (2026-07-30T14:38:57Z)
+SQLite Error 283: recovered 39 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/DocumentInfo.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:57 -04:00 (2026-07-30T14:38:57Z)
+SQLite Error 283: recovered 4 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/KeyLinkManager/keylinkmanager.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:57 -04:00 (2026-07-30T14:38:57Z)
+SQLite Error 283: recovered 251 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/NotesToolManager/notestool.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:57 -04:00 (2026-07-30T14:38:57Z)
+SQLite Error 283: recovered 193 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/VisualFilter/VisualFilter.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:57 -04:00 (2026-07-30T14:38:57Z)
+SQLite Error 283: recovered 983 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/LayoutManager/layouts.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:57 -04:00 (2026-07-30T14:38:57Z)
+SQLite Error 283: recovered 267 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/HistoryManager/history.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:57 -04:00 (2026-07-30T14:38:57Z)
+SQLite Error 283: recovered 1 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/GuidedLearning/GuidedLearning.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:57 -04:00 (2026-07-30T14:38:57Z)
+SQLite Error 283: recovered 9 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Documents/wq8ubj9r.32o/Documents/ReadingPlan/ReadingPlan.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:57 -04:00 (2026-07-30T14:38:57Z)
+SQLite Error 283: recovered 898 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/AmplitudeReporter/AmplitudeEvents.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:57 -04:00 (2026-07-30T14:38:57Z)
+SQLite Error 283: recovered 2 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/ResourceFileDownloadInfo/ResourceFileDownloadInfo.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:57 -04:00 (2026-07-30T14:38:57Z)
+SQLite Error 283: recovered 2 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/CloudResourceManager/CloudResources.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:38:57 -04:00 (2026-07-30T14:38:57Z)
+SQLite Error 283: recovered 16 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/UpdateManager/Updates.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:39:01 -04:00 (2026-07-30T14:39:01Z)
+SQLite Error 284: automatic index on Records(IsDataset)
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 10:40:43 -04:00 (2026-07-30T14:40:43Z)
+SQLite Error 284: automatic index on Records(IsDataset)
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 11:31:22 -04:00 (2026-07-30T15:31:22Z)
+SQLite Error 283: recovered 993 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/AmplitudeReporter/AmplitudeEvents.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 11:31:25 -04:00 (2026-07-30T15:31:25Z)
+SQLite Error 284: automatic index on Records(IsDataset)
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 11:33:08 -04:00 (2026-07-30T15:33:08Z)
+SQLite Error 284: automatic index on Records(IsDataset)
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 15:40:31 -04:00 (2026-07-30T19:40:31Z)
+Error building request (GET https://usereventsapi.logos.com/v1/events).
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation timed out.
+ ---> System.Net.Sockets.SocketException (60): Operation timed out
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.NetworkStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|39_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Libronix.Utility.Net.TimeoutHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 15:40:31 -04:00 (2026-07-30T19:40:31Z)
+Error downloading user events.
+Libronix.Utility.Net.WebServiceException: Error building request. Request: GET https://usereventsapi.logos.com/v1/events
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation timed out.
+ ---> System.Net.Sockets.SocketException (60): Operation timed out
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.NetworkStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|39_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Libronix.Utility.Net.TimeoutHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+   at Logos.UserEvents.Manager.UserEventManager.DoUpdate()
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 15:40:33 -04:00 (2026-07-30T19:40:33Z)
+Couldn't download licenses file.
+Libronix.Utility.Net.WebServiceException: Error building request. Request: GET https://licensesapi.logos.com/v5/licensesfile
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation timed out.
+ ---> System.Net.Sockets.SocketException (60): Operation timed out
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.NetworkStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|39_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Libronix.Utility.Net.TimeoutHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(IWorkState workState)
+   at LDLS4.WebServiceClient.GetLicensesAsync(LicensesApiClient licensesApiClient, LicenseManager licenseManager, Boolean forceDownload, CancellationToken cancellationToken) in /Volumes/Code/ghe_actions-2.301.1/ghec-LogosBible-2/_work/LogosDesktop/LogosDesktop/src/LDLS4/WebServiceClient.cs:line 199
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 16:27:59 -04:00 (2026-07-30T20:27:59Z)
+Exception thrown in web browser interop request handler 'logos.hybrid-ui.runProxiedFunction': Function 0 not found
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 17:58:32 -04:00 (2026-07-30T21:58:32Z)
+Exception thrown in web browser interop request handler 'logos.hybrid-ui.runProxiedFunction': Function 0 not found
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 18:45:57 -04:00 (2026-07-30T22:45:57Z)
+SQLite Error 283: recovered 937 frames from WAL file /Users/mjwebster/Library/Application Support/Logos4/Data/wq8ubj9r.32o/AmplitudeReporter/AmplitudeEvents.db-wal
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 18:46:01 -04:00 (2026-07-30T22:46:01Z)
+SQLite Error 284: automatic index on Records(IsDataset)
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-30 18:47:42 -04:00 (2026-07-30T22:47:42Z)
+SQLite Error 284: automatic index on Records(IsDataset)
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-31 06:02:47 -04:00 (2026-07-31T10:02:47Z)
+Error building request (GET https://usereventsapi.logos.com/v1/events).
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation timed out.
+ ---> System.Net.Sockets.SocketException (60): Operation timed out
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.NetworkStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|39_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Libronix.Utility.Net.TimeoutHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-31 06:02:47 -04:00 (2026-07-31T10:02:47Z)
+Error downloading user events.
+Libronix.Utility.Net.WebServiceException: Error building request. Request: GET https://usereventsapi.logos.com/v1/events
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation timed out.
+ ---> System.Net.Sockets.SocketException (60): Operation timed out
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.NetworkStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|39_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Libronix.Utility.Net.TimeoutHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+   at Logos.UserEvents.Manager.UserEventManager.DoUpdate()
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-31 06:02:54 -04:00 (2026-07-31T10:02:54Z)
+Couldn't download licenses file.
+Libronix.Utility.Net.WebServiceException: Error building request. Request: GET https://licensesapi.logos.com/v5/licensesfile
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation timed out.
+ ---> System.Net.Sockets.SocketException (60): Operation timed out
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.NetworkStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|39_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Libronix.Utility.Net.TimeoutHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(CancellationToken cancellationToken)
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponseAsync(IWorkState workState)
+   at LDLS4.WebServiceClient.GetLicensesAsync(LicensesApiClient licensesApiClient, LicenseManager licenseManager, Boolean forceDownload, CancellationToken cancellationToken) in /Volumes/Code/ghe_actions-2.301.1/ghec-LogosBible-2/_work/LogosDesktop/LogosDesktop/src/LDLS4/WebServiceClient.cs:line 199
+
+Program Version: 52.1 (52.1.0.0002)
+Time: 2026-07-31 06:06:51 -04:00 (2026-07-31T10:06:51Z)
+Error handling response (POST https://prefsapi.logos.com/v2/prefs/sync/up).
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation timed out.
+ ---> System.Net.Sockets.SocketException (60): Operation timed out
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.NetworkStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|39_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.Metrics.MetricsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Libronix.Utility.Net.WebServiceRequestBase`1.GetResponse(IWorkState workState)
