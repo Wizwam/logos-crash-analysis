@@ -13,3 +13,13 @@
 2026-08-20 16:20:53  EVENT  logos pid changed 8379 -> 8378
 2026-08-20 16:25:40  NOTIFY-START keys=network,sleep,wake  scan=300s
 2026-08-20 16:25:40  SCAN  logos=pid 8378 cpu=0.8% rss=1857MB state=S threads=94  ifaces=en0
+2026-08-20 16:30:40  SCAN  logos=pid 8378 cpu=0.8% rss=1856MB state=S threads=90  ifaces=en0
+2026-08-20 16:35:40  SCAN  logos=pid 8378 cpu=232.5% rss=1970MB state=R threads=144  ifaces=en0
+2026-08-20 16:38:35  CHANGE  net=wifi iface=en0 ip=10.0.0.43 gw=10.0.0.1 wifi=10.0.0.43 ether=-  power=ac
+2026-08-20 16:38:35  NOTIFY  NETWORK  com.apple.system.config.network_change  ifaces=en0 en7  logos=pid 8378 cpu=3.0% rss=2112MB state=S threads=97
+2026-08-20 16:38:36  NOTIFY  NETWORK  com.apple.system.config.network_change  ifaces=en0 en7  logos=pid 8378 cpu=5.0% rss=2112MB state=S threads=97
+2026-08-20 16:38:36  NOTIFY  NETWORK  com.apple.system.config.network_change  ifaces=en0 en7  logos=pid 8378 cpu=4.3% rss=2112MB state=S threads=97
+2026-08-20 16:38:37  NOTIFY  NETWORK  com.apple.system.config.network_change  ifaces=en0 en7  logos=pid 8378 cpu=2.7% rss=2112MB state=S threads=94
+2026-08-20 16:38:38  NOTIFY  NETWORK  com.apple.system.config.network_change  ifaces=en7 en0  logos=pid 8378 cpu=1.5% rss=2113MB state=S threads=102
+2026-08-20 16:38:45  CHANGE  net=ethernet iface=en7 ip=10.0.0.163 gw=10.0.0.1 wifi=10.0.0.43 ether=Thunderbolt Ethernet Slot 0(en7=10.0.0.163) dual-path  power=ac
+2026-08-20 16:40:40  SCAN  logos=pid 8378 cpu=1.0% rss=2068MB state=S threads=96  ifaces=en7 en0

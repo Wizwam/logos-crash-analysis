@@ -1,27 +1,30 @@
-# Status — 20 Aug 2026 16:28 EDT
+# Status — 20 Aug 2026 16:42 EDT
 
 Martin's Mac17,8, Logos **52.2.0.0019** ARM64, Word also open.
 
-**Now:** Logos PID **8378**, ~1.9 GB, ~10 CEF processes, **Wi-Fi** `en0` 10.0.0.43, **battery**. Last wake **16:16:29**. No SIGSEGV yet.
+**Now:** Logos PID **8378** (same since 16:20), ~2.0 GB, **dock Ethernet** `en7` 10.0.0.163 + Wi-Fi dual-path, **AC**. Last wake **16:16:29**. **No SIGSEGV.**
+
+Watchers: live watch LaunchAgent, screen grab, notify watch. Hiro's `WATCH-PLAN.md` received (repo root). Goal: live catch through Friday 2026-08-22.
 
 ## Timeline today
 
 | Time | What |
 |---|---|
-| 15:56 | Watcher started. Logos PID 4954 on **dock Ethernet** (`en7` 10.0.0.163) + Wi-Fi dual-path, AC |
-| 16:14:01 | PID 4954 gone; Logos relaunched PID 7507 (still Ethernet) |
-| 16:16:03 | **CHANGE** Ethernet → Wi-Fi, AC → battery (undock) |
-| 16:16:14 | Clamshell sleep ~15s; TeamViewer dropped |
-| 16:16:29 | Wake because **lid opened**. Logos survived (same PID 7507) |
-| 16:20:41 | Logos started again PID 8378 (no SIGSEGV, no new crash report). Window was gone at 16:20:30 grab |
+| 15:56 | Watcher started. Logos PID 4954 on dock Ethernet + Wi-Fi, AC |
+| 16:14:01 | PID 4954 gone; relaunched 7507 (still Ethernet). Not crash-signed |
+| 16:16:03 | Undock: Ethernet → Wi-Fi, AC → battery |
+| 16:16:14 | Clamshell sleep ~15s; lid-open wake 16:16:29; survived 7507 |
+| 16:20:41 | Window gone; new PID 8378. No SIGSEGV / no new crash report |
+| **16:38:35** | **Redock:** AC, then 5× `network_change` (en0+en7), threads 97→102 |
+| **16:38:45** | Default path **Ethernet** `en7`. Dual-path. PID 8378 survived the burst |
 
-## Thread sample (16:24, PID 8378)
+## Threads
 
-15× `NetworkConfigWatcher`, 1× `NetworkNotificationThreadMac`, 1× `.NET Network Address Change`. SystemConfiguration.framework loaded. That is the crash-stack mix, idle until a handoff.
+At 16:24 (Wi-Fi): 15× `NetworkConfigWatcher` + `NetworkNotificationThreadMac` + `.NET Network Address Change`. At dock burst, thread count 94–102 then 96.
 
 ## Not a crash yet
 
-No `addSessionReference` / SIGSEGV in today's `Logos.log`. Cover-download and panel-link errors are normal startup noise.
+No `addSessionReference` / SIGSEGV. 16:14 and 16:20 PID changes were not crash-signed.
 
 ## Case
 
