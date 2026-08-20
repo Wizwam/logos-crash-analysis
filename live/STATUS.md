@@ -1,8 +1,8 @@
-# Status — 20 Aug 2026 17:31 EDT
+# Status — 20 Aug 2026 17:47 EDT
 
 Martin's Mac17,8, Logos **52.2.0.0019** ARM64.
 
-**Now:** Logos PID **14227** (same since 17:10), ~960 MB, **dock Ethernet** `en7` 10.0.0.163 + Wi-Fi dual-path, **AC**. Last wake **16:16:29**. **No SIGSEGV.** No new Logos `.ips`/hang.
+**Now:** Logos PID **14227** (same since 17:10), ~962 MB, **dock Ethernet** `en7` 10.0.0.163 + Wi-Fi dual-path, **AC**. Last wake **16:16:29**. **No SIGSEGV.** No new Logos `.ips`/hang.
 
 Watchers: live watch LaunchAgent, screen grab, notify watch. Goal: live catch through Friday 2026-08-22.
 
@@ -19,21 +19,21 @@ Watchers: live watch LaunchAgent, screen grab, notify watch. Goal: live catch th
 | 16:38:45 | Default path Ethernet `en7`. Dual-path. PID 8378 survived the burst |
 | 16:45:43 | Clean shutdown (Logos.log). Watcher ALERT GONE 16:45:51 |
 | 17:10:04 | Relaunch PID 14227 on dock Ethernet + Wi-Fi, AC |
-| **17:25:40** | Brief **SLEEP+WAKE** same second (notify pids 16179/16180 look bogus). PID **14227 survived**. No net CHANGE |
+| 17:25:40 | Brief SLEEP+WAKE same second. PID 14227 survived. No net CHANGE |
+| **17:38:38** | 1× `network_change` (en7+en0). PID **14227 survived**. Still Ethernet dual-path |
 
 ## Last EVENTS
 
 ```
-17:20:41  SCAN  pid 14227 rss=968MB threads=86  ifaces=en7 en0
-17:25:40  NOTIFY  SLEEP  com.apple.system.sleep
-17:25:40  NOTIFY  WAKE  com.apple.system.wake
-17:25:41  SCAN  pid 14227 rss=963MB threads=81  ifaces=en7 en0
-17:30:41  SCAN  pid 14227 rss=963MB threads=77  ifaces=en7 en0
+17:35:41  SCAN  pid 14227 rss=962MB threads=78  ifaces=en7 en0
+17:38:38  NOTIFY  NETWORK  network_change  ifaces=en7 en0  pid 14227
+17:40:41  SCAN  pid 14227 rss=962MB threads=77  ifaces=en7 en0
+17:45:41  SCAN  pid 14227 rss=962MB threads=77  ifaces=en7 en0
 ```
 
 ## Not a crash
 
-No `addSessionReference` / SIGSEGV. 16:14, 16:20, and 16:45 exits were not crash-signed. 17:10 is a normal start. 17:25 sleep/wake did not kill Logos.
+No `addSessionReference` / SIGSEGV. 16:14, 16:20, and 16:45 exits were not crash-signed. 17:25 sleep/wake and 17:38 network_change did not kill Logos.
 
 ## Case
 
