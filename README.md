@@ -79,6 +79,7 @@ scripts/logos_notify_watch.py    Darwin network_change / sleep / wake listener
 scripts/logos_network_watch.py   Ethernet vs Wi-Fi helper (status / disable dock Ethernet)
 live/                            20 Aug live watch; STATUS.md + EVENTS.log (pushed ~15 min)
 grabs/YYYY-MM-DD/                email-ready stills from Martin's Mac (not the 2-hour JPEG buffer)
+emails/                          outgoing Logos emails (case 01275856); not under live/
 docs/FINDINGS.md                 longer notes from 19 Aug 2026 review
 ```
 
