@@ -1,10 +1,8 @@
-# Status — 20 Aug 2026 18:32 EDT
+# Status — 20 Aug 2026 18:46 EDT
 
 Martin's Mac17,8, Logos **52.2.0.0019** ARM64.
 
-**Now:** Logos PID **14227** (same since 17:10, ~82 min), ~282 MB, **dock Ethernet** `en7` 10.0.0.163 + Wi-Fi dual-path, **AC**. Last wake **16:16:29**. **No SIGSEGV.** No new Logos `.ips`/hang.
-
-RSS: 962→464 MB at 18:01–18:03, then 486→~277 MB around 18:21 (same pid, no GONE).
+**Now:** Logos PID **14227** (same since 17:10, ~97 min), ~283 MB, **dock Ethernet** `en7` 10.0.0.163 + Wi-Fi dual-path, **AC**. Last wake **16:16:29**. **No SIGSEGV.** No new Logos `.ips`/hang.
 
 Watchers: live watch LaunchAgent, screen grab, notify watch (restarted 18:27:08). Goal: live catch through Friday 2026-08-22.
 
@@ -24,23 +22,23 @@ Watchers: live watch LaunchAgent, screen grab, notify watch (restarted 18:27:08)
 | 17:25:40 | Brief SLEEP+WAKE same second. PID 14227 survived. No net CHANGE |
 | 17:38:38 | 1× `network_change` (en7+en0). PID 14227 survived. Still Ethernet dual-path |
 | 18:01–18:03 | RSS 962→464 MB (same PID) |
-| **18:21** | RSS 486→~277 MB (same PID) |
-| **18:25:40** | WAKE+SLEEP same second (notify pids 23145/23146 look bogus). PID **14227 survived**. Notify watch restarted 18:27 |
+| 18:21 | RSS 486→~277 MB (same PID) |
+| 18:25:40 | WAKE+SLEEP same second. PID 14227 survived. Notify watch restarted 18:27 |
+| **18:37:55** | 2× `network_change` (en7+en0). PID **14227 survived**. Still Ethernet dual-path |
 
 ## Last EVENTS
 
 ```
-18:20:41  SCAN  pid 14227 rss=486MB threads=78  ifaces=en7 en0
-18:25:40  NOTIFY  WAKE  com.apple.system.wake
-18:25:40  NOTIFY  SLEEP  com.apple.system.sleep
-18:25:41  SCAN  pid 14227 rss=277MB threads=79  ifaces=en7 en0
-18:27:08  NOTIFY-START keys=network,sleep,wake  scan=300s
-18:27:08  SCAN  pid 14227 rss=277MB threads=78  ifaces=en7 en0
+18:32:08  SCAN  pid 14227 rss=282MB threads=77  ifaces=en7 en0
+18:37:08  SCAN  pid 14227 rss=281MB threads=78  ifaces=en7 en0
+18:37:55  NOTIFY  NETWORK  network_change  ifaces=en7 en0  pid 14227
+18:37:56  NOTIFY  NETWORK  network_change  ifaces=en7 en0  pid 14227
+18:42:08  SCAN  pid 14227 rss=287MB threads=78  ifaces=en7 en0
 ```
 
 ## Not a crash
 
-No `addSessionReference` / SIGSEGV. RSS drops and 18:25 sleep/wake are same-process, not GONE.
+No `addSessionReference` / SIGSEGV. RSS drops, 18:25 sleep/wake, and 18:37 network_change are same-process, not GONE.
 
 ## Case
 
