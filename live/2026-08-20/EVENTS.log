@@ -60,3 +60,6 @@
 2026-08-20 18:37:55  NOTIFY  NETWORK  com.apple.system.config.network_change  ifaces=en7 en0  logos=pid 14227 cpu=1.0% rss=281MB state=S threads=78
 2026-08-20 18:37:56  NOTIFY  NETWORK  com.apple.system.config.network_change  ifaces=en7 en0  logos=pid 14227 cpu=1.1% rss=281MB state=S threads=78
 2026-08-20 18:42:08  SCAN  logos=pid 14227 cpu=0.9% rss=287MB state=S threads=78  ifaces=en7 en0
+2026-08-20 18:47:09  SCAN  logos=pid 14227 cpu=0.9% rss=284MB state=S threads=78  ifaces=en7 en0
+2026-08-20 18:52:09  SCAN  logos=pid 14227 cpu=1.0% rss=272MB state=S threads=78  ifaces=en7 en0
+2026-08-20 18:57:09  SCAN  logos=pid 14227 cpu=1.0% rss=277MB state=S threads=78  ifaces=en7 en0
