@@ -1,0 +1,15 @@
+2026-08-20 15:56:07  WATCH-START log=/Users/mjwebster/Documents/LogosLiveWatch.log interval=10s heartbeat=60s
+2026-08-20 15:56:07  EVENT  logos started pid=4954
+2026-08-20 15:56:36  WATCH-START log=/Users/mjwebster/Documents/LogosLiveWatch.log interval=10s heartbeat=60s
+2026-08-20 16:14:01  ALERT  logos process GONE (was pid 4954)
+2026-08-20 16:14:11  EVENT  logos started pid=7507
+2026-08-20 16:14:11  LOGOS.LOG  2026-08-20 16:14:04.9401  INFO 1 OurApp | Starting application (52.2, version 52.2.0.0019) on Mac OS X 26.6.2 (Arm64 running on Apple Silicon) at 1.94 seconds. Pid: 7507
+2026-08-20 16:14:42  GRAB-START dir=/Users/mjwebster/Documents/LogosLiveWatch-screens every=60s keep=120min
+2026-08-20 16:16:03  CHANGE  net=wifi iface=en0 ip=10.0.0.43 gw=10.0.0.1 wifi=10.0.0.43 ether=-  power=battery
+2026-08-20 16:16:37  EVENT  wake-time now Thu Aug 20 16:16:29 2026  power=battery
+2026-08-20 16:17:30  SCREENSHOT-FAIL  Command '['/usr/sbin/screencapture', '-x', '-C', '-t', 'jpg', '-D', '1', '/Users/mjwebster/Documents/LogosLiveWatch-screens/2026-08-20T16-16-56-D1.jpg']' timed out after 20 seconds
+2026-08-20 16:20:43  EVENT  logos pid changed 7507 -> 8379
+2026-08-20 16:20:43  LOGOS.LOG  2026-08-20 16:20:41.7191  INFO 1 OurApp | Starting application (52.2, version 52.2.0.0019) on Mac OS X 26.6.2 (Arm64 running on Apple Silicon) at 1.6 seconds. Pid: 8378
+2026-08-20 16:20:53  EVENT  logos pid changed 8379 -> 8378
+2026-08-20 16:25:40  NOTIFY-START keys=network,sleep,wake  scan=300s
+2026-08-20 16:25:40  SCAN  logos=pid 8378 cpu=0.8% rss=1857MB state=S threads=94  ifaces=en0

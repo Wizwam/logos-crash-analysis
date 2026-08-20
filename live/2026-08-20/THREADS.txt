@@ -1,0 +1,21 @@
+Logos PID 8378 sample at 2026-08-20 16:24 (1 second, macOS sample)
+Network-related threads:
+767 Thread_511318: NetworkConfigWatcher
+767 Thread_511320: NetworkConfigWatcher
+767 Thread_511328: NetworkNotificationThreadMac
+767 Thread_511339: NetworkConfigWatcher
+767 Thread_511343: NetworkConfigWatcher
+767 Thread_511391: NetworkConfigWatcher
+767 Thread_511393: NetworkConfigWatcher
+767 Thread_511663: .NET Network Address Change
+767 Thread_511851: NetworkConfigWatcher
+767 Thread_511887: NetworkConfigWatcher
+767 Thread_512186: NetworkConfigWatcher
+767 Thread_512189: NetworkConfigWatcher
+767 Thread_512191: NetworkConfigWatcher
+767 Thread_512194: NetworkConfigWatcher
+767 Thread_512256: NetworkConfigWatcher
+767 Thread_512608: NetworkConfigWatcher
+
+Counts:
+14

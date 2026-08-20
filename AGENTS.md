@@ -9,6 +9,8 @@
 
 - This repo is a scratch workspace for Logos Bible Software crash-dump analysis, not a product codebase.
 - Incoming dumps are `LogosLogs.mjwebster.<timestamp>.zip` plus optional translated crash-report `.docx` files; unzip under `extracted/<dump-id>/` for comparison across dates.
+- Live watcher script is `scripts/logos_live_watch.py`; log file is `~/Documents/LogosLiveWatch.log`; LaunchAgent label `ca.logoslivewatch`.
+- Screen grabs: `python3 scripts/logos_live_watch.py grab` writes JPEGs to `~/Documents/LogosLiveWatch-screens/` (needs Terminal Screen Recording permission).
 - Printed copies of the related Logos crash Gmail thread live in `~/Documents/Uncle Martin/` (outside this repo).
 - Martin's desk dock is a CalDigit TS5 (Thunderbolt 5); all three displays go through that dock (two native Thunderbolt, one Thunderbolt-to-HDMI dongle); dock 2.5GbE is Ethernet to the house router.
 - Logos support case for this crash thread is 01275856; keep follow-ups on that case rather than opening a new ticket.
