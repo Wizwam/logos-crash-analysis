@@ -1,8 +1,8 @@
-# Status — 20 Aug 2026 19:31 EDT
+# Status — 20 Aug 2026 19:46 EDT
 
 Martin's Mac17,8, Logos **52.2.0.0019** ARM64.
 
-**Now:** Logos PID **14227** (same since 17:10, ~141 min), ~372 MB, **dock Ethernet** `en7` 10.0.0.163 + Wi-Fi dual-path, **AC**. Last wake **16:16:29**. **No SIGSEGV.** No new Logos `.ips`/hang.
+**Now:** Logos PID **14227** (same since 17:10, ~156 min), ~394 MB, **dock Ethernet** `en7` 10.0.0.163 + Wi-Fi dual-path, **AC**. Last wake **16:16:29**. **No SIGSEGV.** No new Logos `.ips`/hang.
 
 Watchers: live watch LaunchAgent, screen grab, notify watch. Goal: live catch through Friday 2026-08-22.
 
@@ -26,22 +26,22 @@ Watchers: live watch LaunchAgent, screen grab, notify watch. Goal: live catch th
 | 18:25:40 | WAKE+SLEEP same second. PID 14227 survived. Notify watch restarted 18:27 |
 | 18:37:55 | 2× `network_change` (en7+en0). PID 14227 survived. Still Ethernet dual-path |
 | 19:16 | RSS ~278→~238 MB (same PID) |
-| 19:31 | RSS climbed ~238→~372 MB (same PID). Idle. Dual-path Ethernet |
+| 19:31 | RSS climbed ~238→~372 MB (same PID) |
+| 19:38:52 | 2× `network_change` (en7+en0). PID 14227 survived. Still Ethernet dual-path |
 
 ## Last EVENTS
 
 ```
-18:37:55  NOTIFY  NETWORK  network_change  ifaces=en7 en0  pid 14227
-18:37:56  NOTIFY  NETWORK  network_change  ifaces=en7 en0  pid 14227
-19:12:09  SCAN  pid 14227 rss=278MB threads=78  ifaces=en7 en0
-19:17:09  SCAN  pid 14227 rss=238MB threads=78  ifaces=en7 en0
-19:22:09  SCAN  pid 14227 rss=233MB threads=78  ifaces=en7 en0
-19:27:09  SCAN  pid 14227 rss=261MB threads=78  ifaces=en7 en0
+19:32:09  SCAN  pid 14227 rss=372MB threads=77  ifaces=en7 en0
+19:37:09  SCAN  pid 14227 rss=386MB threads=78  ifaces=en7 en0
+19:38:52  NOTIFY  NETWORK  network_change  ifaces=en7 en0  pid 14227
+19:38:53  NOTIFY  NETWORK  network_change  ifaces=en7 en0  pid 14227
+19:42:09  SCAN  pid 14227 rss=394MB threads=76  ifaces=en7 en0
 ```
 
 ## Not a crash
 
-No `addSessionReference` / SIGSEGV. RSS drops/climbs, 18:25 sleep/wake, and 18:37 network_change are same-process, not GONE.
+No `addSessionReference` / SIGSEGV. RSS changes and 19:38 network_change are same-process, not GONE.
 
 ## Case
 
