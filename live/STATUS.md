@@ -1,8 +1,8 @@
-# Status — 20 Aug 2026 19:01 EDT
+# Status — 20 Aug 2026 19:16 EDT
 
 Martin's Mac17,8, Logos **52.2.0.0019** ARM64.
 
-**Now:** Logos PID **14227** (same since 17:10, ~112 min), ~276 MB, **dock Ethernet** `en7` 10.0.0.163 + Wi-Fi dual-path, **AC**. Last wake **16:16:29**. **No SIGSEGV.** No new Logos `.ips`/hang.
+**Now:** Logos PID **14227** (same since 17:10, ~126 min), ~238 MB, **dock Ethernet** `en7` 10.0.0.163 + Wi-Fi dual-path, **AC**. Last wake **16:16:29**. **No SIGSEGV.** No new Logos `.ips`/hang.
 
 Watchers: live watch LaunchAgent, screen grab, notify watch. Goal: live catch through Friday 2026-08-22.
 
@@ -25,17 +25,17 @@ Watchers: live watch LaunchAgent, screen grab, notify watch. Goal: live catch th
 | 18:21 | RSS 486→~277 MB (same PID) |
 | 18:25:40 | WAKE+SLEEP same second. PID 14227 survived. Notify watch restarted 18:27 |
 | 18:37:55 | 2× `network_change` (en7+en0). PID 14227 survived. Still Ethernet dual-path |
-| **19:01** | Idle. Same PID, RSS ~276 MB, dual-path Ethernet |
+| 19:16 | RSS ~278→~238 MB (same PID). Idle. Dual-path Ethernet |
 
 ## Last EVENTS
 
 ```
 18:37:55  NOTIFY  NETWORK  network_change  ifaces=en7 en0  pid 14227
 18:37:56  NOTIFY  NETWORK  network_change  ifaces=en7 en0  pid 14227
-18:42:08  SCAN  pid 14227 rss=287MB threads=78  ifaces=en7 en0
-18:47:09  SCAN  pid 14227 rss=284MB threads=78  ifaces=en7 en0
-18:52:09  SCAN  pid 14227 rss=272MB threads=78  ifaces=en7 en0
 18:57:09  SCAN  pid 14227 rss=277MB threads=78  ifaces=en7 en0
+19:02:09  SCAN  pid 14227 rss=276MB threads=78  ifaces=en7 en0
+19:07:09  SCAN  pid 14227 rss=273MB threads=78  ifaces=en7 en0
+19:12:09  SCAN  pid 14227 rss=278MB threads=78  ifaces=en7 en0
 ```
 
 ## Not a crash
