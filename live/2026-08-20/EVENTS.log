@@ -34,3 +34,8 @@
 2026-08-20 17:10:15  EVENT  logos pid changed 14228 -> 14227
 2026-08-20 17:10:40  SCAN  logos=pid 14227 cpu=0.7% rss=1165MB state=S threads=82  ifaces=en7 en0
 2026-08-20 17:15:41  SCAN  logos=pid 14227 cpu=0.6% rss=955MB state=S threads=80  ifaces=en7 en0
+2026-08-20 17:20:41  SCAN  logos=pid 14227 cpu=1.2% rss=968MB state=S threads=86  ifaces=en7 en0
+2026-08-20 17:25:40  NOTIFY  SLEEP  com.apple.system.sleep  logos=pid 16179 cpu=?% rss=? state=? threads=0
+2026-08-20 17:25:40  NOTIFY  WAKE  com.apple.system.wake  logos=pid 16180 cpu=?% rss=? state=? threads=0
+2026-08-20 17:25:41  SCAN  logos=pid 14227 cpu=1.0% rss=963MB state=S threads=81  ifaces=en7 en0
+2026-08-20 17:30:41  SCAN  logos=pid 14227 cpu=0.7% rss=963MB state=S threads=77  ifaces=en7 en0
