@@ -78,6 +78,7 @@ scripts/logos_live_watch.py      live Logos + network watcher (LaunchAgent)
 scripts/logos_notify_watch.py    Darwin network_change / sleep / wake listener
 scripts/logos_network_watch.py   Ethernet vs Wi-Fi helper (status / disable dock Ethernet)
 live/                            20 Aug live watch; STATUS.md + EVENTS.log (pushed ~15 min)
+grabs/YYYY-MM-DD/                email-ready stills from Martin's Mac (not the 2-hour JPEG buffer)
 docs/FINDINGS.md                 longer notes from 19 Aug 2026 review
 ```
 
@@ -109,7 +110,7 @@ python3 scripts/logos_notify_watch.py
 
 Remote (Luke): `git pull` then read `live/STATUS.md` and `live/2026-08-20/EVENTS.log`. Refreshed about every 15 minutes while Grok is watching.
 
-Hiro (Luke) ↔ Grok on Martin's Mac coordination: [WATCH-PLAN.md](WATCH-PLAN.md) (repo root, not under `live/` — that folder is overwritten ~every 15 minutes).
+Hiro (Luke) ↔ Grok on Martin's Mac coordination: [WATCH-PLAN.md](WATCH-PLAN.md) (repo root, not under `live/` — that folder is overwritten ~every 15 minutes). Email-ready stills: a few under `grabs/` (do not push the rolling `~/Documents/LogosLiveWatch-screens/` buffer).
 
 ## Support thread
 
