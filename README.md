@@ -74,9 +74,40 @@ LogosLogs.mjwebster.*.zip     original packages sent to Logos
 *Translated Report*.docx      macOS translated crash / hang reports
 crashphoto*.jpeg              screenshots
 extracted/<id>/               unpacked working copies (logs; maps/PBB omitted from git)
-scripts/logos_network_watch.py  macOS helper: log Ethernet vs Wi-Fi path changes
-docs/FINDINGS.md              longer notes from 19 Aug 2026 review
+scripts/logos_live_watch.py      live Logos + network watcher (LaunchAgent)
+scripts/logos_notify_watch.py    Darwin network_change / sleep / wake listener
+scripts/logos_network_watch.py   Ethernet vs Wi-Fi helper (status / disable dock Ethernet)
+live/                            20 Aug live watch; STATUS.md + EVENTS.log (pushed ~15 min)
+docs/FINDINGS.md                 longer notes from 19 Aug 2026 review
 ```
+
+## Live watch (on Martin's Mac)
+
+Logs Logos process health, Ethernet vs Wi-Fi, sleep/wake, and new `Logos.log` / `LogosError.log` lines. Does **not** change the network.
+
+```
+python3 scripts/logos_live_watch.py status     # one snapshot
+python3 scripts/logos_live_watch.py install    # keep running in the background
+tail -f ~/Documents/LogosLiveWatch.log
+```
+
+Stop with `python3 scripts/logos_live_watch.py uninstall`.
+
+Screen grabs (needs Screen Recording permission for Terminal; start after Quit & Reopen):
+
+```
+python3 scripts/logos_live_watch.py grab --every 60
+```
+
+JPEGs go to `~/Documents/LogosLiveWatch-screens/` and are deleted after 2 hours.
+
+Network/sleep notify listener (Darwin `network_change` / sleep / wake):
+
+```
+python3 scripts/logos_notify_watch.py
+```
+
+Remote (Luke): `git pull` then read `live/STATUS.md` and `live/2026-08-20/EVENTS.log`. Refreshed about every 15 minutes while Grok is watching.
 
 ## Support thread
 
