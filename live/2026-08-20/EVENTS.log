@@ -25,3 +25,6 @@
 2026-08-20 16:40:40  SCAN  logos=pid 8378 cpu=1.0% rss=2068MB state=S threads=96  ifaces=en7 en0
 2026-08-20 16:45:40  SCAN  logos=pid 8378 cpu=0.9% rss=1293MB state=S threads=96  ifaces=en7 en0
 2026-08-20 16:45:51  ALERT  logos process GONE (was pid 8378)
+2026-08-20 16:50:40  SCAN  logos=not-running  ifaces=en7 en0
+2026-08-20 16:55:40  SCAN  logos=not-running  ifaces=en7 en0
+2026-08-20 17:00:40  SCAN  logos=not-running  ifaces=en7 en0
