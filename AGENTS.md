@@ -15,3 +15,4 @@
 - Martin's desk dock is a CalDigit TS5 (Thunderbolt 5); all three displays go through that dock (two native Thunderbolt, one Thunderbolt-to-HDMI dongle); dock 2.5GbE is Ethernet to the house router.
 - Logos support case for this crash thread is 01275856; keep follow-ups on that case rather than opening a new ticket.
 - Coordination plan so Grok on Martin's Mac can see what Hiro is doing: `WATCH-PLAN.md` (repo root, not under `live/` — that folder is overwritten ~every 15 minutes).
+- Email-ready screen grabs from Martin's Mac go under `grabs/YYYY-MM-DD/` (repo root, not `live/`). Do not push the rolling `~/Documents/LogosLiveWatch-screens/` buffer; Hiro pulls selected stills from GitHub for the Tommy email.
