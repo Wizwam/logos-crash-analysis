@@ -109,6 +109,8 @@ python3 scripts/logos_notify_watch.py
 
 Remote (Luke): `git pull` then read `live/STATUS.md` and `live/2026-08-20/EVENTS.log`. Refreshed about every 15 minutes while Grok is watching.
 
+Hiro (Luke) ↔ Grok on Martin's Mac coordination: [WATCH-PLAN.md](WATCH-PLAN.md) (repo root, not under `live/` — that folder is overwritten ~every 15 minutes).
+
 ## Support thread
 
 - Last Logos engineering update: 17 Aug 2026 (Tommy passed logs to development as network handoff).
