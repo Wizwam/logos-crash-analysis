@@ -1,4 +1,4 @@
-# Status — 20 Aug 2026 17:47 EDT
+# Status — 20 Aug 2026 18:01 EDT
 
 Martin's Mac17,8, Logos **52.2.0.0019** ARM64.
 
@@ -20,15 +20,16 @@ Watchers: live watch LaunchAgent, screen grab, notify watch. Goal: live catch th
 | 16:45:43 | Clean shutdown (Logos.log). Watcher ALERT GONE 16:45:51 |
 | 17:10:04 | Relaunch PID 14227 on dock Ethernet + Wi-Fi, AC |
 | 17:25:40 | Brief SLEEP+WAKE same second. PID 14227 survived. No net CHANGE |
-| **17:38:38** | 1× `network_change` (en7+en0). PID **14227 survived**. Still Ethernet dual-path |
+| 17:38:38 | 1× `network_change` (en7+en0). PID 14227 survived. Still Ethernet dual-path |
+| **18:01** | Idle ~51 min. Same PID, same dual-path, no new events |
 
 ## Last EVENTS
 
 ```
-17:35:41  SCAN  pid 14227 rss=962MB threads=78  ifaces=en7 en0
 17:38:38  NOTIFY  NETWORK  network_change  ifaces=en7 en0  pid 14227
-17:40:41  SCAN  pid 14227 rss=962MB threads=77  ifaces=en7 en0
-17:45:41  SCAN  pid 14227 rss=962MB threads=77  ifaces=en7 en0
+17:50:41  SCAN  pid 14227 rss=962MB threads=77  ifaces=en7 en0
+17:55:41  SCAN  pid 14227 rss=962MB threads=77  ifaces=en7 en0
+18:00:41  SCAN  pid 14227 rss=962MB threads=77  ifaces=en7 en0
 ```
 
 ## Not a crash
