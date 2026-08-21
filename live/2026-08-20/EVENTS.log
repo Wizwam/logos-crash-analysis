@@ -77,3 +77,6 @@
 2026-08-20 19:47:09  SCAN  logos=pid 14227 cpu=2.5% rss=394MB state=S threads=76  ifaces=en7 en0
 2026-08-20 19:52:09  SCAN  logos=pid 14227 cpu=1.4% rss=387MB state=S threads=76  ifaces=en7 en0
 2026-08-20 19:57:09  SCAN  logos=pid 14227 cpu=1.3% rss=388MB state=S threads=76  ifaces=en7 en0
+2026-08-20 20:02:09  SCAN  logos=pid 14227 cpu=0.9% rss=389MB state=R threads=76  ifaces=en7 en0
+2026-08-20 20:07:09  SCAN  logos=pid 14227 cpu=1.0% rss=389MB state=S threads=76  ifaces=en7 en0
+2026-08-20 20:12:10  SCAN  logos=pid 14227 cpu=0.9% rss=389MB state=S threads=76  ifaces=en7 en0
