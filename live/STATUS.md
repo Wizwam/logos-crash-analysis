@@ -1,3 +1,13 @@
+# HIRO: SEND TO TOMMY
+
+Reply on case **01275856** (existing thread, no new case, no attachments).
+
+Paste from [`live/HIRO-SEND-TO-TOMMY.md`](HIRO-SEND-TO-TOMMY.md) or [`live/2026-08-20/crash/TOMMY-FOLLOWUP.md`](2026-08-20/crash/TOMMY-FOLLOWUP.md).
+
+IPS write-up: [`live/2026-08-20/crash/IPS-ANALYSIS.md`](2026-08-20/crash/IPS-ANALYSIS.md). Tonight's `.ips` / `Logos.log` / `LogosError.log` are in `live/2026-08-20/crash/`.
+
+---
+
 # CRASH — 20 Aug 2026 21:13:33 EDT (still down as of 21:31)
 
 Martin's Mac17,8, Logos **52.2.0.0019** ARM64.
