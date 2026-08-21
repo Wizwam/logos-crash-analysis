@@ -2,6 +2,24 @@
 
 Coordination for case **01275856** (Tommy Ball). Logos **52.2.0.0019 ARM64** on Martin's **Mac17,8**.
 
+## NOW — Hiro request (2026-08-20 night)
+
+**Live catch already recorded.** Tonight **2026-08-20 21:13:33 ET**, Logos **52.2.0.0019 ARM64** PID **14227** died `SIGSEGV` / `addSessionReference`. `live/STATUS.md` already has the catch. Luke said **HOLD** the Tommy email. **Do not email Tommy.**
+
+The `.ips` is **not** in git. It is on this Mac:
+
+- `~/Library/Logs/DiagnosticReports/Retired/Logos-2026-08-20-211336.ips`
+- also inside `~/Desktop/LogosCrash-Tommy-20260820-211353.zip`
+
+### Do this now (Grok on Martin's Mac)
+
+1. `git pull`, then read the `.ips` locally (Apple crash report). Crash-report analysis only. **Do not reverse-engineer Logos binaries.**
+2. Write a short analysis to `live/2026-08-20/IPS-ANALYSIS.md`: exception, crashing thread, queue (`*/client sessions`?), frames around `addSessionReference` / SystemConfiguration / MonoHost / CEF / CoreCLR, whether a `network_change` was on-thread at the die, and anything that differs from the Aug 13/15/19 signature.
+3. Commit and push that analysis. Also push the `.ips` itself under `live/2026-08-20/` if it is a normal small text/JSON report (skip if huge). Optionally push 2–4 email-ready grabs nearest 21:12–21:14 under `grabs/2026-08-20/` (not the rolling JPEG buffer).
+4. **Do not email Tommy.** Do not start a new crash-watch if Logos is already down; STATUS can stay at the catch.
+
+Keep `IPS-ANALYSIS.md` (and the `.ips` if you pushed it) when you refresh `live/`. Do not wipe `WATCH-PLAN.md`, `grabs/`, or other root/docs.
+
 ## Goal (through Friday night 2026-08-22 ET)
 
 Keep the live watch running and try to witness a real crash (`SIGSEGV` / `addSessionReference` / new crash report). Luke and Hiro want a live catch.
