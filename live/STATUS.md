@@ -8,15 +8,15 @@ IPS write-up: [`live/2026-08-20/crash/IPS-ANALYSIS.md`](2026-08-20/crash/IPS-ANA
 
 ---
 
-# CRASH — 20 Aug 2026 21:13:33 EDT (still down as of 21:31)
+# CRASH — 20 Aug 2026 21:13:33 EDT (still down as of 21:47)
 
 Martin's Mac17,8, Logos **52.2.0.0019** ARM64.
 
-**CRASH:** PID **14227** (up ~4h03m since 17:10) **GONE** at **21:13:35**. **SIGSEGV** in native code: `our_sigsegv_signal_handler` (MonoHost) → **`addSessionReference`** (SystemConfiguration). New `.ips`: `Logos-2026-08-20-211336.ips` (in `~/Library/Logs/DiagnosticReports/Retired/`).
+**CRASH:** PID **14227** (up ~4h03m since 17:10) **GONE** at **21:13:35**. **SIGSEGV** in native code: `our_sigsegv_signal_handler` (MonoHost) → **`addSessionReference`** (SystemConfiguration). `.ips`: `Logos-2026-08-20-211336.ips` (in `~/Library/Logs/DiagnosticReports/Retired/`). No new ips/hang since.
 
 **At crash:** dual-path **dock Ethernet** `en7` 10.0.0.163 + Wi-Fi 10.0.0.43, **AC**, last wake **16:16:29**. Last heartbeat 21:13:24 still running rss=1381MB cef=13. Last `network_change` was **20:59** (14 min earlier), not at the crash instant.
 
-**Now (21:31):** Logos **still not running** (~18 min). Watchers still up. Dual-path Ethernet+Wi-Fi, AC. No relaunch.
+**Now (21:47):** Logos **still not running** (~33 min). pid=none rss=n/a cef=0. Dual-path Ethernet `en7` 10.0.0.163 + Wi-Fi 10.0.0.43, **AC** (battery 85% not charging), last wake **16:16:29**. No relaunch. Watchers still up (watch pid 5278, grab pid 7664).
 
 ## Grabs around crash (`~/Documents/LogosLiveWatch-screens/`)
 
@@ -26,7 +26,7 @@ Not pushed (too large). Last-before / at / after:
 - `2026-08-20T21-13-15-D1.jpg` `…-D2.jpg` `…-D3.jpg` (~18s before SIGSEGV)
 - `2026-08-20T21-14-15-D1.jpg` `…-D2.jpg` `…-D3.jpg` (after GONE)
 
-Also 21:10 / 21:11 / 21:15.
+Also 21:10 / 21:11 / 21:15. Latest grab 21:46-28 (Logos still down).
 
 ## Timeline today
 
@@ -42,7 +42,8 @@ Also 21:10 / 21:11 / 21:15.
 | **21:13:33** | **SIGSEGV NativeSignalException / addSessionReference** |
 | 21:13:35 | ALERT GONE pid 14227 |
 | 21:13:45 | ALERT new ips `Logos-2026-08-20-211336.ips` |
-| **21:31** | Still not running. Dual-path, AC. Watchers up |
+| 21:17–21:42 | SCAN logos=not-running ifaces=en7 en0 |
+| **21:47** | Still not running. Dual-path, AC. Watchers up |
 
 Also immediately before SIGSEGV: Logos.log `WebBrowser.WebBrowserInteropController` / `logos.hybrid-ui.runProxiedFunction`: Function not found.
 
@@ -58,6 +59,9 @@ Also immediately before SIGSEGV: Logos.log `WebBrowser.WebBrowserInteropControll
 21:17:10  SCAN  logos=not-running  ifaces=en7 en0
 21:22:10  SCAN  logos=not-running  ifaces=en7 en0
 21:27:10  SCAN  logos=not-running  ifaces=en7 en0
+21:32:10  SCAN  logos=not-running  ifaces=en7 en0
+21:37:11  SCAN  logos=not-running  ifaces=en7 en0
+21:42:11  SCAN  logos=not-running  ifaces=en7 en0
 ```
 
 ## Case
