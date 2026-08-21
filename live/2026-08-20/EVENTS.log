@@ -83,3 +83,8 @@
 2026-08-20 20:17:10  SCAN  logos=pid 14227 cpu=15.8% rss=1582MB state=S threads=110  ifaces=en7 en0
 2026-08-20 20:22:10  SCAN  logos=pid 14227 cpu=1.0% rss=1529MB state=S threads=97  ifaces=en7 en0
 2026-08-20 20:27:10  SCAN  logos=pid 14227 cpu=0.8% rss=1455MB state=S threads=97  ifaces=en7 en0
+2026-08-20 20:32:10  SCAN  logos=pid 14227 cpu=1.1% rss=1502MB state=S threads=89  ifaces=en7 en0
+2026-08-20 20:37:10  SCAN  logos=pid 14227 cpu=0.7% rss=1476MB state=S threads=87  ifaces=en7 en0
+2026-08-20 20:42:10  SCAN  logos=pid 14227 cpu=0.6% rss=843MB state=S threads=87  ifaces=en7 en0
+2026-08-20 20:43:15  NOTIFY  NETWORK  com.apple.system.config.network_change  ifaces=en7 en0  logos=pid 14227 cpu=0.8% rss=747MB state=R threads=85
+2026-08-20 20:43:16  NOTIFY  NETWORK  com.apple.system.config.network_change  ifaces=en7 en0  logos=pid 14227 cpu=0.9% rss=747MB state=S threads=85
