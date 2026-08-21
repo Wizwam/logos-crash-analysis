@@ -1,12 +1,12 @@
-# CRASH — 20 Aug 2026 21:13:33 EDT
+# CRASH — 20 Aug 2026 21:13:33 EDT (still down as of 21:31)
 
 Martin's Mac17,8, Logos **52.2.0.0019** ARM64.
 
-**CRASH:** PID **14227** (up ~4h03m since 17:10) **GONE** at **21:13:35**. **SIGSEGV** in native code: `our_sigsegv_signal_handler` (MonoHost) → **`addSessionReference`** (SystemConfiguration). New `.ips`: `Logos-2026-08-20-211336.ips` (now in `~/Library/Logs/DiagnosticReports/Retired/`).
+**CRASH:** PID **14227** (up ~4h03m since 17:10) **GONE** at **21:13:35**. **SIGSEGV** in native code: `our_sigsegv_signal_handler` (MonoHost) → **`addSessionReference`** (SystemConfiguration). New `.ips`: `Logos-2026-08-20-211336.ips` (in `~/Library/Logs/DiagnosticReports/Retired/`).
 
 **At crash:** dual-path **dock Ethernet** `en7` 10.0.0.163 + Wi-Fi 10.0.0.43, **AC**, last wake **16:16:29**. Last heartbeat 21:13:24 still running rss=1381MB cef=13. Last `network_change` was **20:59** (14 min earlier), not at the crash instant.
 
-**Now:** Logos not running. Watchers still up. Dual-path Ethernet+Wi-Fi, AC.
+**Now (21:31):** Logos **still not running** (~18 min). Watchers still up. Dual-path Ethernet+Wi-Fi, AC. No relaunch.
 
 ## Grabs around crash (`~/Documents/LogosLiveWatch-screens/`)
 
@@ -32,14 +32,13 @@ Also 21:10 / 21:11 / 21:15.
 | **21:13:33** | **SIGSEGV NativeSignalException / addSessionReference** |
 | 21:13:35 | ALERT GONE pid 14227 |
 | 21:13:45 | ALERT new ips `Logos-2026-08-20-211336.ips` |
+| **21:31** | Still not running. Dual-path, AC. Watchers up |
 
 Also immediately before SIGSEGV: Logos.log `WebBrowser.WebBrowserInteropController` / `logos.hybrid-ui.runProxiedFunction`: Function not found.
 
 ## Last EVENTS
 
 ```
-21:02:10  SCAN  pid 14227 rss=1545MB cpu=18.0% threads=109  ifaces=en7 en0
-21:07:10  SCAN  pid 14227 rss=1399MB cpu=33.7% threads=97  ifaces=en7 en0
 21:12:10  SCAN  pid 14227 rss=1433MB cpu=3.4% threads=111  ifaces=en7 en0
 21:13:35  ALERT  logos process GONE (was pid 14227)
 21:13:35  CRASH  NativeSignalException: Got a SIGSEGV while executing native code.
@@ -47,6 +46,8 @@ Also immediately before SIGSEGV: Logos.log `WebBrowser.WebBrowserInteropControll
 21:13:35  CRASH  10 addSessionReference [SystemConfiguration]
 21:13:45  ALERT  new crash report Logos-2026-08-20-211336.ips
 21:17:10  SCAN  logos=not-running  ifaces=en7 en0
+21:22:10  SCAN  logos=not-running  ifaces=en7 en0
+21:27:10  SCAN  logos=not-running  ifaces=en7 en0
 ```
 
 ## Case

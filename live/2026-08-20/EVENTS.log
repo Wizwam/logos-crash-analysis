@@ -105,3 +105,5 @@
 2026-08-20 21:13:35  CRASH  10 addSessionReference [0x186292750 - SystemConfiguration]
 2026-08-20 21:13:45  ALERT  new crash report /Users/mjwebster/Library/Logs/DiagnosticReports/Logos-2026-08-20-211336.ips
 2026-08-20 21:17:10  SCAN  logos=not-running  ifaces=en7 en0
+2026-08-20 21:22:10  SCAN  logos=not-running  ifaces=en7 en0
+2026-08-20 21:27:10  SCAN  logos=not-running  ifaces=en7 en0
