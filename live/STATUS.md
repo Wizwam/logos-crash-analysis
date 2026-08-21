@@ -1,8 +1,8 @@
-# Status — 20 Aug 2026 20:16 EDT
+# Status — 20 Aug 2026 20:31 EDT
 
 Martin's Mac17,8, Logos **52.2.0.0019** ARM64.
 
-**Now:** Logos PID **14227** (same since 17:10, ~186 min), ~1428 MB, **dock Ethernet** `en7` 10.0.0.163 + Wi-Fi dual-path, **AC**. Last wake **16:16:29**. **No SIGSEGV.** No new Logos `.ips`/hang.
+**Now:** Logos PID **14227** (same since 17:10, ~201 min), ~1502 MB, **dock Ethernet** `en7` 10.0.0.163 + Wi-Fi dual-path, **AC**. Last wake **16:16:29**. **No SIGSEGV.** No new Logos `.ips`/hang.
 
 Watchers: live watch LaunchAgent, screen grab, notify watch. Goal: live catch through Friday 2026-08-22.
 
@@ -28,24 +28,23 @@ Watchers: live watch LaunchAgent, screen grab, notify watch. Goal: live catch th
 | 19:16 | RSS ~278→~238 MB (same PID) |
 | 19:31 | RSS climbed ~238→~372 MB (same PID) |
 | 19:38:52 | 2× `network_change` (en7+en0). PID 14227 survived. Still Ethernet dual-path |
-| 20:12 | SCAN still ~389 MB, 76 threads, dual-path |
-| **20:16** | RSS ~389→~1428 MB, cef 3→17 (same PID). Active use; panel-link errors in Logos.log |
+| 20:16 | RSS ~389→~1428 MB, cef 3→17 (same PID). Active use |
+| 20:17 | SCAN rss=1582MB cpu=15.8% threads=110. Then settled ~1455–1502 MB, threads ~97, cef 8 |
 
 ## Last EVENTS
 
 ```
 19:38:52  NOTIFY  NETWORK  network_change  ifaces=en7 en0  pid 14227
 19:38:53  NOTIFY  NETWORK  network_change  ifaces=en7 en0  pid 14227
-19:52:09  SCAN  pid 14227 rss=387MB threads=76  ifaces=en7 en0
-19:57:09  SCAN  pid 14227 rss=388MB threads=76  ifaces=en7 en0
-20:02:09  SCAN  pid 14227 rss=389MB threads=76  ifaces=en7 en0
-20:07:09  SCAN  pid 14227 rss=389MB threads=76  ifaces=en7 en0
 20:12:10  SCAN  pid 14227 rss=389MB threads=76  ifaces=en7 en0
+20:17:10  SCAN  pid 14227 rss=1582MB cpu=15.8% threads=110  ifaces=en7 en0
+20:22:10  SCAN  pid 14227 rss=1529MB threads=97  ifaces=en7 en0
+20:27:10  SCAN  pid 14227 rss=1455MB threads=97  ifaces=en7 en0
 ```
 
 ## Not a crash
 
-No `addSessionReference` / SIGSEGV. RSS climb and panel-link errors are same-process, not GONE.
+No `addSessionReference` / SIGSEGV. RSS climb at 20:16–20:17 is same-process, not GONE.
 
 ## Case
 
