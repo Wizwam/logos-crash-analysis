@@ -1,69 +1,35 @@
-# HIRO: SEND TO TOMMY
+# STATUS — 1 Sep 2026 20:17 EDT (post network-plist reset)
 
-Reply on case **01275856** (existing thread, no new case, no attachments).
+Martin's Mac17,8. Logos **53.1.0.0002** ARM64. Case **01280447** (Tommy Ball).
 
-Paste from [`live/HIRO-SEND-TO-TOMMY.md`](HIRO-SEND-TO-TOMMY.md) or [`live/2026-08-20/crash/TOMMY-FOLLOWUP.md`](2026-08-20/crash/TOMMY-FOLLOWUP.md).
+## Now
 
-IPS write-up: [`live/2026-08-20/crash/IPS-ANALYSIS.md`](2026-08-20/crash/IPS-ANALYSIS.md). Tonight's `.ips` / `Logos.log` / `LogosError.log` are in `live/2026-08-20/crash/`.
+Logos **running** PID **1236**, up ~2 min at first sample, rss climbing ~1.1–1.6 GB, dock Ethernet `en7` 10.0.0.163 + Wi-Fi `en0` 10.0.0.110, **AC**, dual-path, tm=idle.
 
----
+Watchers:
 
-# CRASH — 20 Aug 2026 21:13:33 EDT (still down as of 21:47)
+- `ca.logoslivewatch` (LaunchAgent) `watch --interval 10 --heartbeat 60`
+- `logos_live_watch.py grab --every 60`
+- `logos_notify_watch.py` (network / sleep / wake + Logos unified-log errors)
 
-Martin's Mac17,8, Logos **52.2.0.0019** ARM64.
+No new `.ips` since reboot. `systemextensionsctl list` → **0 extension(s)** (Malwarebytes gone).
 
-**CRASH:** PID **14227** (up ~4h03m since 17:10) **GONE** at **21:13:35**. **SIGSEGV** in native code: `our_sigsegv_signal_handler` (MonoHost) → **`addSessionReference`** (SystemConfiguration). `.ips`: `Logos-2026-08-20-211336.ips` (in `~/Library/Logs/DiagnosticReports/Retired/`). No new ips/hang since.
+## Tommy step 1 (31 Aug) — done tonight
 
-**At crash:** dual-path **dock Ethernet** `en7` 10.0.0.163 + Wi-Fi 10.0.0.43, **AC**, last wake **16:16:29**. Last heartbeat 21:13:24 still running rss=1381MB cef=13. Last `network_change` was **20:59** (14 min earlier), not at the crash instant.
+Reset macOS network prefs, then reboot:
 
-**Now (21:47):** Logos **still not running** (~33 min). pid=none rss=n/a cef=0. Dual-path Ethernet `en7` 10.0.0.163 + Wi-Fi 10.0.0.43, **AC** (battery 85% not charging), last wake **16:16:29**. No relaunch. Watchers still up (watch pid 5278, grab pid 7664).
+- Moved `NetworkInterfaces.plist` and `preferences.plist` out of `/Library/Preferences/SystemConfiguration/`
+- Backup: `~/Desktop/Logos-NetworkPrefs-backup-20260901-200936`
+- `com.apple.airport.preferences.plist` could not be moved (macOS blocked it)
+- macOS regenerated `NetworkInterfaces.plist` and `preferences.plist` at 20:13 after reboot
+- Fresh user account **not** created (Tommy: only if crashes continue)
 
-## Grabs around crash (`~/Documents/LogosLiveWatch-screens/`)
+## Last real crash
 
-Not pushed (too large). Last-before / at / after:
+**30 Aug 14:37** — Logos 53.1.0.0002, PID 9879, ~41 h up, **Wi-Fi only**. Same `0x01004008910043f8` / `addSessionReference` / 23 `NetworkConfigWatcher`. See `live/2026-08-30/crash/`.
 
-- `2026-08-20T21-12-14-D1.jpg` `…-D2.jpg` `…-D3.jpg`
-- `2026-08-20T21-13-15-D1.jpg` `…-D2.jpg` `…-D3.jpg` (~18s before SIGSEGV)
-- `2026-08-20T21-14-15-D1.jpg` `…-D2.jpg` `…-D3.jpg` (after GONE)
+20 Aug 21:13 catch is in `live/2026-08-20/`.
 
-Also 21:10 / 21:11 / 21:15. Latest grab 21:46-28 (Logos still down).
+## Tonight GONE packages (not crashes)
 
-## Timeline today
-
-| Time | What |
-|---|---|
-| 17:10:04 | Relaunch PID 14227 on dock Ethernet + Wi-Fi, AC |
-| 20:16–20:17 | RSS ~389→1582 MB, active use |
-| 20:43:15 | 2× `network_change`. Survived. RSS dropping |
-| 20:59:01 | 2× `network_change`. Survived at ~467 MB |
-| 21:01–21:07 | RSS climbed again ~1528–1545 MB, cpu 18–34%, threads ~109 |
-| 21:12:10 | SCAN still up: rss=1433MB threads=111 ifaces=en7 en0 |
-| 21:13:24 | Heartbeat still up: rss=1381MB cef=13 dual-path AC |
-| **21:13:33** | **SIGSEGV NativeSignalException / addSessionReference** |
-| 21:13:35 | ALERT GONE pid 14227 |
-| 21:13:45 | ALERT new ips `Logos-2026-08-20-211336.ips` |
-| 21:17–21:42 | SCAN logos=not-running ifaces=en7 en0 |
-| **21:47** | Still not running. Dual-path, AC. Watchers up |
-
-Also immediately before SIGSEGV: Logos.log `WebBrowser.WebBrowserInteropController` / `logos.hybrid-ui.runProxiedFunction`: Function not found.
-
-## Last EVENTS
-
-```
-21:12:10  SCAN  pid 14227 rss=1433MB cpu=3.4% threads=111  ifaces=en7 en0
-21:13:35  ALERT  logos process GONE (was pid 14227)
-21:13:35  CRASH  NativeSignalException: Got a SIGSEGV while executing native code.
-21:13:35  CRASH  0 our_sigsegv_signal_handler [MonoHost]
-21:13:35  CRASH  10 addSessionReference [SystemConfiguration]
-21:13:45  ALERT  new crash report Logos-2026-08-20-211336.ips
-21:17:10  SCAN  logos=not-running  ifaces=en7 en0
-21:22:10  SCAN  logos=not-running  ifaces=en7 en0
-21:27:10  SCAN  logos=not-running  ifaces=en7 en0
-21:32:10  SCAN  logos=not-running  ifaces=en7 en0
-21:37:11  SCAN  logos=not-running  ifaces=en7 en0
-21:42:11  SCAN  logos=not-running  ifaces=en7 en0
-```
-
-## Case
-
-01275856 (Tommy Ball). Live catch of the `addSessionReference` SIGSEGV.
+Watch packaged PID 29906 (pre-reboot quit) and PID 854 (splash vs main at relaunch). No SIGSEGV.

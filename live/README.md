@@ -1,4 +1,6 @@
-# Live watch (Martin's Mac, 20 Aug 2026)
+# Live watch (Martin's Mac)
+
+Updated 1 Sep 2026 after Tommy's network-plist reset + reboot.
 
 Grok on Martin's MacBook is watching Logos while he works. This folder is overwritten about every 15 minutes so Luke can pull on a PC.
 
